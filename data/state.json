@@ -1,6 +1,1508 @@
 {
-  "opportunities": {},
+  "fetched_opportunities": {
+    "00eb41bd1e6153db": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding-related listing discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.scra.org/get-support/get-research-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "00eb41bd1e6153db",
+      "title": "Learn More",
+      "url": "http://scra.org/get-support/get-startup-funding/"
+    },
+    "06f1b9fc963d81e5": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "06f1b9fc963d81e5",
+      "title": "Slides",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas-resources/2026/2026-Accelerator-Stewardship-NOFO-Webinar-Slides.pdf"
+    },
+    "0caa55a48c8de746": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding-related listing discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.scra.org/get-support/get-research-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "0caa55a48c8de746",
+      "title": "Grant Funding",
+      "url": "https://scra.org/get-support/get-startup-funding/"
+    },
+    "1224d94e3abdadf7": {
+      "agency": "SC EPSCoR",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina EPSCoR Funding Opportunities.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scepscor.org/funding-opportunities/"
+      },
+      "source": "South Carolina EPSCoR Funding Opportunities",
+      "stable_id": "1224d94e3abdadf7",
+      "title": "NASA SC Space Grant Consortium",
+      "url": "http://scspacegrant.cofc.edu"
+    },
+    "13314662d6513ba6": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "13314662d6513ba6",
+      "title": "Read More",
+      "url": "https://science.osti.gov/grants/Lab-Announcements/Open"
+    },
+    "14833b90b22f96ec": {
+      "agency": "SC NASA EPSCoR",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina NASA EPSCoR.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scnasaepscor.charleston.edu/"
+      },
+      "source": "South Carolina NASA EPSCoR",
+      "stable_id": "14833b90b22f96ec",
+      "title": "NASA EPSCoR Opportunities",
+      "url": "https://scnasaepscor.charleston.edu/nasa-epscor-opportunities/"
+    },
+    "20a878801901ea08": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "20a878801901ea08",
+      "title": "Interactive Grants Map",
+      "url": "https://science.osti.gov/Universities/Interactive-Grants-Map"
+    },
+    "2427ffd6071f8bc2": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology-0/nsf26-511/solicitation Document Number: NSF 26-511 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "2427ffd6071f8bc2",
+      "title": "Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs : A Pilot Emphasis on Scientific Instrumentation.",
+      "url": "https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology-0/nsf26-511/solicitation"
+    },
+    "262af3d4d6a0bf6e": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineeroc-organizational-change-professional-formation-engineers/pd26-1342 Document Number: PD 26-1342 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "262af3d4d6a0bf6e",
+      "title": "Organizational Change in the Professional Formation of Engineers (ENGINEER:OC)",
+      "url": "https://www.nsf.gov/funding/opportunities/engineeroc-organizational-change-professional-formation-engineers/pd26-1342"
+    },
+    "26cf03f7d55af7e9": {
+      "agency": "SC NASA EPSCoR",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina NASA EPSCoR.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scnasaepscor.charleston.edu/"
+      },
+      "source": "South Carolina NASA EPSCoR",
+      "stable_id": "26cf03f7d55af7e9",
+      "title": "Email: scsgrant@cofc.edu",
+      "url": "https://scnasaepscor.charleston.edu/cdn-cgi/l/email-protection#032520353a386e25203a34386a6f2520363b3825203031387060252032323638252032333038716225203232333877252035373825203a3a386c6560252037353866252032333338252032323438"
+    },
+    "292ef929fd34980b": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "292ef929fd34980b",
+      "title": "A Phase II Letter of Intent Template is available here.",
+      "url": "https://science.osti.gov/-/media/grants/excel/2026/Genesis-Mission-Phase-II-LOI-Template-v2.xlsx"
+    },
+    "2b134a8f7e443352": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "2b134a8f7e443352",
+      "title": "Sample OT and Project Agreements are available here.",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas-resources/2026/Sample-OT-and-Project-Agreements-for-DE-FOA-0003612.pdf"
+    },
+    "2b6a9ef782e82bfb": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "2b6a9ef782e82bfb",
+      "title": "Robotics and Automation Testbeds for Autonomous Scientific Discovery",
+      "url": "https://science.osti.gov/-/media/grants/pdf/lab-announcements/2026/LAB-26-3601.pdf"
+    },
+    "2d5206f9daff0a3c": {
+      "agency": "SC Commerce",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina Commerce Innovation Grants.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.sccommerce.com/taxonomy/term/199"
+      },
+      "source": "South Carolina Commerce Innovation Grants",
+      "stable_id": "2d5206f9daff0a3c",
+      "title": "Opportunity Zone Program",
+      "url": "https://www.sccommerce.com/opportunity-zone"
+    },
+    "2e6726579c65a162": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices/pd26-1517 Document Number: PD 26-1517 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "2e6726579c65a162",
+      "title": "Electronic, Photonic, Magnetic, and Quantum Devices (EPMQD)",
+      "url": "https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices/pd26-1517"
+    },
+    "33af4ee6adf82ff3": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "33af4ee6adf82ff3",
+      "title": "Multi-Institutional Team Applications for HEP Detector Research and Development (R&D)",
+      "url": "https://science.osti.gov/-/media/grants/pdf/lab-announcements/2026/LAB-26-3575.pdf"
+    },
+    "3950916f7c5271af": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "3950916f7c5271af",
+      "title": "Find Funding",
+      "url": "https://science.osti.gov/Funding-Opportunities/Find-Funding"
+    },
+    "3e05393661260745": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "3e05393661260745",
+      "title": "Honors & Awards",
+      "url": "https://science.osti.gov/About/Honors-and-Awards"
+    },
+    "43c238cbf5baa17c": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "43c238cbf5baa17c",
+      "title": "A Phase I Application Template is available here",
+      "url": "https://science.osti.gov/-/media/grants/excel/2026/Genesis-Mission-Phase-I-Application-Template-v2.xlsx"
+    },
+    "44e76bef3b5053d9": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/pfe-professional-formation-engineers/pd26-1341 Document Number: PD 26-1341 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "44e76bef3b5053d9",
+      "title": "Professional Formation of Engineers (PFE)",
+      "url": "https://www.nsf.gov/funding/opportunities/pfe-professional-formation-engineers/pd26-1341"
+    },
+    "5002380ca11a81c3": {
+      "agency": "SC EPSCoR",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina EPSCoR Funding Opportunities.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scepscor.org/funding-opportunities/"
+      },
+      "source": "South Carolina EPSCoR Funding Opportunities",
+      "stable_id": "5002380ca11a81c3",
+      "title": "Phase-0 funding opportunity .",
+      "url": "https://scepscor.org/sc-epscor-phase-0/"
+    },
+    "55de12a2e586ff33": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding-related listing discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.scra.org/get-support/get-research-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "55de12a2e586ff33",
+      "title": "Get Research Funding",
+      "url": "https://scra.org/get-support/get-research-funding/"
+    },
+    "582aea5966733aee": {
+      "agency": "SC EPSCoR",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina EPSCoR Funding Opportunities.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scepscor.org/funding-opportunities/"
+      },
+      "source": "South Carolina EPSCoR Funding Opportunities",
+      "stable_id": "582aea5966733aee",
+      "title": "Funding",
+      "url": "https://scepscor.org/funding-opportunities/#"
+    },
+    "5e19b1dc140d72e6": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y Document Number: PD 26-369Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF EBBS (PD 26-369Y): proposal guidance for computational biophysics/protein modeling",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 62,
+        "important_info": [
+          "Agency: NSF",
+          "Program: Engineering Biological and Biomedical Systems",
+          "Document type: Program Announcement/Information (PD 26-369Y)",
+          "No due date listed in the provided record",
+          "Typical NSF academic PI eligibility appears compatible"
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "biophysics_protein"
+        ],
+        "opportunity_id": "5e19b1dc140d72e6",
+        "rationale": "NSF\u2019s Engineering Biological and Biomedical Systems program is plausibly relevant to computational biophysics and biomolecular modeling, especially work on biological/biomedical systems, simulation, and AI-assisted analysis. The applicant type is compatible with an academic researcher. The posting is an NSF program announcement, but no specific deadline is given in the record; since NSF program announcements can support recurring/ongoing submissions depending on the solicitation, this is still a plausible fit, though the lack of a usable due date lowers confidence."
+      },
+      "source": "NSF Funding",
+      "stable_id": "5e19b1dc140d72e6",
+      "title": "Engineering Biological and Biomedical Systems",
+      "url": "https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y"
+    },
+    "6b5d9cf940a60685": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation Document Number: NSF 26-510 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "6b5d9cf940a60685",
+      "title": "Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs SBIR/STTR: Developing Deep Technologies that Advance U.S. Competitiveness and Security",
+      "url": "https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation"
+    },
+    "6ca049433ccd1445": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "6ca049433ccd1445",
+      "title": "The Genesis Mission: Transforming Science and Energy with AI",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003612-000003.pdf"
+    },
+    "72772dbafff0f310": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "72772dbafff0f310",
+      "title": "FY2026 Research Opportunities in Accelerator Stewardship and Accelerator Development",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003620.pdf"
+    },
+    "73f12a64f5429cde": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "73f12a64f5429cde",
+      "title": "A Phase II Application Template is available here.",
+      "url": "https://science.osti.gov/-/media/grants/excel/2026/Genesis-Mission-Phase-II-Application-Template.xlsx"
+    },
+    "886aba58bd2e2593": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/ebe-engineering-built-environment/pd26-359y Document Number: PD 26-359Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "886aba58bd2e2593",
+      "title": "Engineering for the Built Environment (EBE)",
+      "url": "https://www.nsf.gov/funding/opportunities/ebe-engineering-built-environment/pd26-359y"
+    },
+    "8a5cc3308a8734b6": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "8a5cc3308a8734b6",
+      "title": "Funding",
+      "url": "https://science.osti.gov/Funding-Opportunities"
+    },
+    "91f050d62397d2ae": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "91f050d62397d2ae",
+      "title": "Frequently Asked Questions",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas-resources/2026/Genesis-Mission-RFA-FAQs-20260427.pdf"
+    },
+    "9a3e09c8a46394d0": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding-related listing discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.scra.org/get-support/get-research-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "9a3e09c8a46394d0",
+      "title": "SACT Grant",
+      "url": "https://scra.org/get-support/get-startup-funding/sact-grant/"
+    },
+    "9b710f811b6facd0": {
+      "agency": "SC EPSCoR",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina EPSCoR Funding Opportunities.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scepscor.org/funding-opportunities/"
+      },
+      "source": "South Carolina EPSCoR Funding Opportunities",
+      "stable_id": "9b710f811b6facd0",
+      "title": "Grants for Applications in Industry and Networking (GAIN) Program.",
+      "url": "https://scepscor.org/gain-program/"
+    },
+    "a41ff9a3abba7995": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/epcl-energy-power-control-learning/pd26-7607 Document Number: PD 26-7607 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "a41ff9a3abba7995",
+      "title": "Energy, Power, Control, and Learning (EPCL)",
+      "url": "https://www.nsf.gov/funding/opportunities/epcl-energy-power-control-learning/pd26-7607"
+    },
+    "a4a95777b7cfc42c": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding-related listing discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.scra.org/get-support/get-research-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "a4a95777b7cfc42c",
+      "title": "Read more",
+      "url": "http://scra.org/get-support/get-startup-funding/"
+    },
+    "a52364206ba9e7d0": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Full Proposal Deadline Date: June 15, 2026 Program Guidelines: NSF 20-597 The National Science Foundation (NSF) invites investigators at U.S. organizations to submit proposals for Doctoral Dissertation Research Improvement Grants (DDRIGs) to the Arctic Sciences Section, Office of Polar Programs (OPP) to conduct dissertation-level research about and related to the ... More at https://www.nsf.gov/funding/opportunities This is an NSF Upcoming Due Dates item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+      },
+      "source": "NSF Upcoming Due Dates",
+      "stable_id": "a52364206ba9e7d0",
+      "title": "Arctic Doctoral Dissertation Research Improvement Grants Arctic Social Sciences, Arctic System Sciences, and Arctic Observing Network (DDRIG)",
+      "url": "https://www.nsf.gov/funding/opportunities/ddrig-arctic-doctoral-dissertation-research-improvement-grants/nsf20-597"
+    },
+    "b256b28aae7959c3": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/transport-phenomena/pd26-366y Document Number: PD 26-366Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "b256b28aae7959c3",
+      "title": "Transport Phenomena",
+      "url": "https://www.nsf.gov/funding/opportunities/transport-phenomena/pd26-366y"
+    },
+    "b834b8ef072e4634": {
+      "agency": "SC NASA EPSCoR",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina NASA EPSCoR.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scnasaepscor.charleston.edu/"
+      },
+      "source": "South Carolina NASA EPSCoR",
+      "stable_id": "b834b8ef072e4634",
+      "title": "Research Grant Program ($35K)",
+      "url": "https://scnasaepscor.charleston.edu/35k-research-program/"
+    },
+    "b97111d7f97b4c12": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "b97111d7f97b4c12",
+      "title": "Requirements and Guidance for Digital Research Data Management",
+      "url": "https://science.osti.gov/Funding-Opportunities/Digital-Data-Management"
+    },
+    "bb02f9ec992beafd": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "bb02f9ec992beafd",
+      "title": "A compilation of frequently asked questions is available here.",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas-resources/2026/DE-FOA-0003620-FAQ.pdf"
+    },
+    "c00d18e15fb96986": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "c00d18e15fb96986",
+      "title": "Acknowledgements of Federal Support",
+      "url": "https://science.osti.gov/Funding-Opportunities/Acknowledgements"
+    },
+    "c1cac3b916da1297": {
+      "agency": "SC Commerce",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina Commerce Innovation Grants.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.sccommerce.com/taxonomy/term/199"
+      },
+      "source": "South Carolina Commerce Innovation Grants",
+      "stable_id": "c1cac3b916da1297",
+      "title": "Read More about South Carolina requesting input on Opportunity Zone nominations",
+      "url": "https://www.sccommerce.com/news/south-carolina-requesting-input-opportunity-zone-nominations"
+    },
+    "c2453a1a5a7a7cb8": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "c2453a1a5a7a7cb8",
+      "title": "Award Search / Public Abstracts",
+      "url": "https://science.osti.gov/Leaving-Office-of-Science?url=https%3a%2f%2fpamspublic.science.energy.gov%2fWebPAMSExternal%2finterface%2fawards%2fAwardSearchExternal.aspx&title=Award+Search+%2f+Public+Abstracts&id=0285cbaf-bef8-4e54-a38e-8b116fc1c613&external=true"
+    },
+    "c311ef1a761f9694": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "c311ef1a761f9694",
+      "title": "Topical Funding Opportunity Awards",
+      "url": "https://science.osti.gov/Funding-Opportunities/Award"
+    },
+    "cd20e6d4fe6b78e2": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/chemical-process-systems/pd26-367y Document Number: PD 26-367Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "cd20e6d4fe6b78e2",
+      "title": "Chemical Process Systems",
+      "url": "https://www.nsf.gov/funding/opportunities/chemical-process-systems/pd26-367y"
+    },
+    "cf21ae4dcc684e2f": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/frhtp-focused-research-hubs-theoretical-physics/158913 Document Number: This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "cf21ae4dcc684e2f",
+      "title": "Focused Research Hubs in Theoretical Physics (FRHTP)",
+      "url": "https://www.nsf.gov/funding/opportunities/frhtp-focused-research-hubs-theoretical-physics/158913"
+    },
+    "d501b79990909567": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "d501b79990909567",
+      "title": "Digital Research Data Management",
+      "url": "https://science.osti.gov/Funding-Opportunities/Digital-Data-Management"
+    },
+    "db4deaa81ff5422b": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "db4deaa81ff5422b",
+      "title": "Genesis Mission: Informational Webinars",
+      "url": "https://science.osti.gov/grants/FOAs/Genesis-Mission"
+    },
+    "dea98db2d18cc64e": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/api-advanced-physics-instrumentation/158878 Document Number: This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "dea98db2d18cc64e",
+      "title": "Advanced Physics Instrumentation (API)",
+      "url": "https://www.nsf.gov/funding/opportunities/api-advanced-physics-instrumentation/158878"
+    },
+    "e1aa0633140365f0": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "e1aa0633140365f0",
+      "title": "Read More",
+      "url": "https://science.osti.gov/grants/FOAs/Open"
+    },
+    "e63ebd6c95b65539": {
+      "agency": "SC Commerce",
+      "amount": "",
+      "description": "Funding-related listing discovered on South Carolina Commerce Innovation Grants.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://www.sccommerce.com/taxonomy/term/199"
+      },
+      "source": "South Carolina Commerce Innovation Grants",
+      "stable_id": "e63ebd6c95b65539",
+      "title": "South Carolina requesting input on Opportunity Zone nominations",
+      "url": "https://www.sccommerce.com/news/south-carolina-requesting-input-opportunity-zone-nominations"
+    },
+    "e761c36b37e80dcd": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/iids-intelligent-interactive-dynamic-systems/pd26-360y Document Number: PD 26-360Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "e761c36b37e80dcd",
+      "title": "Intelligent and Interactive Dynamic Systems (IIDS)",
+      "url": "https://www.nsf.gov/funding/opportunities/iids-intelligent-interactive-dynamic-systems/pd26-360y"
+    },
+    "ef32b0d98cf5621c": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/gp-gravitational-physics/pd26-1243 Document Number: PD 26-1243 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "ef32b0d98cf5621c",
+      "title": "Gravitational Physics (GP)",
+      "url": "https://www.nsf.gov/funding/opportunities/gp-gravitational-physics/pd26-1243"
+    },
+    "f5550dbc8768db12": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "f5550dbc8768db12",
+      "title": "Slides",
+      "url": "https://science.osti.gov/-/media/grants/pdf/lab-resources/2026/Robotics_Auto_Lab_Call_Webinar_FINAL.pdf"
+    },
+    "f8d0653539c654e8": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Letter of Intent Deadline Date: June 16, 2026 Program Guidelines: NSF 26-508 TechAccess: AI\u2011Ready America is a national-scale initiative to accelerate Artificial Intelligence (AI) readiness and adoption across the U.S. by strengthening coordination, leveraging partnerships and resources, filling gaps, and scaling what works\u2014so local and state priorities can ... More at https://www.nsf.gov/funding/opportunities This is an NSF Upcoming Due Dates item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+      },
+      "source": "NSF Upcoming Due Dates",
+      "stable_id": "f8d0653539c654e8",
+      "title": "TechAccess: AI-Ready America",
+      "url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508"
+    },
+    "fc4cc621016d3627": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "fc4cc621016d3627",
+      "title": "Office of Sponsored Activities",
+      "url": "https://science.osti.gov/grants"
+    },
+    "fd1fae3122ccf8a5": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineering-environmental-resiliency/pd26-370y Document Number: PD 26-370Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "fd1fae3122ccf8a5",
+      "title": "Engineering Environmental Resiliency",
+      "url": "https://www.nsf.gov/funding/opportunities/engineering-environmental-resiliency/pd26-370y"
+    }
+  },
+  "opportunities": {
+    "5e19b1dc140d72e6": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y Document Number: PD 26-369Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF EBBS (PD 26-369Y): proposal guidance for computational biophysics/protein modeling",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 62,
+        "important_info": [
+          "Agency: NSF",
+          "Program: Engineering Biological and Biomedical Systems",
+          "Document type: Program Announcement/Information (PD 26-369Y)",
+          "No due date listed in the provided record",
+          "Typical NSF academic PI eligibility appears compatible"
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "biophysics_protein"
+        ],
+        "opportunity_id": "5e19b1dc140d72e6",
+        "rationale": "NSF\u2019s Engineering Biological and Biomedical Systems program is plausibly relevant to computational biophysics and biomolecular modeling, especially work on biological/biomedical systems, simulation, and AI-assisted analysis. The applicant type is compatible with an academic researcher. The posting is an NSF program announcement, but no specific deadline is given in the record; since NSF program announcements can support recurring/ongoing submissions depending on the solicitation, this is still a plausible fit, though the lack of a usable due date lowers confidence."
+      },
+      "source": "NSF Funding",
+      "stable_id": "5e19b1dc140d72e6",
+      "title": "Engineering Biological and Biomedical Systems",
+      "url": "https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y"
+    }
+  },
   "runs": [
+    {
+      "fetched_at": "2026-06-03T04:51:03+00:00",
+      "fetched_count": 57,
+      "matched_count": 1,
+      "new_count": 1,
+      "new_ids": [
+        "5e19b1dc140d72e6"
+      ]
+    },
     {
       "fetched_at": "2026-06-03T04:37:53+00:00",
       "fetched_count": 11,
@@ -11,15 +1513,62 @@
   ],
   "seen_ids": [
     "00eb41bd1e6153db",
+    "06f1b9fc963d81e5",
     "0caa55a48c8de746",
+    "1224d94e3abdadf7",
+    "13314662d6513ba6",
     "14833b90b22f96ec",
+    "20a878801901ea08",
+    "2427ffd6071f8bc2",
+    "262af3d4d6a0bf6e",
+    "26cf03f7d55af7e9",
+    "292ef929fd34980b",
+    "2b134a8f7e443352",
+    "2b6a9ef782e82bfb",
     "2d5206f9daff0a3c",
+    "2e6726579c65a162",
+    "33af4ee6adf82ff3",
+    "3950916f7c5271af",
+    "3e05393661260745",
+    "43c238cbf5baa17c",
+    "44e76bef3b5053d9",
+    "5002380ca11a81c3",
     "55de12a2e586ff33",
+    "582aea5966733aee",
+    "5e19b1dc140d72e6",
+    "6b5d9cf940a60685",
+    "6ca049433ccd1445",
+    "72772dbafff0f310",
+    "73f12a64f5429cde",
+    "886aba58bd2e2593",
+    "8a5cc3308a8734b6",
+    "91f050d62397d2ae",
     "9982a1d5425f4f80",
     "9a3e09c8a46394d0",
+    "9b710f811b6facd0",
+    "a41ff9a3abba7995",
     "a4a95777b7cfc42c",
+    "a52364206ba9e7d0",
+    "b256b28aae7959c3",
     "b834b8ef072e4634",
+    "b97111d7f97b4c12",
+    "bb02f9ec992beafd",
+    "c00d18e15fb96986",
     "c1cac3b916da1297",
-    "e63ebd6c95b65539"
+    "c2453a1a5a7a7cb8",
+    "c311ef1a761f9694",
+    "cd20e6d4fe6b78e2",
+    "cf21ae4dcc684e2f",
+    "d501b79990909567",
+    "db4deaa81ff5422b",
+    "dea98db2d18cc64e",
+    "e1aa0633140365f0",
+    "e63ebd6c95b65539",
+    "e761c36b37e80dcd",
+    "ef32b0d98cf5621c",
+    "f5550dbc8768db12",
+    "f8d0653539c654e8",
+    "fc4cc621016d3627",
+    "fd1fae3122ccf8a5"
   ]
 }
