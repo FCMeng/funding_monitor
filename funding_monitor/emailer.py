@@ -42,11 +42,19 @@ def build_digest(matches: list[dict[str, Any]], recipient: str) -> EmailMessage:
 def send_digest(matches: list[dict[str, Any]], recipient: str) -> None:
     host = os.getenv("SMTP_HOST", "smtp.gmail.com")
     port = int(os.getenv("SMTP_PORT", "465"))
+    security = os.getenv("SMTP_SECURITY", "").lower()
     username = os.getenv("SMTP_USERNAME") or os.getenv("GMAIL_USER", "")
     password = os.getenv("SMTP_PASSWORD") or os.getenv("GMAIL_APP_PASSWORD", "")
     if not username or not password:
         raise RuntimeError("SMTP_USERNAME and SMTP_PASSWORD are required to send email")
     msg = build_digest(matches, recipient)
-    with smtplib.SMTP_SSL(host, port, timeout=30) as smtp:
+    if security == "ssl" or (not security and port == 465):
+        with smtplib.SMTP_SSL(host, port, timeout=30) as smtp:
+            smtp.login(username, password)
+            smtp.send_message(msg)
+        return
+    with smtplib.SMTP(host, port, timeout=30) as smtp:
+        if security != "plain":
+            smtp.starttls()
         smtp.login(username, password)
         smtp.send_message(msg)

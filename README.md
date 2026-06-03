@@ -16,6 +16,7 @@ Configure these GitHub Actions secrets:
 - `OPENAI_API_KEY`
 - `SMTP_HOST`
 - `SMTP_PORT`
+- optional `SMTP_SECURITY` (`ssl`, `starttls`, or `plain`; defaults to SSL on port 465 and STARTTLS otherwise)
 - `SMTP_USERNAME`
 - `SMTP_PASSWORD`
 - `EMAIL_FROM`
