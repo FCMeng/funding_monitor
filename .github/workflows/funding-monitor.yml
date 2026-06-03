@@ -34,6 +34,7 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           GRANTS_GOV_API_KEY: ${{ secrets.GRANTS_GOV_API_KEY }}
+          FUNDING_MONITOR_MAX_LLM_SCREENS: "8"
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python -m funding_monitor.cli run --skip-schedule-gate

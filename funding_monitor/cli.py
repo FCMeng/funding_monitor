@@ -69,7 +69,7 @@ def run_pipeline(*, dry_run: bool, skip_schedule_gate: bool, skip_email: bool, a
 
     matches: list[dict] = []
     candidate_opps = prefilter_opportunities(new_opps, profiles)
-    max_screens = int(os.getenv("FUNDING_MONITOR_MAX_LLM_SCREENS", "30"))
+    max_screens = int(os.getenv("FUNDING_MONITOR_MAX_LLM_SCREENS", "8"))
     if len(candidate_opps) > max_screens:
         print(f"Prefilter kept {len(candidate_opps)} candidates; screening first {max_screens}.", flush=True)
         candidate_opps = candidate_opps[:max_screens]
@@ -78,11 +78,19 @@ def run_pipeline(*, dry_run: bool, skip_schedule_gate: bool, skip_email: bool, a
 
     for index, opp in enumerate(candidate_opps, start=1):
         print(f"Screening {index}/{len(candidate_opps)}: {opp.title[:100]}", flush=True)
-        screening = screen_opportunity(opp, profiles, allow_heuristic=allow_heuristic)
+        try:
+            screening = screen_opportunity(opp, profiles, allow_heuristic=allow_heuristic)
+        except Exception as exc:
+            print(f"warning: screening failed for {opp.title[:100]}: {exc}", flush=True)
+            continue
         if not screening.is_fit:
             continue
         print(f"Generating guideline for: {opp.title[:100]}", flush=True)
-        guideline = guideline_for_opportunity(opp, screening, profiles, allow_heuristic=allow_heuristic)
+        try:
+            guideline = guideline_for_opportunity(opp, screening, profiles, allow_heuristic=allow_heuristic)
+        except Exception as exc:
+            print(f"warning: guideline generation failed for {opp.title[:100]}: {exc}", flush=True)
+            continue
         matches.append(
             {
                 "opportunity": opp.to_dict(),
