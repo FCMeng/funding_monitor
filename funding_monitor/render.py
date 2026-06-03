@@ -44,8 +44,8 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
       color: #17211d;
       border-bottom: 1px solid var(--line);
     }}
-    h1 {{ margin: 0 0 10px; font-size: clamp(48px, 10vw, 118px); line-height: .9; letter-spacing: 0; }}
-    header p {{ margin: 0; color: var(--muted); max-width: 900px; font-size: clamp(18px, 2vw, 26px); }}
+    h1 {{ margin: 0 0 10px; font-size: clamp(34px, 6vw, 72px); line-height: .95; letter-spacing: 0; }}
+    header p {{ margin: 0; color: var(--muted); max-width: 900px; font-size: clamp(16px, 1.5vw, 20px); }}
     main {{
       display: grid;
       grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
