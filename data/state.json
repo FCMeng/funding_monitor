@@ -1,5 +1,28 @@
 {
   "fetched_opportunities": {
+    "1224d94e3abdadf7": {
+      "agency": "SC EPSCoR",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on South Carolina EPSCoR Funding Opportunities.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scepscor.org/funding-opportunities/"
+      },
+      "source": "South Carolina EPSCoR Funding Opportunities",
+      "stable_id": "1224d94e3abdadf7",
+      "title": "NASA SC Space Grant Consortium",
+      "url": "http://scspacegrant.cofc.edu"
+    },
     "1db244287e76a0bb": {
       "agency": "SCRA",
       "amount": "",
@@ -382,6 +405,29 @@
       "title": "DOE National Laboratory Announcements",
       "url": "https://science.osti.gov/grants/Lab-Announcements"
     },
+    "5002380ca11a81c3": {
+      "agency": "SC EPSCoR",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on South Carolina EPSCoR Funding Opportunities.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scepscor.org/funding-opportunities/"
+      },
+      "source": "South Carolina EPSCoR Funding Opportunities",
+      "stable_id": "5002380ca11a81c3",
+      "title": "Phase-0 funding opportunity .",
+      "url": "https://scepscor.org/sc-epscor-phase-0/"
+    },
     "5e19b1dc140d72e6": {
       "agency": "NSF",
       "amount": "",
@@ -662,6 +708,29 @@
       "stable_id": "9a3e09c8a46394d0",
       "title": "SACT Grant",
       "url": "https://scra.org/get-support/get-startup-funding/sact-grant/"
+    },
+    "9b710f811b6facd0": {
+      "agency": "SC EPSCoR",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on South Carolina EPSCoR Funding Opportunities.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scepscor.org/funding-opportunities/"
+      },
+      "source": "South Carolina EPSCoR Funding Opportunities",
+      "stable_id": "9b710f811b6facd0",
+      "title": "Grants for Applications in Industry and Networking (GAIN) Program.",
+      "url": "https://scepscor.org/gain-program/"
     },
     "a41ff9a3abba7995": {
       "agency": "NSF",
@@ -1206,8 +1275,8 @@
   },
   "runs": [
     {
-      "fetched_at": "2026-06-03T14:36:36+00:00",
-      "fetched_count": 40,
+      "fetched_at": "2026-06-03T15:19:15+00:00",
+      "fetched_count": 43,
       "fetched_ids": [
         "2427ffd6071f8bc2",
         "6b5d9cf940a60685",
@@ -1248,6 +1317,9 @@
         "75bb544212d2077e",
         "1db244287e76a0bb",
         "4aa3f3812e087c68",
+        "1224d94e3abdadf7",
+        "9b710f811b6facd0",
+        "5002380ca11a81c3",
         "b834b8ef072e4634"
       ],
       "matched_count": 0,
