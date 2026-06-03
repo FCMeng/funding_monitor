@@ -7,7 +7,7 @@ from pathlib import Path
 from .config import DATA_DIR, DOCS_DIR, load_profiles, load_sources
 from .emailer import send_digest
 from .fetchers import fetch_all
-from .llm import guideline_for_opportunity, screen_opportunity
+from .llm import guideline_for_opportunity, heuristic_screen, screen_opportunity
 from .render import render_site
 from .scheduler import is_tuesday_7am_eastern
 from .state import load_state, record_run, save_state, split_new
@@ -68,10 +68,20 @@ def run_pipeline(*, dry_run: bool, skip_schedule_gate: bool, skip_email: bool, a
     print(f"Fetched {len(fetched)} opportunities; {len(new_opps)} not seen before.")
 
     matches: list[dict] = []
-    for opp in new_opps:
+    candidate_opps = prefilter_opportunities(new_opps, profiles)
+    max_screens = int(os.getenv("FUNDING_MONITOR_MAX_LLM_SCREENS", "30"))
+    if len(candidate_opps) > max_screens:
+        print(f"Prefilter kept {len(candidate_opps)} candidates; screening first {max_screens}.", flush=True)
+        candidate_opps = candidate_opps[:max_screens]
+    else:
+        print(f"Prefilter kept {len(candidate_opps)} candidates for LLM screening.", flush=True)
+
+    for index, opp in enumerate(candidate_opps, start=1):
+        print(f"Screening {index}/{len(candidate_opps)}: {opp.title[:100]}", flush=True)
         screening = screen_opportunity(opp, profiles, allow_heuristic=allow_heuristic)
         if not screening.is_fit:
             continue
+        print(f"Generating guideline for: {opp.title[:100]}", flush=True)
         guideline = guideline_for_opportunity(opp, screening, profiles, allow_heuristic=allow_heuristic)
         matches.append(
             {
@@ -88,12 +98,26 @@ def run_pipeline(*, dry_run: bool, skip_schedule_gate: bool, skip_email: bool, a
     if not dry_run:
         save_state(STATE_PATH, state)
     if matches and not skip_email and not dry_run:
-        send_digest(matches, RECIPIENT)
-        print(f"Sent digest to {RECIPIENT}.")
+        try:
+            send_digest(matches, RECIPIENT)
+            print(f"Sent digest to {RECIPIENT}.")
+        except Exception as exc:
+            print(f"warning: email delivery failed after site/state generation: {exc}", flush=True)
     elif not matches:
         print("No new matched opportunities to email.")
     print(f"Rendered site at {Path(SITE_PATH)}")
     return 0
+
+
+def prefilter_opportunities(opportunities: list, profiles: list[dict]) -> list:
+    ranked = []
+    for opp in opportunities:
+        screening = heuristic_screen(opp, profiles)
+        if screening.fit_score <= 0:
+            continue
+        ranked.append((screening.fit_score, opp))
+    ranked.sort(key=lambda item: item[0], reverse=True)
+    return [opp for _score, opp in ranked]
 
 
 def preview_state(state: dict, matches: list[dict]) -> dict:

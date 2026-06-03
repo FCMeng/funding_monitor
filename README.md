@@ -41,6 +41,11 @@ For a local heuristic run without OpenAI or email:
 FUNDING_MONITOR_ALLOW_HEURISTIC=1 python -m funding_monitor.cli dry-run
 ```
 
+Useful runtime knobs:
+
+- `FUNDING_MONITOR_MAX_LLM_SCREENS`: maximum prefiltered new opportunities to screen with OpenAI per run, default `30`.
+- `FUNDING_MONITOR_RECIPIENT`: overrides `EMAIL_TO`.
+
 ## GitHub Pages
 
 The generated static page is written to `docs/index.html`. Configure Pages for the repository `FCMeng/funding_monitor` to publish from the `docs/` folder on `main`.
