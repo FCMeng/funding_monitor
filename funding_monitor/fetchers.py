@@ -3,13 +3,14 @@ from __future__ import annotations
 import os
 import re
 import xml.etree.ElementTree as ET
+import zlib
 from datetime import date, timedelta
 from html import unescape
 from html.parser import HTMLParser
 from typing import Any, Iterable
 from urllib.parse import urljoin, urldefrag, urlparse
 
-from .http import request_json, request_text
+from .http import request_bytes, request_json, request_text
 from .models import Opportunity
 
 
@@ -204,7 +205,8 @@ def normalize_link(base_url: str, href: str) -> str:
 
 
 def page_link_to_opportunity(page: dict[str, str], title: str, url: str, source_url: str) -> Opportunity:
-    return Opportunity(
+    prefer_extracted_title = is_generic_link_title(title)
+    opp = Opportunity(
         source=page["name"],
         agency=page["agency"],
         title=clean_opportunity_title(title, url),
@@ -213,11 +215,14 @@ def page_link_to_opportunity(page: dict[str, str], title: str, url: str, source_
         documents=infer_documents(page["agency"], page["name"]),
         raw={"page": source_url},
     )
+    if is_pdf_url(url):
+        enrich_pdf_opportunity(opp, prefer_extracted_title=prefer_extracted_title)
+    return opp
 
 
 def clean_opportunity_title(title: str, url: str) -> str:
     title = clean_text(title)
-    if title and title.lower() not in {"read more", "here", "available here", "html", "pdf"}:
+    if title and not is_generic_link_title(title):
         return title
     filename = urlparse(url).path.rsplit("/", 1)[-1]
     filename = re.sub(r"\.[a-z0-9]+$", "", filename, flags=re.IGNORECASE)
@@ -230,6 +235,8 @@ def is_opportunity_detail_link(title: str, url: str) -> bool:
     parsed = urlparse(url)
     path = parsed.path.lower()
     if has_excluded_link_terms(text, path):
+        return False
+    if is_generic_link_title(title) and not is_pdf_url(url):
         return False
     if path.rstrip("/").endswith(("/grants/foas/open", "/grants/lab-announcements/open")):
         return False
@@ -249,6 +256,8 @@ def is_opportunity_listing_link(title: str, url: str) -> bool:
     text = f"{title} {url}".lower()
     path = urlparse(url).path.lower().rstrip("/")
     if has_excluded_link_terms(text, path):
+        return False
+    if is_generic_link_title(title) and not path.endswith(("/grants/foas/open", "/grants/lab-announcements/open")):
         return False
     if path.endswith(("/grants/foas/open", "/grants/lab-announcements/open")):
         return True
@@ -282,6 +291,11 @@ def has_excluded_link_terms(text: str, path: str) -> bool:
         "template",
         "sample",
         "email-protection",
+        "office of sponsored activities",
+        "sponsored activities",
+        "grants policy",
+        "contract information",
+        "applicant and awardee resources",
     )
     resource_ext = (".xlsx", ".xls", ".doc", ".docx", ".ppt", ".pptx")
     return (
@@ -289,6 +303,167 @@ def has_excluded_link_terms(text: str, path: str) -> bool:
         or any(word in text for word in exclude)
         or path.endswith(resource_ext)
     )
+
+
+def is_generic_link_title(title: str) -> bool:
+    normalized = clean_text(title).lower()
+    generic_titles = {
+        "",
+        "read more",
+        "more",
+        "learn more",
+        "here",
+        "available here",
+        "html",
+        "pdf",
+        "foa",
+        "foas",
+        "funding opportunity announcement",
+        "funding opportunity announcements",
+        "funding opportunity announcements (foas)",
+        "office of sponsored activities",
+    }
+    return normalized in generic_titles
+
+
+def is_pdf_url(url: str) -> bool:
+    return urlparse(url).path.lower().endswith(".pdf")
+
+
+def enrich_pdf_opportunity(opp: Opportunity, *, prefer_extracted_title: bool = False) -> None:
+    try:
+        pdf_text = extract_pdf_text(request_bytes(opp.url))
+    except Exception as exc:
+        opp.raw["pdf_error"] = str(exc)
+        return
+    if not pdf_text:
+        return
+    details = extract_solicitation_details(pdf_text)
+    opp.raw["pdf_excerpt"] = pdf_text[:4000]
+    if details.get("title") and (prefer_extracted_title or is_generic_link_title(opp.title)):
+        opp.title = details["title"]
+    if details.get("opportunity_number"):
+        opp.opportunity_number = details["opportunity_number"]
+    if details.get("due_date"):
+        opp.due_date = details["due_date"]
+    if details.get("posted_date"):
+        opp.posted_date = details["posted_date"]
+    if details.get("amount"):
+        opp.amount = details["amount"]
+    if details.get("eligibility"):
+        opp.eligibility = details["eligibility"]
+    if details.get("description"):
+        opp.description = details["description"]
+
+
+def extract_pdf_text(data: bytes) -> str:
+    chunks: list[str] = []
+    for match in re.finditer(rb"stream\r?\n(.*?)\r?\nendstream", data, flags=re.DOTALL):
+        stream = match.group(1)
+        for candidate in (stream, try_decompress(stream)):
+            if not candidate:
+                continue
+            text = extract_pdf_stream_text(candidate)
+            if text:
+                chunks.append(text)
+    return clean_text(" ".join(chunks))
+
+
+def try_decompress(data: bytes) -> bytes:
+    try:
+        return zlib.decompress(data)
+    except Exception:
+        return b""
+
+
+def extract_pdf_stream_text(data: bytes) -> str:
+    text_parts: list[str] = []
+    for match in re.finditer(rb"\((?:\\.|[^\\()])*\)\s*Tj", data, flags=re.DOTALL):
+        text_parts.append(decode_pdf_literal(match.group(0).rsplit(b")", 1)[0] + b")"))
+    for match in re.finditer(rb"\[(.*?)\]\s*TJ", data, flags=re.DOTALL):
+        text_parts.extend(decode_pdf_literal(item) for item in re.findall(rb"\((?:\\.|[^\\()])*\)", match.group(1)))
+    return " ".join(part for part in text_parts if part)
+
+
+def decode_pdf_literal(value: bytes) -> str:
+    if value.startswith(b"(") and value.endswith(b")"):
+        value = value[1:-1]
+    value = re.sub(rb"\\([()\\])", rb"\1", value)
+    value = re.sub(rb"\\n", b"\n", value)
+    value = re.sub(rb"\\r", b"\r", value)
+    value = re.sub(rb"\\t", b"\t", value)
+    return value.decode("latin-1", errors="ignore")
+
+
+def extract_solicitation_details(text: str) -> dict[str, str]:
+    details: dict[str, str] = {}
+    number = first_regex(
+        text,
+        [
+            r"(?:Funding Opportunity Announcement|FOA|NOFO|LAB) Number[:\s]+([A-Z]{1,4}[- ][A-Z0-9]{2,}[- ][0-9]{3,}(?:[- ][0-9]{6})?)",
+            r"\b((?:DE-FOA|LAB)-\d{4}-\d{4,}(?:-\d{6})?)\b",
+        ],
+    )
+    if number:
+        details["opportunity_number"] = number.replace(" ", "-")
+    title = first_regex(
+        text,
+        [
+            r"Title[:\s]+(.+?)(?:\s+(?:Submission Deadline|Application Deadline|Total Amount to be Awarded|Eligible Applicants|Program Description|Description|Summary)[:\s]|$)",
+            r"(?:Funding Opportunity Announcement|Announcement)\s+(?:Number[:\s]+[A-Z0-9-]+)?\s+([A-Z][A-Za-z0-9 ,:/&()'\".-]{20,160})",
+        ],
+    )
+    if title:
+        details["title"] = clean_text(title)
+    due_date = first_regex(
+        text,
+        [
+            r"(?:Submission Deadline|Application Deadline|Deadline for Applications|Full Application Due Date|Due Date)[:\s]+([A-Z][A-Za-z]+ \d{1,2}, \d{4}(?:,? at [0-9: .]+[AP]M(?:\s(?:ET|EDT|EST|CT|MT|PT))?)?)",
+            r"(?:Full Application|Applications?)[:\s]+(?:due\s*)?([A-Z][A-Za-z]+ \d{1,2}, \d{4})",
+        ],
+    )
+    if due_date:
+        details["due_date"] = clean_text(due_date)
+    posted = first_regex(text, [r"(?:Issue Date|Posted Date|Date Issued)[:\s]+([A-Z][A-Za-z]+ \d{1,2}, \d{4})"])
+    if posted:
+        details["posted_date"] = posted
+    amount = first_regex(
+        text,
+        [
+            r"(?:Total Amount to be Awarded|Estimated Funding|Award Ceiling|Total Funding)[:\s]+(\$[0-9][0-9,]*(?:\s*(?:million|M))?)",
+            r"approximately (\$[0-9][0-9,]*(?:\s*(?:million|M))?)",
+        ],
+    )
+    if amount:
+        details["amount"] = clean_text(amount)
+    eligibility = section_excerpt(text, ["Eligible Applicants", "Eligibility", "Applicant Eligibility"], 360)
+    if eligibility:
+        details["eligibility"] = eligibility
+    synopsis = section_excerpt(text, ["Program Description", "Description", "Summary", "Purpose"], 700)
+    if synopsis:
+        details["description"] = synopsis
+    return details
+
+
+def first_regex(text: str, patterns: list[str]) -> str:
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            return clean_text(match.group(1))
+    return ""
+
+
+def section_excerpt(text: str, headings: list[str], limit: int) -> str:
+    for heading in headings:
+        match = re.search(rf"{re.escape(heading)}[:\s]+(.{{20,{limit * 2}}})", text, flags=re.IGNORECASE)
+        if match:
+            excerpt = re.split(
+                r"\s(?:Table of Contents|Section [IVX]+|[A-Z][A-Za-z ]{3,35}:)\s",
+                match.group(1),
+                maxsplit=1,
+            )[0]
+            return clean_text(excerpt)[:limit].rstrip(" ,;:-")
+    return ""
 
 
 def is_general_funding_page(path: str) -> bool:

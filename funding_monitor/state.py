@@ -76,5 +76,5 @@ def record_run(
             "fetched_ids": [opp.stable_id for opp in fetched],
         },
     )
-    state["runs"] = state["runs"][:100]
+    state["runs"] = state["runs"][:1]
     return state

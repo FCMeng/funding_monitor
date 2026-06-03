@@ -23,46 +23,49 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
     :root {{
       color-scheme: light;
       --ink: #1f2933;
-      --muted: #667085;
-      --line: #d9e2ec;
-      --paper: #f7f9fb;
+      --muted: #5f6b66;
+      --line: #d3ddd7;
+      --paper: #f4f7f3;
       --panel: #ffffff;
-      --accent: #1f7a8c;
-      --accent-2: #7c3aed;
+      --accent: #147a7e;
+      --accent-2: #5f746b;
     }}
     * {{ box-sizing: border-box; }}
     body {{
       margin: 0;
       font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--ink);
-      background: var(--paper);
+      background:
+        linear-gradient(180deg, #eef4ef 0, #f7faf7 310px, var(--paper) 100%);
     }}
     header {{
-      padding: 28px clamp(18px, 4vw, 48px);
-      background: #0f172a;
-      color: white;
+      padding: 54px clamp(18px, 7vw, 92px) 46px;
+      background: transparent;
+      color: #17211d;
+      border-bottom: 1px solid var(--line);
     }}
-    h1 {{ margin: 0 0 8px; font-size: clamp(28px, 5vw, 44px); letter-spacing: 0; }}
-    header p {{ margin: 0; color: #cbd5e1; max-width: 900px; }}
+    h1 {{ margin: 0 0 10px; font-size: clamp(48px, 10vw, 118px); line-height: .9; letter-spacing: 0; }}
+    header p {{ margin: 0; color: var(--muted); max-width: 900px; font-size: clamp(18px, 2vw, 26px); }}
     main {{
       display: grid;
       grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
-      gap: 24px;
-      padding: 24px clamp(18px, 4vw, 48px) 48px;
+      gap: 28px;
+      padding: 58px clamp(18px, 7vw, 92px) 64px;
     }}
     aside, .opportunity {{
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 8px;
     }}
-    aside {{ padding: 18px; align-self: start; position: sticky; top: 16px; }}
-    aside h2, section h2 {{ margin: 0 0 12px; font-size: 18px; }}
+    aside {{ padding: 28px; align-self: start; position: sticky; top: 16px; box-shadow: 0 1px 0 rgba(23, 33, 29, .02); }}
+    aside h2, section h2 {{ margin: 0 0 16px; font-size: 18px; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-2); }}
     .run {{
       display: block;
       width: 100%;
       border: 0;
       border-top: 1px solid var(--line);
-      padding: 12px 0;
+      border-radius: 8px;
+      padding: 14px 12px;
       text-align: left;
       font: inherit;
       color: var(--ink);
@@ -70,13 +73,14 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
       cursor: pointer;
     }}
     .run:first-of-type {{ border-top: 0; }}
+    .run[aria-selected="true"] {{ background: #e8efeb; }}
     .run[aria-selected="true"] strong {{ color: var(--accent); }}
     .run:hover strong {{ text-decoration: underline; }}
-    .list {{ display: grid; gap: 16px; }}
-    .opportunity {{ padding: 18px; }}
-    .opportunity.compact {{ padding: 14px 16px; }}
-    .opportunity h3 {{ margin: 0 0 8px; font-size: 20px; line-height: 1.25; }}
-    .opportunity.compact h3 {{ font-size: 17px; }}
+    .list {{ display: grid; gap: 18px; }}
+    .opportunity {{ padding: 22px; box-shadow: 0 1px 0 rgba(23, 33, 29, .02); }}
+    .opportunity.compact {{ padding: 18px 20px; }}
+    .opportunity h3 {{ margin: 0 0 8px; font-size: 22px; line-height: 1.25; }}
+    .opportunity.compact h3 {{ font-size: 19px; }}
     .meta {{ display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }}
     .pill {{
       border: 1px solid var(--line);
@@ -84,7 +88,7 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
       padding: 4px 9px;
       font-size: 13px;
       color: var(--muted);
-      background: #fbfdff;
+      background: #f8fbf9;
     }}
     .new {{ color: white; background: var(--accent); border-color: var(--accent); }}
     .label {{ color: var(--muted); font-size: 13px; text-transform: uppercase; }}

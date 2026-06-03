@@ -44,3 +44,15 @@ def request_text(url: str, *, timeout: int = DEFAULT_TIMEOUT) -> str:
     )
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read().decode("utf-8", errors="replace")
+
+
+def request_bytes(url: str, *, timeout: int = DEFAULT_TIMEOUT) -> bytes:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "application/pdf,application/octet-stream,*/*",
+            "User-Agent": "funding-monitor/0.1",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return response.read()
