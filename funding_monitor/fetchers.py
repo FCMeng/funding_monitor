@@ -308,6 +308,8 @@ def has_excluded_link_terms(text: str, path: str) -> bool:
 
 def is_generic_link_title(title: str) -> bool:
     normalized = clean_text(title).lower()
+    if normalized.startswith("read more about "):
+        return True
     generic_titles = {
         "",
         "read more",
