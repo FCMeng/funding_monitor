@@ -11,17 +11,7 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
     opportunities = state.get("opportunities", {})
     fetched_opportunities = state.get("fetched_opportunities", {})
     latest_ids = {item["opportunity"]["stable_id"] for item in latest_matches or []}
-    cards = []
-    for opp_id, opp in sorted(opportunities.items(), key=lambda item: item[1].get("due_date", "") or "9999"):
-        is_new = opp_id in latest_ids
-        cards.append(render_card(opp, is_new=is_new))
-    if not cards:
-        cards.append('<p class="empty">No matched opportunities have been recorded yet.</p>')
-    fetched_cards = []
-    for opp_id, opp in sorted(fetched_opportunities.items(), key=lambda item: item[1].get("due_date", "") or "9999"):
-        fetched_cards.append(render_card(opp, is_new=False, compact=True))
-    if not fetched_cards:
-        fetched_cards.append('<p class="empty">No fetched opportunities have been recorded yet.</p>')
+    panels = render_run_panels(runs, opportunities, fetched_opportunities, latest_ids)
 
     html = f"""<!doctype html>
 <html lang="en">
@@ -67,8 +57,21 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
     }}
     aside {{ padding: 18px; align-self: start; position: sticky; top: 16px; }}
     aside h2, section h2 {{ margin: 0 0 12px; font-size: 18px; }}
-    .run {{ border-top: 1px solid var(--line); padding: 12px 0; font-size: 14px; }}
+    .run {{
+      display: block;
+      width: 100%;
+      border: 0;
+      border-top: 1px solid var(--line);
+      padding: 12px 0;
+      text-align: left;
+      font: inherit;
+      color: var(--ink);
+      background: transparent;
+      cursor: pointer;
+    }}
     .run:first-of-type {{ border-top: 0; }}
+    .run[aria-selected="true"] strong {{ color: var(--accent); }}
+    .run:hover strong {{ text-decoration: underline; }}
     .list {{ display: grid; gap: 16px; }}
     .opportunity {{ padding: 18px; }}
     .opportunity.compact {{ padding: 14px 16px; }}
@@ -90,6 +93,7 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
     .empty {{ background: white; border: 1px dashed var(--line); border-radius: 8px; padding: 24px; }}
     .section-note {{ color: var(--muted); margin: 0 0 14px; }}
     section + section {{ margin-top: 28px; }}
+    .run-panel[hidden] {{ display: none; }}
     @media (max-width: 780px) {{
       main {{ grid-template-columns: 1fr; }}
       aside {{ position: static; }}
@@ -99,29 +103,27 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
 <body>
   <header>
     <h1>Funding Monitor</h1>
-    <p>Curated opportunities screened for computational materials science, AI4Science, computational biophysics, protein folding, and protein interaction research profiles.</p>
+    <p>Curated funding opportunities, run history, screening results, and source links for research proposal planning.</p>
   </header>
   <main>
     <aside>
       <h2>Fetch History</h2>
       {render_runs(runs)}
     </aside>
-    <div>
-      <section>
-        <h2>Matched Opportunities</h2>
-        <div class="list">
-          {''.join(cards)}
-        </div>
-      </section>
-      <section>
-        <h2>Fetched Opportunities</h2>
-        <p class="section-note">All opportunities fetched by the monitor, including items that were not selected as profile matches.</p>
-        <div class="list">
-          {''.join(fetched_cards)}
-        </div>
-      </section>
+    <div id="run-results">
+      {panels}
     </div>
   </main>
+  <script>
+    const buttons = Array.from(document.querySelectorAll(".run"));
+    const panels = Array.from(document.querySelectorAll(".run-panel"));
+    function selectRun(index) {{
+      buttons.forEach((button) => button.setAttribute("aria-selected", button.dataset.runIndex === index ? "true" : "false"));
+      panels.forEach((panel) => {{ panel.hidden = panel.dataset.runIndex !== index; }});
+    }}
+    buttons.forEach((button) => button.addEventListener("click", () => selectRun(button.dataset.runIndex)));
+    if (buttons.length) selectRun(buttons[0].dataset.runIndex);
+  </script>
 </body>
 </html>
 """
@@ -132,12 +134,61 @@ def render_runs(runs: list[dict[str, Any]]) -> str:
     if not runs:
         return '<p class="empty">No fetches yet.</p>'
     return "".join(
-        f"""<div class="run">
+        f"""<button class="run" type="button" data-run-index="{index}" aria-selected="false">
   <strong>{escape(run.get("fetched_at", "unknown"))}</strong><br>
   fetched {int(run.get("fetched_count", 0))}, matched {int(run.get("matched_count", 0))}, new {int(run.get("new_count", 0))}
-</div>"""
-        for run in runs[:20]
+</button>"""
+        for index, run in enumerate(runs[:20])
     )
+
+
+def render_run_panels(
+    runs: list[dict[str, Any]],
+    opportunities: dict[str, Any],
+    fetched_opportunities: dict[str, Any],
+    latest_ids: set[str],
+) -> str:
+    if not runs:
+        return """<section class="run-panel" data-run-index="0">
+  <h2>Matched Opportunities</h2>
+  <p class="empty">No fetches have been recorded yet.</p>
+</section>"""
+    panels = []
+    for index, run in enumerate(runs[:20]):
+        matched_ids = run.get("matched_ids") or run.get("new_ids") or list(opportunities)
+        fetched_ids = run.get("fetched_ids") or list(fetched_opportunities)
+        matched_cards = [
+            render_card(opportunities[opp_id], is_new=opp_id in set(run.get("new_ids", [])) or opp_id in latest_ids)
+            for opp_id in matched_ids
+            if opp_id in opportunities
+        ]
+        fetched_cards = [
+            render_card(fetched_opportunities[opp_id], is_new=False, compact=True)
+            for opp_id in fetched_ids
+            if opp_id in fetched_opportunities
+        ]
+        if not matched_cards:
+            matched_cards.append('<p class="empty">No matched opportunities were recorded for this run.</p>')
+        if not fetched_cards:
+            fetched_cards.append('<p class="empty">No fetched opportunities were recorded for this run.</p>')
+        panels.append(
+            f"""<div class="run-panel" data-run-index="{index}" {"hidden" if index else ""}>
+  <section>
+    <h2>Matched Opportunities</h2>
+    <div class="list">
+      {''.join(matched_cards)}
+    </div>
+  </section>
+  <section>
+    <h2>Fetched Opportunities</h2>
+    <p class="section-note">All opportunities fetched in this run, including items that were not selected as profile matches.</p>
+    <div class="list">
+      {''.join(fetched_cards)}
+    </div>
+  </section>
+</div>"""
+        )
+    return "".join(panels)
 
 
 def render_card(opp: dict[str, Any], *, is_new: bool, compact: bool = False) -> str:

@@ -1,6 +1,6 @@
 # Funding Monitor
 
-`funding_monitor` fetches curated funding opportunities, screens them against two research profiles with OpenAI models, publishes a static GitHub Pages report, and emails proposal guidance for newly matched opportunities.
+`funding_monitor` fetches curated funding opportunities, screens them against CV-derived research profiles with OpenAI models, publishes a static GitHub Pages report, and emails proposal guidance for newly matched opportunities.
 
 ## What It Monitors
 
@@ -8,6 +8,14 @@
 - NSF funding RSS feeds.
 - DOE Office of Science funding pages.
 - South Carolina research sources such as SCRA.
+- Quantum computing, quantum information science, quantum systems, and quantum materials opportunities surfaced by the curated sources.
+
+## Screening
+
+- `gpt-5.5` screens opportunities for fit.
+- `gpt-5.5` writes proposal guidance for matched opportunities.
+- Profiles are derived from the two supplied CV PDFs and encoded in `config/profiles.json`.
+- The GitHub Pages report lets you select a run from the left sidebar and view that run's matched and fetched opportunities.
 
 ## Secrets
 

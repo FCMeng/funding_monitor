@@ -10,7 +10,11 @@
       "protein folding",
       "computational biophysics",
       "molecular dynamics",
-      "protein interactions"
+      "protein interactions",
+      "quantum computing",
+      "quantum information science",
+      "quantum materials",
+      "quantum algorithms"
     ],
     "agencies": ["NSF", "DOE", "HHS", "NIH", "FDA"]
   },

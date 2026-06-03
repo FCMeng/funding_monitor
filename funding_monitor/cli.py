@@ -149,6 +149,9 @@ def preview_state(state: dict, matches: list[dict]) -> dict:
                 "fetched_count": len(matches),
                 "matched_count": len(matches),
                 "new_count": len(matches),
+                "new_ids": [item["opportunity"]["stable_id"] for item in matches],
+                "matched_ids": [item["opportunity"]["stable_id"] for item in matches],
+                "fetched_ids": [item["opportunity"]["stable_id"] for item in matches],
             },
         )
     return preview

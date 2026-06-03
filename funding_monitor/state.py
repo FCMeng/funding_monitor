@@ -72,6 +72,8 @@ def record_run(
             "matched_count": len(matched),
             "new_count": len(new_ids),
             "new_ids": new_ids,
+            "matched_ids": [item["opportunity"]["stable_id"] for item in matched],
+            "fetched_ids": [opp.stable_id for opp in fetched],
         },
     )
     state["runs"] = state["runs"][:100]

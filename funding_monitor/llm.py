@@ -9,7 +9,7 @@ from .models import Guideline, Opportunity, ScreeningResult
 
 
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
-SCREENING_MODEL = os.getenv("FUNDING_MONITOR_SCREENING_MODEL", "gpt-5.4-mini")
+SCREENING_MODEL = os.getenv("FUNDING_MONITOR_SCREENING_MODEL", "gpt-5.5")
 GUIDELINE_MODEL = os.getenv("FUNDING_MONITOR_GUIDELINE_MODEL", "gpt-5.5")
 
 

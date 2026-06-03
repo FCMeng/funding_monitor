@@ -1,10 +1,13 @@
 import unittest
 
-from funding_monitor.llm import extract_response_text, heuristic_screen
+from funding_monitor.llm import SCREENING_MODEL, extract_response_text, heuristic_screen
 from funding_monitor.models import Opportunity
 
 
 class LlmTest(unittest.TestCase):
+    def test_screening_model_defaults_to_gpt_55(self):
+        self.assertEqual(SCREENING_MODEL, "gpt-5.5")
+
     def test_extract_response_text(self):
         data = {"output": [{"content": [{"type": "output_text", "text": "{\"ok\": true}"}]}]}
         self.assertEqual(extract_response_text(data), "{\"ok\": true}")

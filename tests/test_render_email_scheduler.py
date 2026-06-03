@@ -22,7 +22,16 @@ class RenderEmailSchedulerTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "index.html"
             state = {
-                "runs": [{"fetched_at": "2026-06-02T11:00:00+00:00", "fetched_count": 1, "matched_count": 1, "new_count": 1}],
+                "runs": [
+                    {
+                        "fetched_at": "2026-06-02T11:00:00+00:00",
+                        "fetched_count": 1,
+                        "matched_count": 1,
+                        "new_count": 1,
+                        "matched_ids": ["abc"],
+                        "fetched_ids": ["def"],
+                    }
+                ],
                 "opportunities": {
                     "abc": {
                         "stable_id": "abc",
@@ -45,6 +54,8 @@ class RenderEmailSchedulerTest(unittest.TestCase):
             self.assertIn("AI Materials Grant", rendered)
             self.assertIn("Fetched Opportunities", rendered)
             self.assertIn("Fetched DOE Grant", rendered)
+            self.assertIn("data-run-index=\"0\"", rendered)
+            self.assertIn("selectRun", rendered)
 
     def test_email_digest_contains_no_duplicate_count(self):
         with patch.dict("os.environ", {"EMAIL_FROM": "sender@example.test"}):

@@ -29,6 +29,8 @@ class StateTest(unittest.TestCase):
         self.assertIn(matched.stable_id, state["fetched_opportunities"])
         self.assertIn(unmatched.stable_id, state["fetched_opportunities"])
         self.assertEqual(state["opportunities"][matched.stable_id]["screening"]["fit_score"], 90)
+        self.assertEqual(state["runs"][0]["matched_ids"], [matched.stable_id])
+        self.assertEqual(state["runs"][0]["fetched_ids"], [matched.stable_id, unmatched.stable_id])
 
 
 if __name__ == "__main__":
