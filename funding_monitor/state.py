@@ -54,16 +54,18 @@ def record_run(
     if dry_run:
         return state
     seen = set(state.get("seen_ids", []))
+    current_fetched: dict[str, Any] = {}
     for opp in fetched:
         seen.add(opp.stable_id)
-        state["fetched_opportunities"][opp.stable_id] = opp.to_dict()
+        current_fetched[opp.stable_id] = opp.to_dict()
     for item in matched:
         opp = dict(item["opportunity"])
         opp["screening"] = item.get("screening", {})
         opp["guideline_subject"] = item.get("guideline", {}).get("subject", "")
         state["opportunities"][opp["stable_id"]] = opp
-        state["fetched_opportunities"][opp["stable_id"]] = opp
+        current_fetched[opp["stable_id"]] = opp
     state["seen_ids"] = sorted(seen)
+    state["fetched_opportunities"] = current_fetched
     state["runs"].insert(
         0,
         {

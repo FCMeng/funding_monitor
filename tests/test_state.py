@@ -32,6 +32,21 @@ class StateTest(unittest.TestCase):
         self.assertEqual(state["runs"][0]["matched_ids"], [matched.stable_id])
         self.assertEqual(state["runs"][0]["fetched_ids"], [matched.stable_id, unmatched.stable_id])
 
+    def test_record_run_replaces_stale_fetched_opportunities(self):
+        stale = Opportunity(source="fixture", agency="DOE", title="Read more", url="https://old.test")
+        current = Opportunity(source="fixture", agency="DOE", title="Specific notice", url="https://new.test")
+        state = {
+            "seen_ids": [stale.stable_id],
+            "opportunities": {},
+            "fetched_opportunities": {stale.stable_id: stale.to_dict()},
+            "runs": [],
+        }
+
+        record_run(state, fetched=[current], matched=[], new_ids=[], dry_run=False)
+
+        self.assertNotIn(stale.stable_id, state["fetched_opportunities"])
+        self.assertIn(current.stable_id, state["fetched_opportunities"])
+
 
 if __name__ == "__main__":
     unittest.main()
