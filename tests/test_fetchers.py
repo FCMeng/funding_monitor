@@ -99,6 +99,21 @@ class FetcherTest(unittest.TestCase):
         self.assertEqual(opportunities[0].title, "Quantum Testbeds for Science")
         self.assertEqual(opportunities[0].opportunity_number, "DE-FOA-0003620")
 
+    def test_page_fetch_strips_read_more_about_prefix(self):
+        page = {
+            "name": "DOE Office of Science Funding Opportunities",
+            "agency": "DOE",
+            "url": "https://science.osti.gov/Funding-Opportunities",
+        }
+        html = (
+            '<a href="/-/media/grants/pdf/foas/2026/DE-FOA-0003612.pdf">'
+            "Read more about The Genesis Mission: Transforming Science and Energy with AI</a>"
+        )
+        with patch("funding_monitor.fetchers.request_bytes", return_value=b""):
+            opportunities = extract_page_opportunities(html, page, page["url"])
+
+        self.assertEqual(opportunities[0].title, "The Genesis Mission: Transforming Science and Energy with AI")
+
     def test_pdf_text_and_solicitation_details_are_extracted(self):
         stream = (
             b"(Funding Opportunity Announcement Number: DE-FOA-0003620) Tj\n"

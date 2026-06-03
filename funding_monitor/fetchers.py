@@ -222,6 +222,7 @@ def page_link_to_opportunity(page: dict[str, str], title: str, url: str, source_
 
 def clean_opportunity_title(title: str, url: str) -> str:
     title = clean_text(title)
+    title = re.sub(r"^read more about\s+", "", title, flags=re.IGNORECASE)
     if title and not is_generic_link_title(title):
         return title
     filename = urlparse(url).path.rsplit("/", 1)[-1]
