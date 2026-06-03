@@ -7,6 +7,7 @@ from datetime import date, timedelta
 from html import unescape
 from html.parser import HTMLParser
 from typing import Any, Iterable
+from urllib.parse import urljoin, urldefrag, urlparse
 
 from .http import request_json, request_text
 from .models import Opportunity
@@ -156,38 +157,151 @@ def page_fetch(page: dict[str, str]) -> list[Opportunity]:
     except Exception as exc:
         print(f"warning: page fetch failed for {page['name']}: {exc}")
         return []
+    return extract_page_opportunities(text, page, page["url"])
+
+
+def extract_page_opportunities(text: str, page: dict[str, str], base_url: str, *, depth: int = 0) -> list[Opportunity]:
     parser = LinkTextParser()
     parser.feed(text)
-    opportunities: list[Opportunity] = []
+    opportunities: dict[str, Opportunity] = {}
+    listing_urls: dict[str, str] = {}
     for title, href in parser.links:
-        if not looks_like_funding_link(title, href):
+        url = normalize_link(base_url, href)
+        if not url:
             continue
-        url = href
-        if href.startswith("/"):
-            match = re.match(r"(https?://[^/]+)", page["url"])
-            if match:
-                url = match.group(1) + href
-        elif not href.startswith("http"):
-            url = page["url"].rstrip("/") + "/" + href
-        opportunities.append(
-            Opportunity(
-                source=page["name"],
-                agency=page["agency"],
-                title=title,
-                url=url,
-                description=f"Funding-related listing discovered on {page['name']}.",
-                documents=infer_documents(page["agency"], page["name"]),
-                raw={"page": page["url"]},
-            )
-        )
-    return opportunities[:50]
+        if is_opportunity_detail_link(title, url):
+            opp = page_link_to_opportunity(page, title, url, base_url)
+            opportunities[opp.stable_id] = opp
+        elif depth == 0 and is_opportunity_listing_link(title, url):
+            listing_urls[url] = title
+
+    if depth == 0:
+        for listing_url in list(listing_urls)[:8]:
+            try:
+                listing_text = request_text(listing_url)
+            except Exception as exc:
+                print(f"warning: deeper page fetch failed for {listing_url}: {exc}")
+                continue
+            for opp in extract_page_opportunities(listing_text, page, listing_url, depth=1):
+                opportunities[opp.stable_id] = opp
+    return list(opportunities.values())[:50]
 
 
 def looks_like_funding_link(title: str, href: str) -> bool:
-    text = f"{title} {href}".lower()
+    url = normalize_link("https://example.test", href) or href
+    return is_opportunity_detail_link(title, url) or is_opportunity_listing_link(title, url)
+
+
+def normalize_link(base_url: str, href: str) -> str:
+    href = (href or "").strip()
+    if not href or href.startswith("#"):
+        return ""
+    scheme = urlparse(href).scheme.lower()
+    if scheme in {"mailto", "tel", "javascript"}:
+        return ""
+    url, _fragment = urldefrag(urljoin(base_url, href))
+    return url
+
+
+def page_link_to_opportunity(page: dict[str, str], title: str, url: str, source_url: str) -> Opportunity:
+    return Opportunity(
+        source=page["name"],
+        agency=page["agency"],
+        title=clean_opportunity_title(title, url),
+        url=url,
+        description=f"Funding opportunity detail discovered on {page['name']}.",
+        documents=infer_documents(page["agency"], page["name"]),
+        raw={"page": source_url},
+    )
+
+
+def clean_opportunity_title(title: str, url: str) -> str:
+    title = clean_text(title)
+    if title and title.lower() not in {"read more", "here", "available here", "html", "pdf"}:
+        return title
+    filename = urlparse(url).path.rsplit("/", 1)[-1]
+    filename = re.sub(r"\.[a-z0-9]+$", "", filename, flags=re.IGNORECASE)
+    filename = filename.replace("-", " ").replace("_", " ")
+    return clean_text(filename).title() or "Untitled funding opportunity"
+
+
+def is_opportunity_detail_link(title: str, url: str) -> bool:
+    text = f"{title} {url}".lower()
+    parsed = urlparse(url)
+    path = parsed.path.lower()
+    if has_excluded_link_terms(text, path):
+        return False
+    if path.rstrip("/").endswith(("/grants/foas/open", "/grants/lab-announcements/open")):
+        return False
+    if "/grants/foas/" in path and not path.rstrip("/").endswith("/open"):
+        return True
+    if "/-/media/grants/pdf/foas/" in path:
+        return True
+    if "/-/media/grants/pdf/lab-announcements/" in path:
+        return True
+    if "/funding/opportunities/" in path and not path.rstrip("/").endswith("/funding/opportunities"):
+        return True
+    include = ("funding opportunity", "grant", "rfa", "solicitation", "research program")
+    return any(word in text for word in include) and not is_general_funding_page(path)
+
+
+def is_opportunity_listing_link(title: str, url: str) -> bool:
+    text = f"{title} {url}".lower()
+    path = urlparse(url).path.lower().rstrip("/")
+    if has_excluded_link_terms(text, path):
+        return False
+    if path.endswith(("/grants/foas/open", "/grants/lab-announcements/open")):
+        return True
+    if path.endswith(("/funding-opportunities", "/get-research-funding", "/get-startup-funding")):
+        return True
+    return False
+
+
+def has_excluded_link_terms(text: str, path: str) -> bool:
     include = ("funding", "opportun", "foa", "nofo", "grant", "rfa", "solicitation", "award")
-    exclude = ("login", "privacy", "subscribe", "facebook", "twitter", "linkedin", "youtube")
-    return any(word in text for word in include) and not any(word in text for word in exclude)
+    exclude = (
+        "login",
+        "privacy",
+        "subscribe",
+        "facebook",
+        "twitter",
+        "linkedin",
+        "youtube",
+        "honors-and-awards",
+        "honors & awards",
+        "award search",
+        "public abstracts",
+        "interactive-grants-map",
+        "acknowledgement",
+        "digital-data-management",
+        "webinar",
+        "slides",
+        "video",
+        "faq",
+        "frequently asked",
+        "template",
+        "sample",
+        "email-protection",
+    )
+    resource_ext = (".xlsx", ".xls", ".doc", ".docx", ".ppt", ".pptx")
+    return (
+        not any(word in text for word in include)
+        or any(word in text for word in exclude)
+        or path.endswith(resource_ext)
+    )
+
+
+def is_general_funding_page(path: str) -> bool:
+    path = path.lower().rstrip("/")
+    return path.endswith(
+        (
+            "/funding-opportunities",
+            "/funding-opportunities/find-funding",
+            "/funding-opportunities/award",
+            "/get-support/get-research-funding",
+            "/get-support/get-startup-funding",
+        )
+    )
 
 
 def infer_documents(agency: str, source: str) -> list[str]:
