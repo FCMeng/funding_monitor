@@ -221,27 +221,10 @@
       ],
       "due_date": "",
       "eligibility": "",
-      "guideline_subject": "NSF EPMQD fit: AI/HPC-guided quantum/electronic materials for device functionality",
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
         "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
-      },
-      "screening": {
-        "fit_score": 86,
-        "important_info": [
-          "Due date was not provided in the feed; NSF core/program-description opportunities of this type commonly use accepted-anytime or recurring submission rules, but the NSF page should be checked before planning submission.",
-          "Funding amount is not specified in the feed.",
-          "Likely best fit if the proposed work is framed around device-relevant electronic, photonic, magnetic, or quantum functionality rather than purely general materials computation.",
-          "Standard NSF proposal components are listed, including project summary/description, budget justification, biosketches, current and pending support, data management plan, and mentoring plan if required."
-        ],
-        "is_fit": true,
-        "matched_profiles": [
-          "materials_ai4science",
-          "quantum_qis"
-        ],
-        "opportunity_id": "2e6726579c65a162",
-        "rationale": "NSF\u2019s Electronic, Photonic, Magnetic, and Quantum Devices program is a strong thematic fit for research in quantum devices, quantum materials, electronic/photonic/magnetic device physics, and computational materials/condensed-matter approaches. It plausibly supports the quantum/QIS extension profile and the computational materials profile where projects connect first-principles modeling, materials discovery, transport, or device-relevant quantum/electronic properties to EPMQD topics. NSF programs are generally compatible with university-based academic researchers."
       },
       "source": "NSF Funding",
       "stable_id": "2e6726579c65a162",
@@ -416,25 +399,10 @@
       ],
       "due_date": "",
       "eligibility": "",
-      "guideline_subject": "NSF EBBS fit: computational biophysics proposal angle for Zhenzhen Zhang",
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
         "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
-      },
-      "screening": {
-        "fit_score": 67,
-        "important_info": [
-          "Applicant eligibility was not provided in the feed, but NSF program announcements generally allow U.S. universities and academic researchers to apply through their institutions; verify the solicitation page before proceeding.",
-          "No due date was provided in the feed. NSF core/program announcement opportunities often have no deadline or recurring submission windows, but the current NSF page/Research.gov should be checked to confirm the active submission timing.",
-          "A competitive proposal would likely need a clear engineering/biomedical systems motivation rather than purely basic computational biophysics."
-        ],
-        "is_fit": true,
-        "matched_profiles": [
-          "biophysics_protein"
-        ],
-        "opportunity_id": "5e19b1dc140d72e6",
-        "rationale": "This NSF Engineering Biological and Biomedical Systems program is plausibly relevant to the computational biophysics/protein/RNA modeling profile if the project is framed as fundamental engineering research in biological or biomedical systems, such as predictive modeling of biomolecular mechanisms, protein aggregation, biomolecular phase behavior, or biomedical molecular systems. It is not a strong fit for the materials/AI4Science or quantum profiles unless a proposal has a clear biological/biomedical engineering angle."
       },
       "source": "NSF Funding",
       "stable_id": "5e19b1dc140d72e6",
@@ -792,26 +760,10 @@
       ],
       "due_date": "",
       "eligibility": "",
-      "guideline_subject": "NSF Transport Phenomena: proposal angle for computational thermal/energy transport",
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
         "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
-      },
-      "screening": {
-        "fit_score": 62,
-        "important_info": [
-          "Due date is not populated in the feed; NSF Transport Phenomena core programs commonly use an accepted-anytime/no-deadline model, but the current NSF page should be verified before planning submission.",
-          "Likely best fit: computational/theoretical work on heat, mass, momentum, or energy transport, especially thermal transport and multiscale transport modeling.",
-          "Less clearly aligned with the biophysics/protein and quantum/QIS profiles based on the information provided.",
-          "Source record is an NSF Program Announcement/Information item: PD 26-366Y."
-        ],
-        "is_fit": true,
-        "matched_profiles": [
-          "materials_ai4science"
-        ],
-        "opportunity_id": "b256b28aae7959c3",
-        "rationale": "NSF's Transport Phenomena program plausibly aligns with the materials/computational physics profile through thermal/energy transport, Boltzmann transport, lattice thermal conductivity, and related computational modeling of transport processes. NSF opportunities are generally compatible with university faculty applicants. The fit is moderate rather than strong because the program title suggests broad engineering transport phenomena and the provided record lacks a detailed scope statement; proposals would need to emphasize fundamental transport phenomena rather than only electronic-structure/materials discovery."
       },
       "source": "NSF Funding",
       "stable_id": "b256b28aae7959c3",
@@ -936,26 +888,10 @@
       ],
       "due_date": "",
       "eligibility": "",
-      "guideline_subject": "NSF API fit: quantum instrumentation angle recommended",
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
         "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
-      },
-      "screening": {
-        "fit_score": 67,
-        "important_info": [
-          "Applicant type appears compatible with universities/academic researchers under standard NSF proposal mechanisms.",
-          "Due date was not provided in the feed; NSF API is typically an accepted-anytime/recurring physics instrumentation program, but the current solicitation page should be checked before planning a submission.",
-          "Best-fit angle: quantum instrumentation, quantum sensing/devices, or enabling experimental platforms for QIS.",
-          "Lower-fit for purely computational AI/HPC, materials simulation, or protein/biophysics modeling projects without a substantial instrumentation-development component."
-        ],
-        "is_fit": true,
-        "matched_profiles": [
-          "quantum_qis"
-        ],
-        "opportunity_id": "dea98db2d18cc64e",
-        "rationale": "NSF Advanced Physics Instrumentation plausibly supports academic proposals to develop advanced instrumentation for frontier physics. This is most relevant to the quantum/QIS profile when framed around quantum sensing, quantum devices, quantum simulation instrumentation, or enabling technologies for quantum information science. It is not a strong fit for the computational materials or computational biophysics profiles unless the PI is developing actual physics instrumentation rather than primarily using computation/software."
       },
       "source": "NSF Funding",
       "stable_id": "dea98db2d18cc64e",
@@ -1322,8 +1258,8 @@
   },
   "runs": [
     {
-      "fetched_at": "2026-06-03T14:20:50+00:00",
-      "fetched_count": 42,
+      "fetched_at": "2026-06-03T14:26:25+00:00",
+      "fetched_count": 38,
       "fetched_ids": [
         "2427ffd6071f8bc2",
         "6b5d9cf940a60685",
@@ -1346,15 +1282,11 @@
         "72772dbafff0f310",
         "2b6a9ef782e82bfb",
         "33af4ee6adf82ff3",
-        "7b01b48f077aa803",
         "6dd45e5e8bad377d",
-        "df710239c6d115b7",
         "7cb1b76dd4f67850",
-        "29cfdbfc64b94174",
         "333f3882aad25f6a",
         "fe79ede0266a6812",
         "4cfcd1f81cbcb14e",
-        "009ec05823de243f",
         "8f04fd749ea751c3",
         "9a3e09c8a46394d0",
         "46787294b00a5642",
@@ -1368,20 +1300,10 @@
         "4aa3f3812e087c68",
         "b834b8ef072e4634"
       ],
-      "matched_count": 4,
-      "matched_ids": [
-        "2e6726579c65a162",
-        "dea98db2d18cc64e",
-        "b256b28aae7959c3",
-        "5e19b1dc140d72e6"
-      ],
-      "new_count": 4,
-      "new_ids": [
-        "2e6726579c65a162",
-        "dea98db2d18cc64e",
-        "b256b28aae7959c3",
-        "5e19b1dc140d72e6"
-      ]
+      "matched_count": 0,
+      "matched_ids": [],
+      "new_count": 0,
+      "new_ids": []
     }
   ],
   "seen_ids": [
