@@ -1,0 +1,25 @@
+{
+  "opportunities": {},
+  "runs": [
+    {
+      "fetched_at": "2026-06-03T04:37:53+00:00",
+      "fetched_count": 11,
+      "matched_count": 0,
+      "new_count": 0,
+      "new_ids": []
+    }
+  ],
+  "seen_ids": [
+    "00eb41bd1e6153db",
+    "0caa55a48c8de746",
+    "14833b90b22f96ec",
+    "2d5206f9daff0a3c",
+    "55de12a2e586ff33",
+    "9982a1d5425f4f80",
+    "9a3e09c8a46394d0",
+    "a4a95777b7cfc42c",
+    "b834b8ef072e4634",
+    "c1cac3b916da1297",
+    "e63ebd6c95b65539"
+  ]
+}
