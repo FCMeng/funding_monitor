@@ -1,6 +1,1431 @@
 {
-  "fetched_opportunities": {},
-  "opportunities": {},
-  "runs": [],
-  "seen_ids": []
+  "fetched_opportunities": {
+    "009ec05823de243f": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open",
+        "pdf_excerpt": "A d v a n c e d S c i e n ti fi c C o m p u ti n g Re s e a r c h (A S C R ) 26 - an d A u tomati on Te s tb e d s for A u ton omou s S ci en t i f i c D i s co v ery DO E Na t i on al L ab o r at or y Pr o gr am An n ou n c e m e n t Nu m b e r : LA B A n n o un c e m e n t T y p e : I n i t i a l A nnounc e m e nt Ma y14 , 2026 28 , 202 6 M ay a t 5 P M E a s t ern T i m e L e t t e r of I nt e nt R e s pons e D a t e Ju n e 22 , 2026 at 11: 59 P M E as t e r n T i m e : Ju S ubm i s s i on D e a dl i ne f or P r opos a l s l y 24 , 2026 at 5 P M E as t e r n T i m e ................................ ................................ ................................ ............ 1 ................................ ................................ ................................ ......... 1 ................................ ................................ ................................ .................. 1 ................................ ................................ ................................ ................................ 1 ................................ ................................ ................................ ............................... 2 ................................ ................................ .................... 2 ................. 2 ................................ ................................ . 2 ................................ ................................ ................................ ............... 2 ................................ ................................ ................................ ............................ 3 ................................ ................................ ................................ .... 3 ................................ ................................ ................................ ................... 3 ................................ ................................ ................................ ... 3 ................................ ................................ .................... 3 ................................ ................................ ................................ .... 5 ................................ ................................ ................................ .............................. 5 ................................ ................. 10 ................................ ................................ ................................ ........ 10 ................................ ................................ ................................ ... 10 ................................ ................................ ........... 12 ................................ ................................ ....................... 12 ................................ ................................ ................................ ......................... 14 ................................ ................................ .. 15 ................................ ........................ 24 ................................ ......................... 24 ................................ ................................ ........................ 24 ................................ ................................ ................. 24 ................................ ................................ .............. 26 ................................ ................................ ........................... 26 ................................ ................................ ................................ ........... 26 ................................ ................................ ........... 27 ................................ ................................ ................................ .............. 29 ................................ ................................ ................... 29 T a bl e of C ont e nt s I . B AS I C I N F OR M AT I ON E XE C UT I VE S UM M A R Y F UND I NG DE T A I L S KE Y F AC T S KE Y DAT E S AGE NC Y C ONT AC T I NF OR M AT I ON DE P AR T M E NT OF E "
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "009ec05823de243f",
+      "title": "Read more about Robotics and Automation Testbeds for Autonomous Scientific Discovery",
+      "url": "https://science.osti.gov/-/media/grants/pdf/lab-announcements/2026/LAB-26-3601.pdf"
+    },
+    "1db244287e76a0bb": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "o f I nstitutional S upport Type Disbursement Da Amount ($) Cash In -k ind t e Cash In -k ind Cash In -k ind Total ($) rant Objective * F eder al f undi ng, l egal e x pens e s , and s al ar i es ar e not el i gi bl e as m a t c hi ng f unds . Total F unds R equested fr om S CRA ( $) Not t o excee d total 1 Stage o f Development What i s t he current stage of de velopment for t he technology? TRL 3 : Late Ideation TRL 4: Earl y Prototype TRL 5: Late P rototype TRL 6+ : D eployment Issued Patent Registered Copyright/ Tr ademark Provisional P atent A pplication Copyright/Trademark P ending Other (Describe below) W h o o w n s th e I P ? I n te l l e c tu a l P r o p e r ty Wh at i s t he s t a",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "Problem What pr oblem do y ou wish t o solve? Solution Industry S ector Advanced Materials/Manufacturing Information T echnology Other ________________________________________ Work Pl an Describe to be achiev ed withi n t he project t imeline (no l onger t han 12 m onths) how t hese activities ar e requir e t he technolog L i f e S ci en ce s ed to advanc 2 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 $ 0.00 $ 0.00 $ 0.00 $ 0.00 $ 0.00 $ 0.00 $ 0.00 $ 0.00 $ 0.00 $ 0.00 4 4 4 $ 0.00 $ 0.00 $ 0.00 4 4 4 4 4 4 4 4 4 4 4 4 ( \\223A D a te o f A p p l i c a ti o n A cad em i c I n s ti tu ti o n p p l i c a n t \\224 ) P r i n c i p al I n vest i g at o r ( PI ) PI E m ai l A d d r e ss PI P h o n e Project Su mmary Pr o j e c t T it le Provide a brief, non -co nfidential summary of y our pr oject Contents of t his secti on may appear on the SCRA w eb s ite or o ther m materials . ark eting Description o f I nstitutional S upport Type Disbursement Da Amount ($) Cash In -k ind t e Cash In -k ind Cash In -k ind Total ($) rant Objective * F eder al f undi ng, l egal e x pens e s , and s al ar i es ar e not el i gi bl e as m a t c hi ng f unds . Total F unds R equested fr om S CRA ( $) Not t o excee d total 1 Stage o f Development What i s t he current stage of de velopment for t he technology? TRL 3 : Late Ideation TRL 4: Earl y Prototype TRL 5: Late P rototype TRL 6+ : D eployment Issued Patent Registered Copyright/ Tr ademark Provisional P atent A pplication Copyright/Trademark P ending Other (Describe below) W h o o w n s th e I P ? I n te l l e c tu a l P r o p e r ty Wh at i s t he s t a t us of t he I P ? ( c he c k al l t hat appl y ) A. PERSONNEL PROJECT CAL ACAD 1. 2. 3. 4. 5. TOTAL (A) . EQUIPMENT (Itemize) . MATERIALS A ND SU PPLIE S (Itemize by c ategory) . CONSULTANT SER VICES . PROTOTYPING SER VICES . OTHER TOTAL COSTS ( A THROUGH ) academicinnovations@scra.org BUDG E T Li s t eac h s epar at el y w i t h na m e an d t i t l e S UM R A tta c h m e n t C h ec kl i st $ 0.00 $ 0.00 $ 0.00 4 A. PERSONNEL PROJECT CAL ACAD 1. 2. 3. 4. 5. TOTAL (A) . EQUIPMENT (Itemize) . MATERIALS A ND SU PPLIE S (Itemize by c ategory) . CONSULTANT SER VICES . PROTOTYPING SER VICES . OTHER TOTAL COSTS ( A THROUGH ) academicinnovations@scra.org BUDG E T Li s t eac h s epar at el y w i t h na m e an d t i t l e S UM R A tta c h m e n t C h ec kl i st 4 A. PERSONNEL PROJECT CAL ACAD 1. 2. 3. 4. 5. TOTAL (A) . EQUIPMENT (Itemize) . MATERIALS A ND SU PPLIE S (Itemize by c ategory) . CONSULTANT SER VICES . PROTOTYPING SER VICES . OTHER TOTAL COSTS ( A THROUGH ) academicinnovations@scra.org BUDG E T Li s t eac h s epar at el y w i t h na m e an d t i t l e S UM R A tta c h m e n t C h ec kl i st $ 0.00 $ 0.00 $ 0.00"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "1db244287e76a0bb",
+      "title": "Academic Matching Grant Application",
+      "url": "http://scra.org/wp-content/uploads/2025/01/FY25-AMG-Application-PDF-v3.pdf"
+    },
+    "2049bb2279d6ef23": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "- - A c c e l e r a t i o n G r a n t E lig ib ili t y an d C r i t e r i a A bo ut S C R A T h e S o u t h C ar o lin a R e s e arc h A u t h o rit y ( S C R A ) w as c h a rt e re d in 1 9 8 3 b y t h e S t a t e o f S o u t h C ar o lin a as a p u b lic , n o n p ro fit o rg an iz at io n . T h e m i s s io n o f S C R A i s t o fu e l S o u t h C aro lin a\\222 s I n n o v at i o n E c o n o m y b y a c c e l e rat in g t e c h n o lo g y e n a b l e d gr o w t h i n r e s e a r c h , ac ad e m ia, e n t re p re n e u rs h ip , an d in d u s t ry . S C R A s u p p o rt s it s s t a k e h o ld e rs in k e y - - - - I n fo rm a t io n T e c h n o lo g y . S C R A g ran t fu n d in g is m ad e p o s s ib le , i n p a r t , b y I n d u s t r y P a r t n e r s h i p F u n d ( I P F ) c o n t rib u t i o n s . C o n t rib u t o rs re c e i v e a d o llar fo r d o llar S o u t h C ar o lin a in c o m e t a x c re d it , m ak in g i t a n o c o s t w a y t o c re at e a d ire c t , p o s it i v e e c o n o m ic e ffe c t an d j o b c r e a t io n . G r a nt O bj e c t i v e Th e o b j ec ti v e o f t h e A c c e le rat io n Gran t is t o p r o v id e e arly s t ag e fu n d in g t o s t art u p s t o ac c e l e rat e a c o m p an y \\222 s tec h n o l o g y a n d / o r b u s i n es s m o d el to th e n ext l ev el o f m a tu r i ty a n d m a r k et r ea d i n es s . E li gib il it y Cr it e r ia is as a - h SC In - be an T h e c o m p a n y r eg i s ter ed fo r p ro fi t b u s i n e s s w it t h e S e c re t ary o f S ta t e. a d d i t i o n , t h e c o m p a n y \\222 s p rin c ip al p lac e o f b u s in e s s i s in S o u t h C a ro lin a o r a t le a s t 5 1 % o f i t s fu ll ti m e eq u i v a l en t e m p l o y e es a r e l o c a t e d w i t h i n t h e s ta te. T h e c o m p a n y m u s t ac t i v e S CR A M em b er C o m p a n y is ( N o te : C o m p a ny m a y s i m u l t a n e o u s l y a p p l y t o b e c o m e M e m b e r C o m p a ny a n d r e q u e s t g ran t f u n d i n g. ) T h e c o m p a n y m u st b e b a s e d o n s o m e f o rm o f t e c h n o l o gy , a n d id e ally t h e t e c h n o l o gy p r o tec ted b y i n tel l ec tu a l p r o p er ty ( IP ) F undi ng A m o unt & U s e o f F unds is o - - o A c c e l e r a t i o n G r a n t s p r o v i d e f u n d i n g u p t o $ 50, 00 0. T h e c o m p a n y allo w e d o n e (1 ) A c c e le rat i o n Gran t d u r i n g it s life t i m e . S C R A m a y c h o o s e t o d is t rib u t e t h e fu n d s in a s t ag e g at e m an n e r ( w it h a m ax i m u m o f t w o ( 2 ) t r a n c h e s ) c o r r e s p o n d i n g w i t h t h e c o m p a n y d e f i n e d m i l es to n es . T h e s e co n d d i s t r i b u t i o n o f f u n d s w ill t a ke - - p lac e u n d e r th e c o n d i t i o n t h a t t he m i l es to n e( s ) as s o c iat e d w it h t h e firs t d is t rib u t io n is m et. Th e U s e o f F u n d s m u s t a s s i s t wi th c o m m er c i a l i z a ti o n o f th e te c h n o l o g y o r exp a n d i n g i ts m a r k et p o s i ti o n . Th i s m a y i n c l u d e d e r i s k i n g th e tec h n o l o g y o r d e r i s k i n g t h e b u s i n e s s c as e . E x c l u d e d fro m t he U se o f F u n d s a r e t he f o l l o w i ng: r en t, lic e n s in g to to le g al f e e s , r e i m b u r s e m e n t o f p a s t exp en s es , a n d p r o fit / fe e . A ppl i c a t i o n P r o c e s s I n ter es t ed ap p lic an t s s h o u l d co n t a ct th ei r a ssi g n e d R e l at io n s h ip M an ag e r b e in v it e d a p p l y . E lig ib le ap p lic at io n s are r e v ie w e d o n a r o llin g b as is . C o m p an ie s t h a t p a s s in it ial re v ie w w ill b e to at p r e s e n t t h e n e xt av ailab l e m o nt h l y S CR A R e v i e w M e e t i n g u s i n g t h e S C R A P i t c h D e c k T e m p lat e . F o llo w in g th ei r p r es en ta ti o n , c o m p a n i e s w ill re c e iv e n o t ific a t io n o f SC R A' s d e c i s io n a n d n ext s tep s . T h i s t y p"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "2049bb2279d6ef23",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2018/06/Acceleration-Grant_06.2022.pdf"
+    },
+    "2427ffd6071f8bc2": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology-0/nsf26-511/solicitation Document Number: NSF 26-511 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "2427ffd6071f8bc2",
+      "title": "Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs : A Pilot Emphasis on Scientific Instrumentation.",
+      "url": "https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology-0/nsf26-511/solicitation"
+    },
+    "262af3d4d6a0bf6e": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineeroc-organizational-change-professional-formation-engineers/pd26-1342 Document Number: PD 26-1342 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "262af3d4d6a0bf6e",
+      "title": "Organizational Change in the Professional Formation of Engineers (ENGINEER:OC)",
+      "url": "https://www.nsf.gov/funding/opportunities/engineeroc-organizational-change-professional-formation-engineers/pd26-1342"
+    },
+    "291c3091d6a2393a": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "C o l u m b i a I n n o v a t i o n C e n t e r 1 0 0 0 C at aw ba S t r ee t S ui t e 1 0 0 C o lu m bi a, S C 2 9 2 0 1 8 0 3 .7 3 3 .9 0 7 8 E c o n o m y en-US ACADEMIC ST AR T UP GRAN T E l i g i bi l i t y an d C r i t er i a Pl e a s e N o te : T h e c o m p a n y m u s t b e a n a c ti v e SC R A M e m b e r C o m p a n y to r e c e i v e th i s g r a n t . A b o u t S C R A Th e S o u t h C a r o l i n a R e s e a r ch A u t h o r i t y ( S C R A ) w a s ch a r t e r e d i n 1 9 8 3 b y t h e S t a t e o f S o u t h C a r o l i n a a s a p u b l i c, n o n - a cce l e r a t i n g t e c h n o l o g y - e n a b l e d g r o w t h i n r e s e a r ch , a ca d e m i a , e n t r e p r e n e u r s h i p , a n d i n d u st r y. S C R A su p p o r t s i t s st a ke h o l d e r s i n ke y t e ch n o l o g y se ct o r s, w h i c h i n cl u d e b u t a r e n o t l i m i t e d t o , A d v a n c e d M a t e r i a l s/ M a n u f a ct u r i n g ; L i f e S ci e n ce s; C l e a n Te c h , S u st a i n a b i l i t y, a n d R e s i l i e n c e , a n d I n f o r m a t i o n Te c h n o l o g y. S C R A g r a n t f u n d i n g i s m a d e p o ssi b l e , i n p a r t , b y I n d u st r y P a r t n e r sh i p Fu n d ( I P F) co n t r i b u t i o n s. C o n t r i b u t o r s r e ce i v e a d o l l a r - f o r - d o l l a r S o u t h C a r o l i n a i n c o m e t a x cr e d i t , m a ki n g i t a n o - co st w a y t o cr e a t e a d i r e ct , p o si t i ve e c o n o m i c e f f e ct a n d j o b cr e a t i o n . G r an t O b j ec t i ve M a n a g e d b y t h e A ca d e m i c I n n o v a t i o n s t e a m , t h e o b j e ct i v e o f t h e A ca d e m i c S t a r t u p G r a n t i s t o p r o vi d e e a r l y - st a g e f u n d i n g t o a c a d e m i c st a r t u p s t o s u p p o r t o n e o r m o r e c r i t i ca l m i l e st o n e s t o w a r d s c o m m e r c i a l i za t i o n a n d t o - o n f u n d i n g . K e y m i l e st o n e s i n cl u d e d e v e l o p i n g t h e t e ch n o l o g y p a st t h e m i n i m u m vi a b l e p r o d u ct ( M V P ) a n d d e m o n st r a t i n g p r o d u ct - m a r ke t f i t , i n t he D E V E LO P s t a ge of s t a r t up de v e l op me n t . E l i g i b i l i t y C r i t er i a Th e co m p a n y i s r e g i st e r e d a s a f o r - p r o f i t b u si n e ss w i t h t h e S C S e cr e t a r y o f S t a t e . Th e C a r o l i n a , or a t l e a st 5 1 % o f i t s f u l l - t i m e e q u i va l e n t e m p l o y e e s a r e l o ca t e d w i t h i n t h e st a t e . T h e c omp a ny mus t be a n a c t i v e S C R A M e mbe r C ompa ny t o re c e i v e t his gra n t . A l e t t e r o f su p p o r t r e co m m e n d i n g t h e a c a d e m i c st a r t u p f o r S C R A m e m b e r s h i p a n d ve r i f yi n g a se cu r e d o p t i o n o r l i ce n se , i s re qu i re d f r o m t h e r e s p e ct i v e Te c h n o l o g y Tr a n sf e r O f f i ce , o r e q u i v a l e n t . Curious a bout S CRA Membersh ip? Visit our SCRA Members hip page to learn more and submit your interest. Th e co m p a n y m u st b e a d va n ci n g I P f r o m a S o u t h C a r o l i n a p o st - se c o n d a r y a c a d e m i c i n st i t u t i o n . F u n d i n g A m o u n t & U se o f F u n d s A ca d e m i c S t a r t u p G r a n t s p r o vi d e f u n d i n g f o r u p t o $ 2 5 , 0 0 0 . Th e co m p a n y i s a l l o w e d o n e ( 2 ) A ca d e m i c S t a r t u p G r a n t d u r i n g i t s l i f e t i m e . Th e U s e o f Fu n d s m u st a ssi st w i t h co m m e r ci a l i z a t i o n o f t h e t e c h n o l o g y. Th i s m a y i n c l u d e d e - r i ski n g t h e t e ch n o l o g y o r de - r i ski n g t h e b u s i n e ss ca se . E xcl u d e d f r o m t h e U se o f Fu n d s a r e t h e f o l l o w i n g : r e n t , l i ce n si n g f e e s, l e g a l f e e s, r e i m b u r s e m e n t o f p a st e xp e n s e s, sa l a r i e s, a n d p r o f i t / f e e . m o ve t h e t e c h n o l o g y i n t o co m m e r ci a l m i l e st "
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "291c3091d6a2393a",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/08/Academic-Startup-Grant-Eligibility-and-Criteria_Aug25.pdf"
+    },
+    "29cfdbfc64b94174": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open",
+        "pdf_excerpt": "6 F Y 202 C on t i n u a t i on of S ol i c i t a t i on f or t h e O f f i c e of DE - - N o t i c e o f F u n d i n g Op p o r t u n i t y ( N OF O) N u m b er : F OA 0003 600 N OF O T yp e : A m e n d m e n t 0000 01 : 8 1. 049 A m en d m en t 0 0 0 0 0 1 i s i s s u ed t o r ef i n e p r o g r am m anag e r c o nt ac t s i n A d v anc e d Sc i e nt i f i c C o m p u t i ng R e s e ar c h ( A SC R ) , t o p i c al d e s c r i p t i o ns i n B i o l o g i c al and Env i r o nm e nt al R e s e ar c h ( B ER ) , p r o g r am m anag e r c o nt ac t s i n B as i c Ene r g y Sc i e nc e s ( B ES) , F u s i o n Ene r g y Sc i e nc e s ( F ES) , a nd p o l i c y p r o v i s i o ns i n Se c t i o n I X . NO F O I ssu e D a te : S e p te m b e r 30, 20 25 - - A - S ub m i s s i o n De ad l i n e f o r P re A p p l ic a tio n s: A P re A p p l i c a t i on i s op t i on a l / en c ou r a ged . P re A p p l i c a t i on m a y b e r eq u i r ed f or S u b m issio n D e a d l in e f o r A p p l i c a t io n s : Th i s NO F O w il l r e m a in o p e n u n til S e p te m b e r 30, 20 2 6, . A \\222 o r un t i l re p l ac e d b y a s u c c es s or N O FO A p p l i c a tio n s m a y b e su b m it te d a n y tim e d u r i n g th a t p e r io d . I n d iv id u a l to p ic s in th is NO F O m ay h av e s c h ed u l ed r ev i ew p a n el s . p p l ic a ti o n s su b m it te d a f te r th e p a n e l s ac c e p t an c e d at e m a y b e h el d u n t i l t h e n ex t r ev i ew p a n el . of ................................ ................................ ................................ ............. 1 ................................ ................................ ................................ .......... 1 ................................ ................................ ................................ ................. 1 ................................ ................................ ................................ ................................ 2 ................................ ................................ ................................ ................................ 2 ................................ ................................ .................... 2 ................................ ................................ ................................ .............. 3 ................................ ................................ ................................ ............................. 4 ................................ ................................ ................................ ...... 4 ................................ ................................ ................................ .................... 5 ................................ ................................ ................................ .... 5 ................................ ................................ ................................ .... 6 ................................ ................................ ................................ ............................... 6 ................................ ....... 8 ................................ ................................ ..................... 20 ................................ ......... 53 ................................ ................................ .................. 65 ................................ ................................ ....................... 83 ................................ ................................ ................................ ... 99 ................................ ................................ ..... 112 ................................ ................. 117 ................................ ........ 118 ................................ ................................ ................................ . 118 ................................ ................................ .................... 118 ................................ ................................ ............. 119 ................................ ........................"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "29cfdbfc64b94174",
+      "title": "Read more about FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "url": "https://science.osti.gov/grants/FOAs/-/media/grants/pdf/foas/2026/DE-FOA-0003600-000001.pdf"
+    },
+    "2b6a9ef782e82bfb": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open",
+        "pdf_excerpt": "A d v a n c e d S c i e n ti fi c C o m p u ti n g Re s e a r c h (A S C R ) 26 - an d A u tomati on Te s tb e d s for A u ton omou s S ci en t i f i c D i s co v ery DO E Na t i on al L ab o r at or y Pr o gr am An n ou n c e m e n t Nu m b e r : LA B A n n o un c e m e n t T y p e : I n i t i a l A nnounc e m e nt Ma y14 , 2026 28 , 202 6 M ay a t 5 P M E a s t ern T i m e L e t t e r of I nt e nt R e s pons e D a t e Ju n e 22 , 2026 at 11: 59 P M E as t e r n T i m e : Ju S ubm i s s i on D e a dl i ne f or P r opos a l s l y 24 , 2026 at 5 P M E as t e r n T i m e ................................ ................................ ................................ ............ 1 ................................ ................................ ................................ ......... 1 ................................ ................................ ................................ .................. 1 ................................ ................................ ................................ ................................ 1 ................................ ................................ ................................ ............................... 2 ................................ ................................ .................... 2 ................. 2 ................................ ................................ . 2 ................................ ................................ ................................ ............... 2 ................................ ................................ ................................ ............................ 3 ................................ ................................ ................................ .... 3 ................................ ................................ ................................ ................... 3 ................................ ................................ ................................ ... 3 ................................ ................................ .................... 3 ................................ ................................ ................................ .... 5 ................................ ................................ ................................ .............................. 5 ................................ ................. 10 ................................ ................................ ................................ ........ 10 ................................ ................................ ................................ ... 10 ................................ ................................ ........... 12 ................................ ................................ ....................... 12 ................................ ................................ ................................ ......................... 14 ................................ ................................ .. 15 ................................ ........................ 24 ................................ ......................... 24 ................................ ................................ ........................ 24 ................................ ................................ ................. 24 ................................ ................................ .............. 26 ................................ ................................ ........................... 26 ................................ ................................ ................................ ........... 26 ................................ ................................ ........... 27 ................................ ................................ ................................ .............. 29 ................................ ................................ ................... 29 T a bl e of C ont e nt s I . B AS I C I N F OR M AT I ON E XE C UT I VE S UM M A R Y F UND I NG DE T A I L S KE Y F AC T S KE Y DAT E S AGE NC Y C ONT AC T I NF OR M AT I ON DE P AR T M E NT OF E "
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "2b6a9ef782e82bfb",
+      "title": "Robotics and Automation Testbeds for Autonomous Scientific Discovery",
+      "url": "https://science.osti.gov/-/media/grants/pdf/lab-announcements/2026/LAB-26-3601.pdf"
+    },
+    "2e6726579c65a162": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices/pd26-1517 Document Number: PD 26-1517 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF EPMQD fit: AI/HPC-guided quantum/electronic materials for device functionality",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 86,
+        "important_info": [
+          "Due date was not provided in the feed; NSF core/program-description opportunities of this type commonly use accepted-anytime or recurring submission rules, but the NSF page should be checked before planning submission.",
+          "Funding amount is not specified in the feed.",
+          "Likely best fit if the proposed work is framed around device-relevant electronic, photonic, magnetic, or quantum functionality rather than purely general materials computation.",
+          "Standard NSF proposal components are listed, including project summary/description, budget justification, biosketches, current and pending support, data management plan, and mentoring plan if required."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science",
+          "quantum_qis"
+        ],
+        "opportunity_id": "2e6726579c65a162",
+        "rationale": "NSF\u2019s Electronic, Photonic, Magnetic, and Quantum Devices program is a strong thematic fit for research in quantum devices, quantum materials, electronic/photonic/magnetic device physics, and computational materials/condensed-matter approaches. It plausibly supports the quantum/QIS extension profile and the computational materials profile where projects connect first-principles modeling, materials discovery, transport, or device-relevant quantum/electronic properties to EPMQD topics. NSF programs are generally compatible with university-based academic researchers."
+      },
+      "source": "NSF Funding",
+      "stable_id": "2e6726579c65a162",
+      "title": "Electronic, Photonic, Magnetic, and Quantum Devices (EPMQD)",
+      "url": "https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices/pd26-1517"
+    },
+    "333f3882aad25f6a": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "333f3882aad25f6a",
+      "title": "About",
+      "url": "https://science.osti.gov/grants/About"
+    },
+    "33af4ee6adf82ff3": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities",
+        "pdf_excerpt": "- I T A H i gh E n er gy P h y s i c s ( H E P ) M u lt i n s ti tu t i o n a l ea m 26 H EP D et ec t o r R e s e ar ch an d D e v e l o p m e n t ( R & D ) D O E N a t i o n a l L a b o ra t o ry P ro g ra m A n n o u n c e m e n t N u m b e r: L AB - 35 75 A n no u nc e m e nt T y p e : I n it ia l - J a n u a r y 28 , 20 26 S ub m i s s i o n De ad l i n e f o r P re - . - P r op os a l : F e b r u a r y 2 7 , 20 26 , a t 5:0 0 p m E T A P re P r op os a l i s r eq u i r ed P re . - a u th o r iz e d in st itu tio n a l r e p r e se n ta t iv e P re M a r c h 27 , 20 26 , a t 5: 00 p m E T S u b m issio n D e a d l in e f o r P r o p o sa l s: ................................ ................................ ................................ ............. 1 ................................ ................................ ................................ .......... 1 ................................ ................................ ................................ ................. 1 ................................ ................................ ................................ ................................ 1 ................................ ................................ ................................ ................................ 2 ................................ ................................ .................... 2 ................ 2 ................................ ................................ ................................ .............. 2 ................................ ................................ ................................ ............................. 3 ................................ ................................ ................................ ...... 3 ................................ ................................ ................................ .................... 3 ................................ ................................ ................................ .... 3 ................................ ................................ ..................... 3 ................................ ................................ ................................ .... 4 ................................ ................................ ................................ ............................... 4 ................................ ..................... 5 ................................ ................................ ................................ ........... 6 ................................ ................................ ................................ ..... 6 ................................ ................................ .............. 7 ................................ ................................ ........................... 7 ................................ ................................ ................................ ........................... 10 ................................ ................................ ... 10 ................................ .......................... 19 ................................ .......................... 19 ................................ ................................ ......................... 19 ................................ ................................ .................. 19 ................................ ................................ ............... 21 ................................ ................................ ............................. 21 ................................ ................................ ................................ ............ 21 ................................ ................................ ............. 22 ................................ ................................ ................................ ............... 24 ................................ ................................ .................... 24 T a b l e of C on t en t s I. B A S IC IN F OR M A T I ON EX EC U T I V E S U M M A R Y F UND I NG D E T A I L S K E Y FAC T S K EY D A T ES A G E N C Y"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "33af4ee6adf82ff3",
+      "title": "Multi-Institutional Team Applications for HEP Detector Research and Development (R&D)",
+      "url": "https://science.osti.gov/-/media/grants/pdf/lab-announcements/2026/LAB-26-3575.pdf"
+    },
+    "44e76bef3b5053d9": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/pfe-professional-formation-engineers/pd26-1341 Document Number: PD 26-1341 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "44e76bef3b5053d9",
+      "title": "Professional Formation of Engineers (PFE)",
+      "url": "https://www.nsf.gov/funding/opportunities/pfe-professional-formation-engineers/pd26-1341"
+    },
+    "46787294b00a5642": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "C o l u m b i a I n n o v a t i o n C e n t e r 1 0 0 0 C at aw ba S t r ee t S ui t e 1 0 0 C o lu m bi a, S C 2 9 2 0 1 8 0 3 .7 3 3 .9 0 7 8 en-US ST AR T UP GRAN T E l i g i bi l i t y an d C r i t er i a Pl e a s e N o te : T h e c o m p a n y m u s t b e a n a c ti v e SC R A M e m b e r C o m p a n y to r e c e i v e th i s g r a n t . A b o u t S C R A Th e S o u t h C a r o l i n a R e s e a r ch A u t h o r i t y ( S C R A ) w a s ch a r t e r e d i n 1 9 8 3 b y t h e S t a t e o f S o u t h C a r o l i n a a s a p u b l i c, n o n - a cce l e r a t i n g t e c h n o l o g y - e n a b l e d g r o w t h i n r e s e a r ch , a ca d e m i a , e n t r e p r e n e u r s h i p , a n d i n d u st r y. S C R A su p p o r t s i t s st a ke h o l d e r s i n ke y t e ch n o l o g y se ct o r s, w h i c h i n cl u d e b u t a r e n o t l i m i t e d t o , A d v a n c e d M a t e r i a l s/ M a n u f a ct u r i n g ; L i f e S ci e n ce s; C l e a n Te c h , S u st a i n a b i l i t y, a n d R e s i l i e n c e , a n d I n f o r m a t i o n Te c h n o l o g y. S C R A g r a n t f u n d i n g i s m a d e p o ssi b l e , i n p a r t , b y I n d u st r y P a r t n e r sh i p Fu n d ( I P F) co n t r i b u t i o n s. C o n t r i b u t o r s r e ce i v e a d o l l a r - f o r - d o l l a r S o u t h C a r o l i n a i n c o m e t a x cr e d i t , m a ki n g i t a n o - co st w a y t o cr e a t e a d i r e ct , p o si t i ve e c o n o m i c e f f e ct a n d j o b cr e a t i o n . G r an t O b j ec t i ve Th e o b j e ct i ve o f t h e S t a r t u p G r a n t i s t o p r o vi d e e a r l y - st a g e f u n d i n g t o st a r t u p s t o su p p o r t o n e o r m o r e cr i t i ca l m i l e st o n e s t o w a r d s - o n f u n d i n g . E l i g i b i l i t y C r i t er i a Th e co m p a n y i s r e g i st e r e d a s a f o r - p r o f i t b u si n e ss w i t h t h e S C S e cr e t a r y o f S t a t e . Th e or a t l e a st 5 1 % o f i t s f u l l - t i m e e q u i va l e n t e m p l o y e e s a r e l o ca t e d w i t h i n t h e st a t e . T h e c omp a ny mus t be a n a c t i v e S C R A M e mbe r C ompa ny t o r e c e i v e t his gr a nt . Curious a bout S CRA Membersh ip? Visit our SCRA Members hip page to learn more and submit your interest. Th e c o m p a n y m u st b e b a s e d o n s o m e f o r m o f t e c h n o l o g y, a n d i d e a l l y t h e t e c h n o l o g y i s p r o t e ct e d b y i n t e l l e ct u a l p r o p e r t y ( I P ) . F u n d i n g A m o u n t & U se o f F u n d s S t a r t u p G r a n t s p r o vi d e f u n d i n g u p t o $ 2 5 , 0 0 0 . Th e co m p a n y i s a l l o w e d o n e ( 1 ) S t a r t u p G r a n t d u r i n g i t s l i f e t i m e . Th e U s e o f F u n d s m u st a ssi st w i t h co m m e r ci a l i z a t i o n o f t h e t e c h n o l o g y, a sse ss t h e b u si n e ss m o d e l , l e ve l f o r f u r t h e r f u n d i n g a n d sc a l i n g . E xcl u d e d f r o m t h e U se o f Fu n d s a r e t h e f o l l o w i n g : r e n t , l i ce n si n g f e e s, l e g a l f e e s, r e i m b u r s e m e n t o f p a st e xp e n s e s, a n d p r o f i t / f e e . A p p l i ca t i o n P r o ce ss I n t e r e st e d a p p l i ca n t s sh o u l d co n t a ct t h e i r a ss i g n e d R e l a t i o n sh i p M a n a g e r t o d i scu ss t h e i r i n t e r e st i n t h e g r a n t . C o m p a n i e s t h a t p a ss i n i t i a l r e vi e w , t h e a ssi g n e d R e l a t i o n sh i p M a n a g e r w i l l i n v i t e t h e co m p a n y t o co m p l e t e a n a p p l i c a t i o n f o r f u n d i n g . W h e n a l l r e q u e st e d d o cu m e n t a t i o n i s s u b m i t t e d , t h e R e l a t i o n s h i p M a n a g e r w i l l p r e s e n t t h e c o m p a n i e s f u n d i n g r e q u e st t o t h e S C L a u n ch T e a m . Fo l l o w i n g t h e m e e t i n g , co m p a n i e s w i l l r e ce i ve n o t i f i ca t i o n o f S C R A ' s d e ci si o n a n d n e xt st e p s. Th i s t yp i ca l l y o ccu r s "
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "46787294b00a5642",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/03/Startup-Grant-Eligibility-and-Criteria-March25.pdf"
+    },
+    "4aa3f3812e087c68": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "NEXT ST EPS CURRENT CHALLENGES Grant REPORT PROJECT SUMMARY NEXT ST EPS CURRENT CHALLENGES E M E RG I NG O PP O R T U N I T I ES Grant REPORT PROJECT SUMMARY Grant REPORT R EPORT PROJECT OVERVIEW S D NSTITUTION P R O J E C T T I TLE P R O J E CT T A RT AT E NAM E O F P RI NCI P AL I NV E S T I G AT O R (P I ) E M A IL NAM E O F L E AD I NS T I T U T I O N R E P RE S E N T A T I V E ( F O R G RAN T ADM I NI S T RA T I O N P URP O S E S ) E M A IL Grant REPORT ADDITIONAL CO MMENTS (OPTIONAL) FINA L REPORT S ubmit r eports t o Grant REPORT DAT E S UBM I T T E D E M A IL P HO NE ac ademicinnovations@scra.org INTELLECTUAL PR OPERTY INDUSTRY E NGAGEMENT Grant REPORT INTELLECTUAL PR OPERTY P UBL I",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "4 4 4 4 4 4 4 4 Grant REPORT ADDITIONAL CO MMENTS (OPTIONAL) FINA L REPORT S u b mit r e p ort s t o a d e micinno v a ti o n s @s cra. o rg DAT E S UBM I T T E D E M A IL P HO NE c a Grant REPORT IMP ACT TO THE SC INNOVATION ECON OMY INTELLECTUAL PR OPERTY INDUSTRY E NGAGEMENT Grant REPORT IMP ACT TO THE SC INNOVATION ECON OMY INTELLECTUAL PR OPERTY P UBL I CA T I O NS a n d / o r O T H E R M E DI A RE L A T E D T O T H E P RO J E C T Grant REPORT PROJECT SUMMARY NEXT ST EPS CURRENT CHALLENGES Grant REPORT PROJECT SUMMARY NEXT ST EPS CURRENT CHALLENGES E M E RG I NG O PP O R T U N I T I ES Grant REPORT PROJECT SUMMARY Grant REPORT R EPORT PROJECT OVERVIEW S D NSTITUTION P R O J E C T T I TLE P R O J E CT T A RT AT E NAM E O F P RI NCI P AL I NV E S T I G AT O R (P I ) E M A IL NAM E O F L E AD I NS T I T U T I O N R E P RE S E N T A T I V E ( F O R G RAN T ADM I NI S T RA T I O N P URP O S E S ) E M A IL Grant REPORT ADDITIONAL CO MMENTS (OPTIONAL) FINA L REPORT S ubmit r eports t o Grant REPORT DAT E S UBM I T T E D E M A IL P HO NE ac ademicinnovations@scra.org INTELLECTUAL PR OPERTY INDUSTRY E NGAGEMENT Grant REPORT INTELLECTUAL PR OPERTY P UBL I CA T I O NS a n d / o r O T H E R M E DI A RE L A T E D T O T H E P RO J E C T NEXT ST EPS CURRENT CHALLENGES Grant REPORT NEXT ST EPS CURRENT CHALLENGES E M E RG I NG O PP O R T U N I T I ES Grant REPORT R EPORT PROJECT OVERVIEW S D NSTITUTION Grant REPOR R EPORT P R O J E C T T I TLE P R O J E CT T A RT AT E NAM E O F P RI NCI P AL I NV E S T I G AT O R (P I ) E M A IL NAM E O F L E AD I NS T I T U T I O N R E P RE S E N T A T I V E ( F O R G RAN T ADM I NI S T RA T I O N P URP O S E S ) E M A IL 4 4"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "4aa3f3812e087c68",
+      "title": "Final Grant Report",
+      "url": "http://scra.org/wp-content/uploads/2024/11/AMG-Final-Report-Form-2024-111124.pdf"
+    },
+    "4cfcd1f81cbcb14e": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "4cfcd1f81cbcb14e",
+      "title": "DOE National Laboratory Announcements",
+      "url": "https://science.osti.gov/grants/Lab-Announcements"
+    },
+    "5e19b1dc140d72e6": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y Document Number: PD 26-369Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF EBBS fit: computational biophysics proposal angle for Zhenzhen Zhang",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 67,
+        "important_info": [
+          "Applicant eligibility was not provided in the feed, but NSF program announcements generally allow U.S. universities and academic researchers to apply through their institutions; verify the solicitation page before proceeding.",
+          "No due date was provided in the feed. NSF core/program announcement opportunities often have no deadline or recurring submission windows, but the current NSF page/Research.gov should be checked to confirm the active submission timing.",
+          "A competitive proposal would likely need a clear engineering/biomedical systems motivation rather than purely basic computational biophysics."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "biophysics_protein"
+        ],
+        "opportunity_id": "5e19b1dc140d72e6",
+        "rationale": "This NSF Engineering Biological and Biomedical Systems program is plausibly relevant to the computational biophysics/protein/RNA modeling profile if the project is framed as fundamental engineering research in biological or biomedical systems, such as predictive modeling of biomolecular mechanisms, protein aggregation, biomolecular phase behavior, or biomedical molecular systems. It is not a strong fit for the materials/AI4Science or quantum profiles unless a proposal has a clear biological/biomedical engineering angle."
+      },
+      "source": "NSF Funding",
+      "stable_id": "5e19b1dc140d72e6",
+      "title": "Engineering Biological and Biomedical Systems",
+      "url": "https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y"
+    },
+    "62a6f40cdc0acf3f": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "C o l u m b i a I n n o v a t i o n C e n t e r 1 0 0 0 C at aw ba S t r ee t S ui t e 1 0 0 C o lu m bi a, S C 2 9 2 0 1 8 0 3 .7 3 3 .9 0 7 8 en-US FEDERAL MAT CHING GRAN T E l i g i bi l i t y an d C r i t er i a Pl e a s e N o te : T h e c o m p a n y m u s t b e a n a c ti v e SC R A M e m b e r C o m p a n y to r e c e i v e th i s g r a n t . A b o u t S C R A Th e S o u t h C a r o l i n a R e s e a r ch A u t h o r i t y ( S C R A ) w a s ch a r t e r e d i n 1 9 8 3 b y t h e S t a t e o f S o u t h C a r o l i n a a s a p u b l i c, n o n - a cce l e r a t i n g t e c h n o l o g y - e n a b l e d g r o w t h i n r e s e a r ch , a ca d e m i a , e n t r e p r e n e u r s h i p , a n d i n d u st r y. S C R A su p p o r t s i t s st a ke h o l d e r s i n ke y t e ch n o l o g y se ct o r s, w h i c h i n cl u d e b u t a r e n o t l i m i t e d t o , A d v a n c e d M a t e r i a l s/ M a n u f a ct u r i n g ; L i f e S ci e n ce s; C l e a n Te c h , S u st a i n a b i l i t y, a n d R e s i l i e n c e , a n d I n f o r m a t i o n Te c h n o l o g y. S C R A g r a n t f u n d i n g i s m a d e p o ssi b l e , i n p a r t , b y I n d u st r y P a r t n e r sh i p Fu n d ( I P F) co n t r i b u t i o n s. C o n t r i b u t o r s r e ce i v e a d o l l a r - f o r - d o l l a r S o u t h C a r o l i n a i n c o m e t a x cr e d i t , m a ki n g i t a n o - co st w a y t o cr e a t e a d i r e ct , p o si t i ve e c o n o m i c e f f e ct a n d j o b cr e a t i o n . G r an t O b j ec t i ve M a n a g e d b y t h e A ca d e m i c I n n o v a t i o n s Te a m , t h e o b j e ct i ve o f t h e Fe d e r a l M a t c h i n g G r a n t i s f u r t h e r f e d e r a l f u n d s r e ce i ve d b y sm a l l b u si n e ss e s i n S o u t h C a r o l i n a t o a d v a n c e t r a n sl a t i o n a l r e se a r c h i n su p p o r t o f o n e o r m o r e cr i t i ca l m i l e st o n e s t o w a r d s co m m e r ci a l i z a t i o n . P r e f e r e n ce g i ve n t o S B I R / S TT R a w a r d e e s w i t h i n i t i a l d a t a se t s w h o i d e n t i f y g a p s i n co m m e r c i a l i za t i o n a ct i vi t i e s t h a t w o u l d h e l p d e ve l o p a co m p e l l i n g p r o p o sa l f o r f o l l o w o n f u n d i n g . O t h e r F e d e r a l m a t ch e s w i l l b e c o n si d e r e d o n a ca s e - by - ca s e b a si s. K e y m i l e st o n e s i n cl u d e d e v e l o p i n g t h e t e c h n o l o g y p a st t h e m i n i m u m vi a b l e p r o d u ct ( M V P ) a n d d e m o n st r a t i n g p r o d u c t - m a r ke t f i t , i n t h e D E V E LOP s t a ge o f s t a rt u p de v e l op m e nt . I n t h e A C C E LE R A T E s t a g e of s t a rt up de v e l op m e nt , k e y m i l e st o n e s i n cl u d e e n a b l i n g p r o d u ct e xe c u t i o n t h r o u g h t e st i n g a n d d e m o n st r a t i o n s. E l i g i b i l i t y C r i t er i a Th e co m p a n y i s r e g i st e r e d a s a f o r - p r o f i t b u si n e ss w i t h t h e S C S e cr e t a r y o f S t a t e . Th e C a r o l i n a , or a t l e a st 5 1 % o f i t s f u l l - t i m e e q u i va l e n t e m p l o y e e s a r e l o ca t e d w i t h i n t h e st a t e . T h e c omp a ny mus t be a n a c t i v e S C R A M e mbe r C ompa ny t o re c e i v e t his gr a nt . F o r A ca d e m i c S t a r t u p s, a r e c o m m e n d a t i o n l e t t e r f o r S C R A m e m b e r sh i p ve r i f i e s a se c u r e d o p t i o n , o r l i c e n s e i s re qu i re d f r o m t h e r e s p e ct i v e Te c h n o l o g y Tr a n sf e r O f f i ce , o r e q u i va l e n t . Curious a bout S CRA Membersh ip? Visit our SCRA Members hip page to learn more and submit your interest. A p p l i c a n t s m u st p r e se n t o f f i ci a l n o t i c e o f a w a r d f r o m t h e a w a r d i n g a g e n cy a t t h e t i m e o f a p p l i ca t i o n , a l o n g w i t h i n i t i a l d a t a d e v e l o p e d f r o m t h e i r cu r r e n t l y a w a r d e d p r o j e ct . F u n d i "
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "62a6f40cdc0acf3f",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/08/Federal-Matching-Grant-Eligibility-and-Criteria_Aug25.pdf"
+    },
+    "6b5d9cf940a60685": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation Document Number: NSF 26-510 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "6b5d9cf940a60685",
+      "title": "Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs SBIR/STTR: Developing Deep Technologies that Advance U.S. Competitiveness and Security",
+      "url": "https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation"
+    },
+    "6ca049433ccd1445": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open",
+        "pdf_excerpt": ", O ffi c e of S c i e n c e ( SC ) O ffi c e o f C r i ti c al M i n e r al s an d En e r gy I n n ovati on ( CM E I) , O f fi c e of En vi r on me n tal , M an age me n t (E M ) , O f f i ce o f E l ect ri c i t y (O E ) H yd r oc ar b on s an d G e oth e r ma l En e r gy O ffi c e (H G EO ), an d O ffi c e of N u c l e ar En e r gy (N E) T h e G e n e si s M i ssi o n : Tr an s for m i ng ( RFA DE - - 3 Sc i e nc e a nd E ne r g y wi t h AI No t ic e of Re q u e st f o r Ap p lic at io n ) N um b e r : F OA 0 003 612 R FA Ty pe: A me n d me n t 0 000 0 : As s ist an c e L i st in g s 81. 04 9 R FA I s s u e D at e: M a r c h 17, 2026 1 , 2026, S ubm i s s i on D e a dl i ne f or F Y 26 P ha s e I A ppl i c a t i ons : M ay a t 11: 59 P M E as t er n 1 S ubm i s s i on D e a dl i ne f or F Y 26 P ha s e I I L e tte r s o f I n te n t: M ay , 2026, a t 5 P M E a s t e r n A ppl i c a t i ons : M ay 1 9, 2026, a t 11: 59 P M E a s t e r n S ubm i s s i on D e a dl i ne f or P ha s e I I A ppl i c a t i ons r e s ul t i ng f r om F Y 26 P ha s e I D e c e m b e r 17, 2026, a t 1 1: 59 P M E a s t e r n 1 ys . is 1 , 2026. 17 , 2026, . - - - A. - - - - - - - - - - - - 21 - C. 1 A m e ndm e nt 000003 i s i s s ue d on A pr i l 20, 2026, w i t h t he f ol l ow i ng c ha ng e s : E xt e nde d t he de a dl i ne f o r F Y 26 P ha s e I a nd P ha s e I I a ppl i c a t i ons by t h r ee d a S ubm i s s i on D e a dl i ne f or F Y 26 P ha s e I A ppl i c a t i o ns a nd F Y 26 P ha s e I I L e t t e r s of I nt e nt now M ay A m e ndm e nt 000002 i s i s s ue d on A pr i l w i t h t he f ol l ow i ng c ha ng e s : C ha nge d t he t ype of a ppl i c a t i on f r om s t r ongl y e nc our a ge c ol l a bo r a t i ve a ppl i c a t i ons t o ve r y s t r ongl y e nc ou r a ge a s in g le a p p lic a tio n f r o m a le a d in s titu tio n w ith pr opos e d s u b aw ar d ee( s ) A m e ndm e nt 000001 i s i s s ue d on A pr i l 10, 2026, w i t h t he f ol l ow i ng c ha ng e s : A dde d i ns t r uc t i ons f or P ha s e I I L O I s . C ha nge d L O I r e s pons e s f r om \\223 not pr ovi de d\\224 t o \\223 a t t he di s c r e t i on of D O E \\224 . A dde d i ns t r uc t i ons f or P ha s e I I a ppl i c a t i ons . A dde d a s m a l l num be r of que s t i ons f or m e r i t r e vi e w e r s t o c ons i de r f or P ha s e I I a ppl i e d t e c hnol ogy a ppl i c a t i ons . A d d ed \\223p e r y ea r \\224 t o \\223E n v i s i o n ed as 3 t o 5 t i m es t h e P h as e I a w ar d p er y e a r \\224 i n al l cas es w h e r e it is lis te d . P r e vi ous l y, i t w a s l i s t e d i n onl y one l oc a t i on. A dde d l a ngua g e t ha t c l a r i f i e d t ha t P ha s e I I budg e t s bot h a bove a nd be l ow t he 3 t o 5 t i m e s t h e P h as e I aw ar d ar e al l o w ed w h en ap p r o p r i at e. A dde d t he pos s i bi l i t y of a P ha s e I I m i dt e r m r e vi e w . S et a P h as e I I aw ar d s t ar t d at e t h at ap p l i can t s c an u s e w h en p r ep ar i n g b u d g et s . A dde d pr ogr a m pol i c y f a c t or , \\223 A va i l a bi l i t y of c o m put a t i ona l r e s our c e s \\224 R e m ove d L M a nd I R P a s pa r t i c i pa t i ng of f i c e s f r o m t he f ol l ow i ng t opi c a r e a s be c a us e t he y ha ve no a s s o c i a t e d f undi ng i n t hi s s ol i c i t a t i on : 6 A , 12 E , 13 T hi s r e s ul t e d i n f o cu s ar ea 1 2 E b e i ng r e m ove d. A d d ed t h e s t at em en t : \\223P h as e I I ap p l i cat i o n s w i l l n o t b e acc ep t ed i n t h i s f o cu s ar e a. \\224 t o t he f ol l ow i ng f oc us a r e a s : 1 D, 1 E, 1 F, 2 E, 3 B, 3 C , 9 A , 10 A , 10 B , 1 2 F , 12 G , a nd 2 of ................................ ................................ ................................ ............ 1 ................................ ................................ ................................ ......... 1 ................................ ................................ ............................"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "6ca049433ccd1445",
+      "title": "The Genesis Mission: Transforming Science and Energy with AI",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003612-000003.pdf"
+    },
+    "6dd45e5e8bad377d": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open",
+        "pdf_excerpt": "( ) B as i c E n e r g y S ci e n ce s B ES DE - - E n er gy F r o n t i er R es ea r c h C en t er s ( E F R C s ) N o t i c e o f F u n d i n g Op p o r t u n i t y ( N OF O) N u m b er : F OA 0003 614 : N OF O T yp e : A m e n d m e n t 0000 01 A ssi st an c e L i st i n g s 8 1. 049 A me n d me n t 00 00 01 i s i s s u e d t o c or r e c t a c or r u p t e d f i l e . - NO F O I ssu e D a te : F e b ruary 1 8 , 2 0 2 6 S ub m i s s i o n De ad l i n e f o r P re - - A p p l ic a tio n s: A p r il 1, 2 02 6 at 5 :0 0 P M E T A P re A p p l ic a tio n i s r e q u ir e d . P re - A p p l ic a ti o n s m u s t b e s u b m i tt e d b y a n a u th o r iz e d in st itu tio n a l r e p r e se n ta t iv e . P re A p p l i c a t i on R es p on s e D a t e: Ma y 6 , 20 26 a t 11 :5 9 P M E T S u b m issio n D e a d l in e f o r A p p l i c a t io n s : J u l y 1 , 20 26 11 :5 9 P M E T of ................................ ................................ ................................ ................. 1 ................................ ................................ ................................ ............. 1 ................................ ................................ ................................ .......... 1 ................................ ................................ ................................ ................. 2 ................................ ................................ ................................ ................................ 2 ................................ ................................ ................................ ................................ 3 ................................ ................................ .................... 3 ................................ ................................ 3 ................................ ................................ ................................ .............. 4 ................................ ................................ ................................ ............................. 5 ................................ ................................ ................................ ...... 5 ................................ ................................ ................................ .................... 6 ................................ ................................ ................................ .... 6 ................................ ................................ ..................... 7 ................................ ................................ ........... 8 ................................ ................................ ................................ .... 9 ................................ ................................ ................................ ............................... 9 ................................ ................... 19 ................................ .......... 19 ................................ ................................ ................................ ... 19 ................................ ................................ ...................... 20 ................................ ................................ ............... 20 ................................ .......................... 20 ................................ ................................ ................................ ........ 20 ................................ ................................ ................................ ..... 20 ................................ ................................ ...... 22 ................................ ................................ ......................... 22 ................................ ................................ ................................ ..................... 26 ................................ ............................. 26 ................................ ................................ ................................ .................... 43 ................................ .......................... 44 ........"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "6dd45e5e8bad377d",
+      "title": "Energy Frontier Research Centers (EFRCs)",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003614-0000001.pdf"
+    },
+    "72772dbafff0f310": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/Funding-Opportunities",
+        "pdf_excerpt": "( ) H i gh E n er gy P h y s i c s H EP F Y 2026 R e s e a r c h O p p o r t u n i t i e s i n A c c e l e r a t o r DE - - N o t i c e o f F u n d i n g Op p o r t u n i t y ( N OF O) N u m b er : F OA 0003 620 N OF O T yp e : I n it ia l : 8 1. 049 NO F O I ssu e D a te : M a r c h 12 , 20 26 - 5 A p p l ic a tio n s: ( A p p l ie s to a ll T rac k s ) A p r i l 9 , 20 26 at P M E a ste r n T im e - - A P re A p p l ic a tio n i s r e q u ir e d . P re A p p l i c a t i on R es p on s e D a t e: A p r il 23 . 20 26 S u b m issio n D e a d l in e f o r A p p l i c a t io n s : M a y 21 , 20 26 a t 11 :5 9 P M E a ste r n T im e S u b m issio n D e a d l in e f o r Le t te r s o f I n te n t : (A p p li e s t o F Y 20 27 C AR T s o n ly) J u n e 4 , 20 26 a t 11 :5 9 P M E a ste r n T im e of ................................ ................................ ................................ ............. 1 ................................ ................................ ................................ .......... 1 ................................ ................................ ................................ ................. 1 ................................ ................................ ................................ ................................ 1 ................................ ................................ ................................ ................................ 2 ................................ ................................ .................... 2 ................................ ................................ 2 ................................ ................................ ................................ .............. 2 ................................ ................................ ................................ ............................. 3 ................................ ................................ ................................ ...... 3 ................................ ............ 5 ................................ ................................ ................................ .... 6 ................................ ................................ ..................... 6 ................................ ................................ ................................ .... 7 ................................ ................................ ................................ ............................... 7 ................................ ................... 30 ................................ .......... 31 ................................ ................................ ................................ ... 31 ................................ ................................ ............... 31 ................................ .......................... 31 ................................ ................................ ................................ ........ 32 ................................ ................................ ................................ ..... 32 ................................ ................................ ...... 34 ................................ ................................ ......................... 34 ................................ ................................ ................................ ..................... 39 ................................ ............................. 39 ................................ ................................ ................................ ............... 58 ................................ .......................... 60 ................................ .................... 60 ................................ ................................ ................................ .......................... 60 ................................ ................................ ......................... 61 T a b le C o n te n ts I. B A S IC IN F OR M A T I ON EX EC U T I V E S U M M A R Y F UND I NG D E T A I L S K E Y FAC T S K EY D A T ES A G E N C Y C ON T A C T I N F OR M A T ION I N FO "
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "72772dbafff0f310",
+      "title": "FY2026 Research Opportunities in Accelerator Stewardship and Accelerator Development",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003620.pdf"
+    },
+    "75bb544212d2077e": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "C o l u m b i a I n n o v a t i o n C e n t e r 1 0 0 0 C at aw ba S t r ee t S ui t e 1 0 0 C o lu m bi a, S C 2 9 2 0 1 8 0 3 .7 3 3 .9 0 7 8 en-US ACADEMIC MAT CHING GRA NT E l i g i bi l i t y an d C r i t er i a A b o u t S C R A Th e S o u t h C a r o l i n a R e s e a r ch A u t h o r i t y ( S C R A ) w a s ch a r t e r e d i n 1 9 8 3 b y t h e S t a t e o f S o u t h C a r o l i n a a s a p u b l i c, n o n - a cce l e r a t i n g t e c h n o l o g y - e n a b l e d g r o w t h i n r e s e a r ch , a ca d e m i a , e n t r e p r e n e u r s h i p , a n d i n d u st r y. S C R A su p p o r t s i t s st a ke h o l d e r s i n ke y t e ch n o l o g y se ct o r s, w h i c h i n cl u d e b u t a r e n o t l i m i t e d t o , A d v a n c e d M a t e r i a l s/ M a n u f a ct u r i n g ; L i f e S ci e n ce s; C l e a n Te c h , S u st a i n a b i l i t y, a n d R e s i l i e n c e , a n d I n f o r m a t i o n Te c h n o l o g y. S C R A g r a n t f u n d i n g i s m a d e p o ssi b l e , i n p a r t , b y I n d u st r y P a r t n e r sh i p Fu n d ( I P F) co n t r i b u t i o n s. C o n t r i b u t o r s r e ce i v e a d o l l a r - f o r - d o l l a r S o u t h C a r o l i n a i n c o m e t a x cr e d i t , m a ki n g i t a n o - co st w a y t o cr e a t e a d i r e ct , p o si t i ve e c o n o m i c e f f e ct a n d j o b cr e a t i o n . G r an t O b j ec t i ve M a n a g e d b y t h e A ca d e m i c I n n o va t i o n s t e a m , t h e o b j e ct i ve o f t h e A ca d e m i c M a t ch i n g G r a n t i s t o e xp a n d a ca d e m i c e n g a g e m e n t i n r e se a r c h a n d d e v e l o p m e n t b y va l i d a t i n g a n d a d v a n c i n g t e ch n o l o g y co n c e p t s t o w a r d s t h e p o t e n t i a l o f a l i c e n s e o p p o r t u n i t y, a n d / o r co m p a n y f o r m a t i o n . K e y m i l e st o n e s i n c l u d e : m a r k e t o p p o r t u n i t y a n d t e ch n i ca l f e a si b i l i t y, i n t he I D E A T I O N s t a g e of s t a rt up de v e l op me n t . E l i g i b i l i t y C r i t er i a S o u t h C a r o l i n a p o st - se c o n d a r y a c a d e m i c i n st i t u t i o n s i n cl u d i n g : R e se a r ch U n i v e r si t i e s ( R U s ) , C o m p r e h e n si v e Te a ch i n g U n i v e r si t i e s ( C T U s) / P r e d o m i n a t e l y U n d e r g r a d u a t e I n st i t u t i o n s ( P U I s) , a n d Te ch n i ca l C o l l e g e s ( TC s) . 1 : 1 M a t c h r e q u i r e d b y t h e i n st i t u t i o n . Q u a l i f yi n g m a t ch e s m a y b e d i r e ct , i n - k i n d , o r a c o m b i n a t i o n o f b o t h . D i r e ct i n st i t u t i o n a l d o l l a r s, p r e f e r r e d . M a t ch i n g i n st i t u t i o n a l su p p o r t ca n b e co n cu r r e n t o r r e a c h b a ck u p t o 3 6 m o n t h s p r i o r t o t h e p r o j e ct st a r t d a t e . Fe d e r a l f u n d i n g , p a t e n t , a n d l e g a l e xp e n s e s a r e n o t e l i g i b l e a s m a t ch i n g f u n d s. F u n d i n g A m o u n t & U se o f F u n d s A p p l i c a n t s m a y r e q u e st m a t c h i n g f u n d s r a n g i n g f r o m $ 5 , 0 0 0 t o $ 1 5 , 0 0 0 E a ch S C R e se a r c h I n st i t u t i o n h a s a m a xi m u m a l l o w a n c e $ 4 5 , 0 0 0 a l l o ca t e d e xcl u si v e l y, u n t i l M a r ch 3 0 t h . Th e u s e o f f u n d s m u st p o s i t i o n t h e t e c h n o l o g y f o r i n ve n t i o n d i scl o s u r e , a l i c e n si n g o p p o r t u n i t y, a n d / o r co m p a n y f o r m a t i o n . A n i d e a l U s e o f Fu n d s v a l i d a t e s t h e co n c e p t t h r o u g h t h e i d e n t i f i c a t i o n o f a m a r k e t o p p o r t u n i t y a n d d e m o n st r a t i n g t e ch n i c a l f e a s i b i l i t y w h i l e e st a b l i s h i n g st r a t e g i c p a r t n e r sh i p s, e t c. E xcl u d e d f r o m t h e U s e o f Fu n d s a r e t h e f o l l o w i n g : d e b t r e p a ym e n t , r e n t , l i ce n si n g f e e s, l e g a l f e e s,"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "75bb544212d2077e",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/08/Academic-Matching-Grant-Eligibility-and-Criteria_Aug25.pdf"
+    },
+    "7b01b48f077aa803": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open",
+        "pdf_excerpt": ", O ffi c e of S c i e n c e ( SC ) O ffi c e o f C r i ti c al M i n e r al s an d En e r gy I n n ovati on ( CM E I) , O f fi c e of En vi r on me n tal , M an age me n t (E M ) , O f f i ce o f E l ect ri c i t y (O E ) H yd r oc ar b on s an d G e oth e r ma l En e r gy O ffi c e (H G EO ), an d O ffi c e of N u c l e ar En e r gy (N E) T h e G e n e si s M i ssi o n : Tr an s for m i ng ( RFA DE - - 3 Sc i e nc e a nd E ne r g y wi t h AI No t ic e of Re q u e st f o r Ap p lic at io n ) N um b e r : F OA 0 003 612 R FA Ty pe: A me n d me n t 0 000 0 : As s ist an c e L i st in g s 81. 04 9 R FA I s s u e D at e: M a r c h 17, 2026 1 , 2026, S ubm i s s i on D e a dl i ne f or F Y 26 P ha s e I A ppl i c a t i ons : M ay a t 11: 59 P M E as t er n 1 S ubm i s s i on D e a dl i ne f or F Y 26 P ha s e I I L e tte r s o f I n te n t: M ay , 2026, a t 5 P M E a s t e r n A ppl i c a t i ons : M ay 1 9, 2026, a t 11: 59 P M E a s t e r n S ubm i s s i on D e a dl i ne f or P ha s e I I A ppl i c a t i ons r e s ul t i ng f r om F Y 26 P ha s e I D e c e m b e r 17, 2026, a t 1 1: 59 P M E a s t e r n 1 ys . is 1 , 2026. 17 , 2026, . - - - A. - - - - - - - - - - - - 21 - C. 1 A m e ndm e nt 000003 i s i s s ue d on A pr i l 20, 2026, w i t h t he f ol l ow i ng c ha ng e s : E xt e nde d t he de a dl i ne f o r F Y 26 P ha s e I a nd P ha s e I I a ppl i c a t i ons by t h r ee d a S ubm i s s i on D e a dl i ne f or F Y 26 P ha s e I A ppl i c a t i o ns a nd F Y 26 P ha s e I I L e t t e r s of I nt e nt now M ay A m e ndm e nt 000002 i s i s s ue d on A pr i l w i t h t he f ol l ow i ng c ha ng e s : C ha nge d t he t ype of a ppl i c a t i on f r om s t r ongl y e nc our a ge c ol l a bo r a t i ve a ppl i c a t i ons t o ve r y s t r ongl y e nc ou r a ge a s in g le a p p lic a tio n f r o m a le a d in s titu tio n w ith pr opos e d s u b aw ar d ee( s ) A m e ndm e nt 000001 i s i s s ue d on A pr i l 10, 2026, w i t h t he f ol l ow i ng c ha ng e s : A dde d i ns t r uc t i ons f or P ha s e I I L O I s . C ha nge d L O I r e s pons e s f r om \\223 not pr ovi de d\\224 t o \\223 a t t he di s c r e t i on of D O E \\224 . A dde d i ns t r uc t i ons f or P ha s e I I a ppl i c a t i ons . A dde d a s m a l l num be r of que s t i ons f or m e r i t r e vi e w e r s t o c ons i de r f or P ha s e I I a ppl i e d t e c hnol ogy a ppl i c a t i ons . A d d ed \\223p e r y ea r \\224 t o \\223E n v i s i o n ed as 3 t o 5 t i m es t h e P h as e I a w ar d p er y e a r \\224 i n al l cas es w h e r e it is lis te d . P r e vi ous l y, i t w a s l i s t e d i n onl y one l oc a t i on. A dde d l a ngua g e t ha t c l a r i f i e d t ha t P ha s e I I budg e t s bot h a bove a nd be l ow t he 3 t o 5 t i m e s t h e P h as e I aw ar d ar e al l o w ed w h en ap p r o p r i at e. A dde d t he pos s i bi l i t y of a P ha s e I I m i dt e r m r e vi e w . S et a P h as e I I aw ar d s t ar t d at e t h at ap p l i can t s c an u s e w h en p r ep ar i n g b u d g et s . A dde d pr ogr a m pol i c y f a c t or , \\223 A va i l a bi l i t y of c o m put a t i ona l r e s our c e s \\224 R e m ove d L M a nd I R P a s pa r t i c i pa t i ng of f i c e s f r o m t he f ol l ow i ng t opi c a r e a s be c a us e t he y ha ve no a s s o c i a t e d f undi ng i n t hi s s ol i c i t a t i on : 6 A , 12 E , 13 T hi s r e s ul t e d i n f o cu s ar ea 1 2 E b e i ng r e m ove d. A d d ed t h e s t at em en t : \\223P h as e I I ap p l i cat i o n s w i l l n o t b e acc ep t ed i n t h i s f o cu s ar e a. \\224 t o t he f ol l ow i ng f oc us a r e a s : 1 D, 1 E, 1 F, 2 E, 3 B, 3 C , 9 A , 10 A , 10 B , 1 2 F , 12 G , a nd 2 of ................................ ................................ ................................ ............ 1 ................................ ................................ ................................ ......... 1 ................................ ................................ ............................"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "7b01b48f077aa803",
+      "title": "Read more about The Genesis Mission: Transforming Science and Energy with AI",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003612-000003.pdf"
+    },
+    "7cb1b76dd4f67850": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open",
+        "pdf_excerpt": "6 F Y 202 C on t i n u a t i on of S ol i c i t a t i on f or t h e O f f i c e of DE - - N o t i c e o f F u n d i n g Op p o r t u n i t y ( N OF O) N u m b er : F OA 0003 600 N OF O T yp e : A m e n d m e n t 0000 01 : 8 1. 049 A m en d m en t 0 0 0 0 0 1 i s i s s u ed t o r ef i n e p r o g r am m anag e r c o nt ac t s i n A d v anc e d Sc i e nt i f i c C o m p u t i ng R e s e ar c h ( A SC R ) , t o p i c al d e s c r i p t i o ns i n B i o l o g i c al and Env i r o nm e nt al R e s e ar c h ( B ER ) , p r o g r am m anag e r c o nt ac t s i n B as i c Ene r g y Sc i e nc e s ( B ES) , F u s i o n Ene r g y Sc i e nc e s ( F ES) , a nd p o l i c y p r o v i s i o ns i n Se c t i o n I X . NO F O I ssu e D a te : S e p te m b e r 30, 20 25 - - A - S ub m i s s i o n De ad l i n e f o r P re A p p l ic a tio n s: A P re A p p l i c a t i on i s op t i on a l / en c ou r a ged . P re A p p l i c a t i on m a y b e r eq u i r ed f or S u b m issio n D e a d l in e f o r A p p l i c a t io n s : Th i s NO F O w il l r e m a in o p e n u n til S e p te m b e r 30, 20 2 6, . A \\222 o r un t i l re p l ac e d b y a s u c c es s or N O FO A p p l i c a tio n s m a y b e su b m it te d a n y tim e d u r i n g th a t p e r io d . I n d iv id u a l to p ic s in th is NO F O m ay h av e s c h ed u l ed r ev i ew p a n el s . p p l ic a ti o n s su b m it te d a f te r th e p a n e l s ac c e p t an c e d at e m a y b e h el d u n t i l t h e n ex t r ev i ew p a n el . of ................................ ................................ ................................ ............. 1 ................................ ................................ ................................ .......... 1 ................................ ................................ ................................ ................. 1 ................................ ................................ ................................ ................................ 2 ................................ ................................ ................................ ................................ 2 ................................ ................................ .................... 2 ................................ ................................ ................................ .............. 3 ................................ ................................ ................................ ............................. 4 ................................ ................................ ................................ ...... 4 ................................ ................................ ................................ .................... 5 ................................ ................................ ................................ .... 5 ................................ ................................ ................................ .... 6 ................................ ................................ ................................ ............................... 6 ................................ ....... 8 ................................ ................................ ..................... 20 ................................ ......... 53 ................................ ................................ .................. 65 ................................ ................................ ....................... 83 ................................ ................................ ................................ ... 99 ................................ ................................ ..... 112 ................................ ................. 117 ................................ ........ 118 ................................ ................................ ................................ . 118 ................................ ................................ .................... 118 ................................ ................................ ............. 119 ................................ ........................"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "7cb1b76dd4f67850",
+      "title": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "url": "https://science.osti.gov/grants/FOAs/-/media/grants/pdf/foas/2026/DE-FOA-0003600-000001.pdf"
+    },
+    "886aba58bd2e2593": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/ebe-engineering-built-environment/pd26-359y Document Number: PD 26-359Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "886aba58bd2e2593",
+      "title": "Engineering for the Built Environment (EBE)",
+      "url": "https://www.nsf.gov/funding/opportunities/ebe-engineering-built-environment/pd26-359y"
+    },
+    "8f04fd749ea751c3": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "8f04fd749ea751c3",
+      "title": "Closed Lab Announcements",
+      "url": "https://science.osti.gov/grants/Lab-Announcements/Closed"
+    },
+    "9a3e09c8a46394d0": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-research-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "9a3e09c8a46394d0",
+      "title": "SACT Grant",
+      "url": "https://scra.org/get-support/get-startup-funding/sact-grant/"
+    },
+    "a41ff9a3abba7995": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/epcl-energy-power-control-learning/pd26-7607 Document Number: PD 26-7607 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "a41ff9a3abba7995",
+      "title": "Energy, Power, Control, and Learning (EPCL)",
+      "url": "https://www.nsf.gov/funding/opportunities/epcl-energy-power-control-learning/pd26-7607"
+    },
+    "a52364206ba9e7d0": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Full Proposal Deadline Date: June 15, 2026 Program Guidelines: NSF 20-597 The National Science Foundation (NSF) invites investigators at U.S. organizations to submit proposals for Doctoral Dissertation Research Improvement Grants (DDRIGs) to the Arctic Sciences Section, Office of Polar Programs (OPP) to conduct dissertation-level research about and related to the ... More at https://www.nsf.gov/funding/opportunities This is an NSF Upcoming Due Dates item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+      },
+      "source": "NSF Upcoming Due Dates",
+      "stable_id": "a52364206ba9e7d0",
+      "title": "Arctic Doctoral Dissertation Research Improvement Grants Arctic Social Sciences, Arctic System Sciences, and Arctic Observing Network (DDRIG)",
+      "url": "https://www.nsf.gov/funding/opportunities/ddrig-arctic-doctoral-dissertation-research-improvement-grants/nsf20-597"
+    },
+    "b256b28aae7959c3": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/transport-phenomena/pd26-366y Document Number: PD 26-366Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF Transport Phenomena: proposal angle for computational thermal/energy transport",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 62,
+        "important_info": [
+          "Due date is not populated in the feed; NSF Transport Phenomena core programs commonly use an accepted-anytime/no-deadline model, but the current NSF page should be verified before planning submission.",
+          "Likely best fit: computational/theoretical work on heat, mass, momentum, or energy transport, especially thermal transport and multiscale transport modeling.",
+          "Less clearly aligned with the biophysics/protein and quantum/QIS profiles based on the information provided.",
+          "Source record is an NSF Program Announcement/Information item: PD 26-366Y."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science"
+        ],
+        "opportunity_id": "b256b28aae7959c3",
+        "rationale": "NSF's Transport Phenomena program plausibly aligns with the materials/computational physics profile through thermal/energy transport, Boltzmann transport, lattice thermal conductivity, and related computational modeling of transport processes. NSF opportunities are generally compatible with university faculty applicants. The fit is moderate rather than strong because the program title suggests broad engineering transport phenomena and the provided record lacks a detailed scope statement; proposals would need to emphasize fundamental transport phenomena rather than only electronic-structure/materials discovery."
+      },
+      "source": "NSF Funding",
+      "stable_id": "b256b28aae7959c3",
+      "title": "Transport Phenomena",
+      "url": "https://www.nsf.gov/funding/opportunities/transport-phenomena/pd26-366y"
+    },
+    "b834b8ef072e4634": {
+      "agency": "SC NASA EPSCoR",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on South Carolina NASA EPSCoR.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scnasaepscor.charleston.edu/"
+      },
+      "source": "South Carolina NASA EPSCoR",
+      "stable_id": "b834b8ef072e4634",
+      "title": "Research Grant Program ($35K)",
+      "url": "https://scnasaepscor.charleston.edu/35k-research-program/"
+    },
+    "cd20e6d4fe6b78e2": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/chemical-process-systems/pd26-367y Document Number: PD 26-367Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "cd20e6d4fe6b78e2",
+      "title": "Chemical Process Systems",
+      "url": "https://www.nsf.gov/funding/opportunities/chemical-process-systems/pd26-367y"
+    },
+    "cf21ae4dcc684e2f": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/frhtp-focused-research-hubs-theoretical-physics/158913 Document Number: This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "cf21ae4dcc684e2f",
+      "title": "Focused Research Hubs in Theoretical Physics (FRHTP)",
+      "url": "https://www.nsf.gov/funding/opportunities/frhtp-focused-research-hubs-theoretical-physics/158913"
+    },
+    "d1105ea9a037739c": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "C o l u m b i a I n n o v a t i o n C e n t e r 1 0 0 0 C at aw ba S t r ee t S ui t e 1 0 0 C o lu m bi a, S C 2 9 2 0 1 8 0 3 .7 3 3 .9 0 7 8 F u el in g S o u t h DEMONST RA T ION GRAN T E l i g i bi l i t y an d C r i t er i a A b o u t S C R A Th e S o u t h C a r o l i n a R e s e a r ch A u t h o r i t y ( S C R A ) w a s ch a r t e r e d i n 1 9 8 3 b y t h e S t a t e o f S o u t h C a r o l i n a a s a p u b l i c, n o n - a cce l e r a t i n g t e c h n o l o g y - e n a b l e d g r o w t h i n r e s e a r ch , a ca d e m i a , e n t r e p r e n e u r s h i p , a n d i n d u st r y. S C R A su p p o r t s i t s st a ke h o l d e r s i n ke y t e ch n o l o g y se ct o r s, w h i c h i n cl u d e b u t a r e n o t l i m i t e d t o , A d v a n c e d M a t e r i a l s/ M a n u f a ct u r i n g ; L i f e S ci e n ce s; C l e a n Te c h , S u st a i n a b i l i t y, a n d R e s i l i e n c e , a n d I n f o r m a t i o n Te c h n o l o g y. S C R A g r a n t f u n d i n g i s m a d e p o ssi b l e , i n p a r t , b y I n d u st r y P a r t n e r sh i p Fu n d ( I P F) co n t r i b u t i o n s. C o n t r i b u t o r s r e ce i v e a d o l l a r - f o r - d o l l a r S o u t h C a r o l i n a i n c o m e t a x cr e d i t , m a ki n g i t a n o - co st w a y t o cr e a t e a d i r e ct , p o si t i ve e c o n o m i c e f f e ct a n d j o b cr e a t i o n . G r an t O b j ec t i ve Th e r e a r e t w o t yp e s o f D e m o n st r a t i o n G r a n t s w i t h sl i g h t l y d i f f e r e n t o b j e ct i ve s d e p e n d i n g o n t h e r e ci p i e n t : 1. Fo r S m a l l B u si n e sse s : Th e o b j e ct i ve o f a S m a l l B u s i n e ss D e m o n st r a t i o n G r a n t i s t o p r o v i d e a va l u a b l e so l u t i o n t o a n i n d u st r y p a r t n e r a n d a si g n i f i ca n t g r o w t h o p p o r t u n i t y f o r a s m a l l b u si n e ss b y d e ve l o p i n g a n e w p r o d u ct , d i st r i b u t i o n c h a n n e l , cu st o m e r , m a r ke t , e t c. Th e g r a n t i s i n t e n d e d t o o f f e r a b r i d g e f o r t h e sm a l l b u si n e ss t o i t s n e xt i n f l e ct i o n p o i n t i n d e v e l o p m e n t , w h i l e a l so su p p o r t i n g a m o n e t a r y a n d / o r i n - ki n d m a t ch b y a n i n d u st r y p a r t n e r i n t o a p r o j e ct w i t h t h e s m a l l b u si n e ss. 2. Fo r A ca d e m i c I n st i t u t i o n s : Th e o b j e ct i v e o f a n A ca d e m i c I n st i t u t i o n D e m o n st r a t i o n G r a n t i s t o d e v e l o p a so l u t i o n t o a n i n d u st r y ch a l l e n g e a n d a n e w r e s e a r c h p l a t f o r m c a p a b i l i t y a t t h e a c a d e m i c i n st i t u t i o n . T h e g r a n t su p p o r t s a m o n e t a r y a n d / o r i n - ki n d m a t ch b y a n i n d u st r y p a r t n e r o r o t h e r f u n d i n g so u r c e ( s) i n t o a p r o j e ct a t a n a c a d e m i c i n st i t u t i o n . E l i g i b i l i t y C r i t er i a Th e e n t i t y r e c e i vi n g t h e D e m o n st r a t i o n G r a n t m u st b e e i t h e r : A t e ch n o l o g y sm a l l b u si n e ss r e g i st e r e d a s a f o r - p r o f i t b u si n e ss w i t h t h e S C S e cr e t a r y o f S t a t e , w i t h i t s p r i n ci p a l p l a c e o f b u s i n e ss i n S o u t h C a r o l i n a , o r a t l e a st 5 1 % o f i t s f u l l - t i m e e q u i va l e n t e m p l o y e e s l o ca t e d w i t h i n t h e st a t e . ( S o l e p r o p r i e t o r sh i p s o r i n d i vi d u a l s w o r ki n g a l o n e a r e n o t e l i g i b l e . ) ; o r A S o u t h C a r o l i n a a ca d e m i c i n st i t u t i o n . i n n o va t i o n e co n o m y: A d va n ce d M a n u f a ct u r i n g a n d M a t e r i a l s, I n f o r m a t i o n T e ch n o l o g y, L i f e S ci e n c e s, o r C l e a n Te ch , S u st a i n a b i l i t y, a n d R e si l i e n ce . Th e Te ch n o l o g y P l a n : V I S I O N 2 0 3 0 . C u r r e n t S C R A m e m b e r c o m p a n i e s"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "d1105ea9a037739c",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/10/Demonstration-Grant-Eligibility-Criteria-OCT25.pdf"
+    },
+    "dea98db2d18cc64e": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/api-advanced-physics-instrumentation/158878 Document Number: This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF API fit: quantum instrumentation angle recommended",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 67,
+        "important_info": [
+          "Applicant type appears compatible with universities/academic researchers under standard NSF proposal mechanisms.",
+          "Due date was not provided in the feed; NSF API is typically an accepted-anytime/recurring physics instrumentation program, but the current solicitation page should be checked before planning a submission.",
+          "Best-fit angle: quantum instrumentation, quantum sensing/devices, or enabling experimental platforms for QIS.",
+          "Lower-fit for purely computational AI/HPC, materials simulation, or protein/biophysics modeling projects without a substantial instrumentation-development component."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "quantum_qis"
+        ],
+        "opportunity_id": "dea98db2d18cc64e",
+        "rationale": "NSF Advanced Physics Instrumentation plausibly supports academic proposals to develop advanced instrumentation for frontier physics. This is most relevant to the quantum/QIS profile when framed around quantum sensing, quantum devices, quantum simulation instrumentation, or enabling technologies for quantum information science. It is not a strong fit for the computational materials or computational biophysics profiles unless the PI is developing actual physics instrumentation rather than primarily using computation/software."
+      },
+      "source": "NSF Funding",
+      "stable_id": "dea98db2d18cc64e",
+      "title": "Advanced Physics Instrumentation (API)",
+      "url": "https://www.nsf.gov/funding/opportunities/api-advanced-physics-instrumentation/158878"
+    },
+    "df710239c6d115b7": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open",
+        "pdf_excerpt": "( ) B as i c E n e r g y S ci e n ce s B ES DE - - E n er gy F r o n t i er R es ea r c h C en t er s ( E F R C s ) N o t i c e o f F u n d i n g Op p o r t u n i t y ( N OF O) N u m b er : F OA 0003 614 : N OF O T yp e : A m e n d m e n t 0000 01 A ssi st an c e L i st i n g s 8 1. 049 A me n d me n t 00 00 01 i s i s s u e d t o c or r e c t a c or r u p t e d f i l e . - NO F O I ssu e D a te : F e b ruary 1 8 , 2 0 2 6 S ub m i s s i o n De ad l i n e f o r P re - - A p p l ic a tio n s: A p r il 1, 2 02 6 at 5 :0 0 P M E T A P re A p p l ic a tio n i s r e q u ir e d . P re - A p p l ic a ti o n s m u s t b e s u b m i tt e d b y a n a u th o r iz e d in st itu tio n a l r e p r e se n ta t iv e . P re A p p l i c a t i on R es p on s e D a t e: Ma y 6 , 20 26 a t 11 :5 9 P M E T S u b m issio n D e a d l in e f o r A p p l i c a t io n s : J u l y 1 , 20 26 11 :5 9 P M E T of ................................ ................................ ................................ ................. 1 ................................ ................................ ................................ ............. 1 ................................ ................................ ................................ .......... 1 ................................ ................................ ................................ ................. 2 ................................ ................................ ................................ ................................ 2 ................................ ................................ ................................ ................................ 3 ................................ ................................ .................... 3 ................................ ................................ 3 ................................ ................................ ................................ .............. 4 ................................ ................................ ................................ ............................. 5 ................................ ................................ ................................ ...... 5 ................................ ................................ ................................ .................... 6 ................................ ................................ ................................ .... 6 ................................ ................................ ..................... 7 ................................ ................................ ........... 8 ................................ ................................ ................................ .... 9 ................................ ................................ ................................ ............................... 9 ................................ ................... 19 ................................ .......... 19 ................................ ................................ ................................ ... 19 ................................ ................................ ...................... 20 ................................ ................................ ............... 20 ................................ .......................... 20 ................................ ................................ ................................ ........ 20 ................................ ................................ ................................ ..... 20 ................................ ................................ ...... 22 ................................ ................................ ......................... 22 ................................ ................................ ................................ ..................... 26 ................................ ............................. 26 ................................ ................................ ................................ .................... 43 ................................ .......................... 44 ........"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "df710239c6d115b7",
+      "title": "Read more about Energy Frontier Research Centers (EFRCs)",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003614-0000001.pdf"
+    },
+    "e761c36b37e80dcd": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/iids-intelligent-interactive-dynamic-systems/pd26-360y Document Number: PD 26-360Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "e761c36b37e80dcd",
+      "title": "Intelligent and Interactive Dynamic Systems (IIDS)",
+      "url": "https://www.nsf.gov/funding/opportunities/iids-intelligent-interactive-dynamic-systems/pd26-360y"
+    },
+    "ef32b0d98cf5621c": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/gp-gravitational-physics/pd26-1243 Document Number: PD 26-1243 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "ef32b0d98cf5621c",
+      "title": "Gravitational Physics (GP)",
+      "url": "https://www.nsf.gov/funding/opportunities/gp-gravitational-physics/pd26-1243"
+    },
+    "ef8d2a19fc485eb0": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://scra.org/get-support/get-startup-funding/",
+        "pdf_excerpt": "C o l u m b i a I n n o v a t i o n C e n t e r 1 0 0 0 C at aw ba S t r ee t S ui t e 1 0 0 C o lu m bi a, S C 2 9 2 0 1 8 0 3 .7 3 3 .9 0 7 8 en-US RELOCAT ION GRAN T E l i g i bi l i t y an d C r i t er i a A b o u t S C R A Th e S o u t h C a r o l i n a R e s e a r ch A u t h o r i t y ( S C R A ) w a s ch a r t e r e d i n 1 9 8 3 b y t h e S t a t e o f S o u t h C a r o l i n a a s a p u b l i c, n o n - a cce l e r a t i n g t e c h n o l o g y - e n a b l e d g r o w t h i n r e s e a r ch , a ca d e m i a , e n t r e p r e n e u r s h i p , a n d i n d u st r y. S C R A su p p o r t s i t s st a ke h o l d e r s i n ke y t e ch n o l o g y se ct o r s, w h i c h i n cl u d e b u t a r e n o t l i m i t e d t o , A d v a n c e d M a t e r i a l s/ M a n u f a ct u r i n g ; L i f e S ci e n ce s; C l e a n Te c h , S u st a i n a b i l i t y, a n d R e s i l i e n c e , a n d I n f o r m a t i o n Te c h n o l o g y. S C R A g r a n t f u n d i n g i s m a d e p o ssi b l e , i n p a r t , b y I n d u st r y P a r t n e r sh i p Fu n d ( I P F) co n t r i b u t i o n s. C o n t r i b u t o r s r e ce i v e a d o l l a r - f o r - d o l l a r S o u t h C a r o l i n a i n c o m e t a x cr e d i t , m a ki n g i t a n o - co st w a y t o cr e a t e a d i r e ct , p o si t i ve e c o n o m i c e f f e ct a n d j o b cr e a t i o n . G r an t O b j ec t i ve Th e o b j e ct i v e o f t h e r e l o ca t i o n g r a n t i s t o a t t r a ct n e w t e ch n o l o g y co m p a n i e s t o S C t o f i l l t e ch n o l o g y g a p s i n t h e st a t e a n d t o e x p a n d t h e E l i g i b i l i t y C r i t er i a Th e co m p a n y i s r e g i st e r e d a s a f o r - p r o f i t b u si n e ss w i t h t h e S C S e cr e t a r y o f S t a t e . Th e c o m p a n y m u st b e b a s e d o n s o m e f o r m o f t e c h n o l o g y, a n d i d e a l l y t h e t e c h n o l o g y i s p r o t e ct e d b y i n t e l l e ct u a l p r o p e r t y ( I P ) . Th e co m p a n y m u st co o r d i n a t e w i t h a l o ca l , r e g i o n a l , a n d / o r st a t e e co n o m i c d e ve l o p m e n t o r g a n i z a t i o n . Th e co m p a n y m u st r e l o c a t e o r h i r e a t l e a st 5 p e o p l e w i t h i n t h e f i r st ye a r o f r e l o c a t i o n . Th e co m p a n y m u st d e m o n st r a t e st r o n g p r o sp e ct s f o r t e ch n o l o g y j o b g r o w t h i n S o u t h C a r o l i n a . S ole prop ri e t ors hip s or i nd i v i du a l s w or k i ng a l on e a re no t e l i gibl e . F u n d i n g A m o u n t & U se o f F u n d s R e l o ca t i o n G r a n t s p r o vi d e f u n d i n g u p t o $ 50 , 0 0 0 w i t h r a r e e xc e p t i o n s. Th e co m p a n y i s a l l o w e d o n e ( 1 ) R e l o ca t i o n G r a n t d u r i n g i t s l i f e t i m e . Th e U s e o f Fu n d s m u st a ss i st w i t h co m p a n y e x p e n s e s t o r e l o ca t e t o S o u t h C a r o l i n a , w h i c h m a y i n cl u d e , b u t a r e n o t l i m i t e d t o , m o vi n g e q u i p m e n t , u p - f i t t i n g f a ci l i t i e s, a n d l e a se e xp e n s e s. E x c l ud e d f rom t he U s e of Fu nd s a re t h e f oll ow i n g : t r a ve l e x p e n s e s, co n s u l t a n t f e e s, vi sa e xp e n s e s, e m p l o y e e s a l a r i e s , l i c e n s i n g f e e s, l e g a l f e e s, r e i m b u r se m e n t o f p a st e x p e n se s, a n d p r o f i t / f e e . A p p l i ca t i o n P r o ce ss Fu e l i n g I n t e r e st e d a p p l i ca n t s sh o u l d c o n t a ct t h e I n d u st r y S o l u t i o n s t e a m t o d i sc u ss t h e i r r e l o c a t i o n p r o j e ct s w h i c h w i l l b e e v a l u a t e d i n co o r d i n a t i o n w i t h t h e r e sp e c t i ve l o ca l e c o n o m i c d e ve l o p m e n t a l l i a n c e o r S C D e p a r t m e n t o f C o m m e r c e . C o m p a n i e s t h a t p a ss i n i t i a l r e vi e w , t h e a ssi g n e d R e l a t i o n sh i p M a n a g e r w i l l i n v i t e t h e co m p a n y t o"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "ef8d2a19fc485eb0",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/10/FINAL-Relocation-Grant-Eligibility-and-Criteria.pdf"
+    },
+    "f8d0653539c654e8": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Letter of Intent Deadline Date: June 16, 2026 Program Guidelines: NSF 26-508 TechAccess: AI\u2011Ready America is a national-scale initiative to accelerate Artificial Intelligence (AI) readiness and adoption across the U.S. by strengthening coordination, leveraging partnerships and resources, filling gaps, and scaling what works\u2014so local and state priorities can ... More at https://www.nsf.gov/funding/opportunities This is an NSF Upcoming Due Dates item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+      },
+      "source": "NSF Upcoming Due Dates",
+      "stable_id": "f8d0653539c654e8",
+      "title": "TechAccess: AI-Ready America",
+      "url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508"
+    },
+    "fd1fae3122ccf8a5": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineering-environmental-resiliency/pd26-370y Document Number: PD 26-370Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "source": "NSF Funding",
+      "stable_id": "fd1fae3122ccf8a5",
+      "title": "Engineering Environmental Resiliency",
+      "url": "https://www.nsf.gov/funding/opportunities/engineering-environmental-resiliency/pd26-370y"
+    },
+    "fe79ede0266a6812": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "fe79ede0266a6812",
+      "title": "Closed FOAs",
+      "url": "https://science.osti.gov/grants/FOAs/Closed"
+    }
+  },
+  "opportunities": {
+    "2e6726579c65a162": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices/pd26-1517 Document Number: PD 26-1517 This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF EPMQD fit: AI/HPC-guided quantum/electronic materials for device functionality",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 86,
+        "important_info": [
+          "Due date was not provided in the feed; NSF core/program-description opportunities of this type commonly use accepted-anytime or recurring submission rules, but the NSF page should be checked before planning submission.",
+          "Funding amount is not specified in the feed.",
+          "Likely best fit if the proposed work is framed around device-relevant electronic, photonic, magnetic, or quantum functionality rather than purely general materials computation.",
+          "Standard NSF proposal components are listed, including project summary/description, budget justification, biosketches, current and pending support, data management plan, and mentoring plan if required."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science",
+          "quantum_qis"
+        ],
+        "opportunity_id": "2e6726579c65a162",
+        "rationale": "NSF\u2019s Electronic, Photonic, Magnetic, and Quantum Devices program is a strong thematic fit for research in quantum devices, quantum materials, electronic/photonic/magnetic device physics, and computational materials/condensed-matter approaches. It plausibly supports the quantum/QIS extension profile and the computational materials profile where projects connect first-principles modeling, materials discovery, transport, or device-relevant quantum/electronic properties to EPMQD topics. NSF programs are generally compatible with university-based academic researchers."
+      },
+      "source": "NSF Funding",
+      "stable_id": "2e6726579c65a162",
+      "title": "Electronic, Photonic, Magnetic, and Quantum Devices (EPMQD)",
+      "url": "https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices/pd26-1517"
+    },
+    "5e19b1dc140d72e6": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y Document Number: PD 26-369Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF EBBS fit: computational biophysics proposal angle for Zhenzhen Zhang",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 67,
+        "important_info": [
+          "Applicant eligibility was not provided in the feed, but NSF program announcements generally allow U.S. universities and academic researchers to apply through their institutions; verify the solicitation page before proceeding.",
+          "No due date was provided in the feed. NSF core/program announcement opportunities often have no deadline or recurring submission windows, but the current NSF page/Research.gov should be checked to confirm the active submission timing.",
+          "A competitive proposal would likely need a clear engineering/biomedical systems motivation rather than purely basic computational biophysics."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "biophysics_protein"
+        ],
+        "opportunity_id": "5e19b1dc140d72e6",
+        "rationale": "This NSF Engineering Biological and Biomedical Systems program is plausibly relevant to the computational biophysics/protein/RNA modeling profile if the project is framed as fundamental engineering research in biological or biomedical systems, such as predictive modeling of biomolecular mechanisms, protein aggregation, biomolecular phase behavior, or biomedical molecular systems. It is not a strong fit for the materials/AI4Science or quantum profiles unless a proposal has a clear biological/biomedical engineering angle."
+      },
+      "source": "NSF Funding",
+      "stable_id": "5e19b1dc140d72e6",
+      "title": "Engineering Biological and Biomedical Systems",
+      "url": "https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y"
+    },
+    "b256b28aae7959c3": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/transport-phenomena/pd26-366y Document Number: PD 26-366Y This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF Transport Phenomena: proposal angle for computational thermal/energy transport",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 62,
+        "important_info": [
+          "Due date is not populated in the feed; NSF Transport Phenomena core programs commonly use an accepted-anytime/no-deadline model, but the current NSF page should be verified before planning submission.",
+          "Likely best fit: computational/theoretical work on heat, mass, momentum, or energy transport, especially thermal transport and multiscale transport modeling.",
+          "Less clearly aligned with the biophysics/protein and quantum/QIS profiles based on the information provided.",
+          "Source record is an NSF Program Announcement/Information item: PD 26-366Y."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science"
+        ],
+        "opportunity_id": "b256b28aae7959c3",
+        "rationale": "NSF's Transport Phenomena program plausibly aligns with the materials/computational physics profile through thermal/energy transport, Boltzmann transport, lattice thermal conductivity, and related computational modeling of transport processes. NSF opportunities are generally compatible with university faculty applicants. The fit is moderate rather than strong because the program title suggests broad engineering transport phenomena and the provided record lacks a detailed scope statement; proposals would need to emphasize fundamental transport phenomena rather than only electronic-structure/materials discovery."
+      },
+      "source": "NSF Funding",
+      "stable_id": "b256b28aae7959c3",
+      "title": "Transport Phenomena",
+      "url": "https://www.nsf.gov/funding/opportunities/transport-phenomena/pd26-366y"
+    },
+    "dea98db2d18cc64e": {
+      "agency": "NSF",
+      "amount": "",
+      "description": "Available Formats: HTML: https://www.nsf.gov/funding/opportunities/api-advanced-physics-instrumentation/158878 Document Number: This is an NSF Program Announcements and Information item.",
+      "documents": [
+        "Project Summary",
+        "Project Description",
+        "References Cited",
+        "Budget and Budget Justification",
+        "Biographical Sketches",
+        "Current and Pending Support",
+        "Facilities, Equipment and Other Resources",
+        "Data Management and Sharing Plan",
+        "Mentoring Plan if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "NSF API fit: quantum instrumentation angle recommended",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "feed": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+      },
+      "screening": {
+        "fit_score": 67,
+        "important_info": [
+          "Applicant type appears compatible with universities/academic researchers under standard NSF proposal mechanisms.",
+          "Due date was not provided in the feed; NSF API is typically an accepted-anytime/recurring physics instrumentation program, but the current solicitation page should be checked before planning a submission.",
+          "Best-fit angle: quantum instrumentation, quantum sensing/devices, or enabling experimental platforms for QIS.",
+          "Lower-fit for purely computational AI/HPC, materials simulation, or protein/biophysics modeling projects without a substantial instrumentation-development component."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "quantum_qis"
+        ],
+        "opportunity_id": "dea98db2d18cc64e",
+        "rationale": "NSF Advanced Physics Instrumentation plausibly supports academic proposals to develop advanced instrumentation for frontier physics. This is most relevant to the quantum/QIS profile when framed around quantum sensing, quantum devices, quantum simulation instrumentation, or enabling technologies for quantum information science. It is not a strong fit for the computational materials or computational biophysics profiles unless the PI is developing actual physics instrumentation rather than primarily using computation/software."
+      },
+      "source": "NSF Funding",
+      "stable_id": "dea98db2d18cc64e",
+      "title": "Advanced Physics Instrumentation (API)",
+      "url": "https://www.nsf.gov/funding/opportunities/api-advanced-physics-instrumentation/158878"
+    }
+  },
+  "runs": [
+    {
+      "fetched_at": "2026-06-03T14:20:50+00:00",
+      "fetched_count": 42,
+      "fetched_ids": [
+        "2427ffd6071f8bc2",
+        "6b5d9cf940a60685",
+        "cf21ae4dcc684e2f",
+        "dea98db2d18cc64e",
+        "ef32b0d98cf5621c",
+        "b256b28aae7959c3",
+        "5e19b1dc140d72e6",
+        "cd20e6d4fe6b78e2",
+        "fd1fae3122ccf8a5",
+        "262af3d4d6a0bf6e",
+        "44e76bef3b5053d9",
+        "e761c36b37e80dcd",
+        "886aba58bd2e2593",
+        "2e6726579c65a162",
+        "a41ff9a3abba7995",
+        "a52364206ba9e7d0",
+        "f8d0653539c654e8",
+        "6ca049433ccd1445",
+        "72772dbafff0f310",
+        "2b6a9ef782e82bfb",
+        "33af4ee6adf82ff3",
+        "7b01b48f077aa803",
+        "6dd45e5e8bad377d",
+        "df710239c6d115b7",
+        "7cb1b76dd4f67850",
+        "29cfdbfc64b94174",
+        "333f3882aad25f6a",
+        "fe79ede0266a6812",
+        "4cfcd1f81cbcb14e",
+        "009ec05823de243f",
+        "8f04fd749ea751c3",
+        "9a3e09c8a46394d0",
+        "46787294b00a5642",
+        "291c3091d6a2393a",
+        "2049bb2279d6ef23",
+        "62a6f40cdc0acf3f",
+        "d1105ea9a037739c",
+        "ef8d2a19fc485eb0",
+        "75bb544212d2077e",
+        "1db244287e76a0bb",
+        "4aa3f3812e087c68",
+        "b834b8ef072e4634"
+      ],
+      "matched_count": 4,
+      "matched_ids": [
+        "2e6726579c65a162",
+        "dea98db2d18cc64e",
+        "b256b28aae7959c3",
+        "5e19b1dc140d72e6"
+      ],
+      "new_count": 4,
+      "new_ids": [
+        "2e6726579c65a162",
+        "dea98db2d18cc64e",
+        "b256b28aae7959c3",
+        "5e19b1dc140d72e6"
+      ]
+    }
+  ],
+  "seen_ids": [
+    "009ec05823de243f",
+    "1db244287e76a0bb",
+    "2049bb2279d6ef23",
+    "2427ffd6071f8bc2",
+    "262af3d4d6a0bf6e",
+    "291c3091d6a2393a",
+    "29cfdbfc64b94174",
+    "2b6a9ef782e82bfb",
+    "2e6726579c65a162",
+    "333f3882aad25f6a",
+    "33af4ee6adf82ff3",
+    "44e76bef3b5053d9",
+    "46787294b00a5642",
+    "4aa3f3812e087c68",
+    "4cfcd1f81cbcb14e",
+    "5e19b1dc140d72e6",
+    "62a6f40cdc0acf3f",
+    "6b5d9cf940a60685",
+    "6ca049433ccd1445",
+    "6dd45e5e8bad377d",
+    "72772dbafff0f310",
+    "75bb544212d2077e",
+    "7b01b48f077aa803",
+    "7cb1b76dd4f67850",
+    "886aba58bd2e2593",
+    "8f04fd749ea751c3",
+    "9a3e09c8a46394d0",
+    "a41ff9a3abba7995",
+    "a52364206ba9e7d0",
+    "b256b28aae7959c3",
+    "b834b8ef072e4634",
+    "cd20e6d4fe6b78e2",
+    "cf21ae4dcc684e2f",
+    "d1105ea9a037739c",
+    "dea98db2d18cc64e",
+    "df710239c6d115b7",
+    "e761c36b37e80dcd",
+    "ef32b0d98cf5621c",
+    "ef8d2a19fc485eb0",
+    "f8d0653539c654e8",
+    "fd1fae3122ccf8a5",
+    "fe79ede0266a6812"
+  ]
 }
