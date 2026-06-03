@@ -9,6 +9,7 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
     path.parent.mkdir(parents=True, exist_ok=True)
     runs = state.get("runs", [])
     opportunities = state.get("opportunities", {})
+    fetched_opportunities = state.get("fetched_opportunities", {})
     latest_ids = {item["opportunity"]["stable_id"] for item in latest_matches or []}
     cards = []
     for opp_id, opp in sorted(opportunities.items(), key=lambda item: item[1].get("due_date", "") or "9999"):
@@ -16,6 +17,11 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
         cards.append(render_card(opp, is_new=is_new))
     if not cards:
         cards.append('<p class="empty">No matched opportunities have been recorded yet.</p>')
+    fetched_cards = []
+    for opp_id, opp in sorted(fetched_opportunities.items(), key=lambda item: item[1].get("due_date", "") or "9999"):
+        fetched_cards.append(render_card(opp, is_new=False, compact=True))
+    if not fetched_cards:
+        fetched_cards.append('<p class="empty">No fetched opportunities have been recorded yet.</p>')
 
     html = f"""<!doctype html>
 <html lang="en">
@@ -65,7 +71,9 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
     .run:first-of-type {{ border-top: 0; }}
     .list {{ display: grid; gap: 16px; }}
     .opportunity {{ padding: 18px; }}
+    .opportunity.compact {{ padding: 14px 16px; }}
     .opportunity h3 {{ margin: 0 0 8px; font-size: 20px; line-height: 1.25; }}
+    .opportunity.compact h3 {{ font-size: 17px; }}
     .meta {{ display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }}
     .pill {{
       border: 1px solid var(--line);
@@ -80,6 +88,8 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
     p {{ line-height: 1.55; }}
     a {{ color: var(--accent); }}
     .empty {{ background: white; border: 1px dashed var(--line); border-radius: 8px; padding: 24px; }}
+    .section-note {{ color: var(--muted); margin: 0 0 14px; }}
+    section + section {{ margin-top: 28px; }}
     @media (max-width: 780px) {{
       main {{ grid-template-columns: 1fr; }}
       aside {{ position: static; }}
@@ -96,12 +106,21 @@ def render_site(path: Path, state: dict[str, Any], latest_matches: list[dict[str
       <h2>Fetch History</h2>
       {render_runs(runs)}
     </aside>
-    <section>
-      <h2>Matched Opportunities</h2>
-      <div class="list">
-        {''.join(cards)}
-      </div>
-    </section>
+    <div>
+      <section>
+        <h2>Matched Opportunities</h2>
+        <div class="list">
+          {''.join(cards)}
+        </div>
+      </section>
+      <section>
+        <h2>Fetched Opportunities</h2>
+        <p class="section-note">All opportunities fetched by the monitor, including items that were not selected as profile matches.</p>
+        <div class="list">
+          {''.join(fetched_cards)}
+        </div>
+      </section>
+    </div>
   </main>
 </body>
 </html>
@@ -121,7 +140,7 @@ def render_runs(runs: list[dict[str, Any]]) -> str:
     )
 
 
-def render_card(opp: dict[str, Any], *, is_new: bool) -> str:
+def render_card(opp: dict[str, Any], *, is_new: bool, compact: bool = False) -> str:
     documents = opp.get("documents") or []
     docs = ", ".join(escape(str(doc)) for doc in documents) if documents else "See source notice/package."
     badge = '<span class="pill new">New this run</span>' if is_new else ""
@@ -129,7 +148,13 @@ def render_card(opp: dict[str, Any], *, is_new: bool) -> str:
     profiles = ", ".join(escape(str(profile)) for profile in screening.get("matched_profiles", [])) or "Not recorded"
     rationale = escape(screening.get("rationale") or "Screening rationale was not recorded for this opportunity.")
     score = escape(str(screening.get("fit_score", "Not recorded")))
-    return f"""<article class="opportunity">
+    class_name = "opportunity compact" if compact else "opportunity"
+    details = "" if compact else f"""
+  <p><span class="label">Eligibility</span><br>{escape(opp.get("eligibility") or "Check notice")}</p>
+  <p><span class="label">Documents needed</span><br>{docs}</p>
+  <p><span class="label">Screening fit</span><br>Score: {score}; profiles: {profiles}</p>
+  <p><span class="label">Rationale</span><br>{rationale}</p>"""
+    return f"""<article class="{class_name}">
   <h3><a href="{escape(opp.get("url", "#"))}">{escape(opp.get("title", "Untitled"))}</a></h3>
   <div class="meta">
     {badge}
@@ -139,8 +164,5 @@ def render_card(opp: dict[str, Any], *, is_new: bool) -> str:
   </div>
   <p>{escape(opp.get("description") or "No summary available. Review the source notice for details.")}</p>
   <p><span class="label">Opportunity number</span><br>{escape(opp.get("opportunity_number") or "Not listed")}</p>
-  <p><span class="label">Eligibility</span><br>{escape(opp.get("eligibility") or "Check notice")}</p>
-  <p><span class="label">Documents needed</span><br>{docs}</p>
-  <p><span class="label">Screening fit</span><br>Score: {score}; profiles: {profiles}</p>
-  <p><span class="label">Rationale</span><br>{rationale}</p>
+  {details}
 </article>"""

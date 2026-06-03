@@ -46,7 +46,9 @@
     .run:first-of-type { border-top: 0; }
     .list { display: grid; gap: 16px; }
     .opportunity { padding: 18px; }
+    .opportunity.compact { padding: 14px 16px; }
     .opportunity h3 { margin: 0 0 8px; font-size: 20px; line-height: 1.25; }
+    .opportunity.compact h3 { font-size: 17px; }
     .meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
     .pill {
       border: 1px solid var(--line);
@@ -61,6 +63,8 @@
     p { line-height: 1.55; }
     a { color: var(--accent); }
     .empty { background: white; border: 1px dashed var(--line); border-radius: 8px; padding: 24px; }
+    .section-note { color: var(--muted); margin: 0 0 14px; }
+    section + section { margin-top: 28px; }
     @media (max-width: 780px) {
       main { grid-template-columns: 1fr; }
       aside { position: static; }
@@ -80,12 +84,21 @@
   fetched 11, matched 0, new 0
 </div>
     </aside>
-    <section>
-      <h2>Matched Opportunities</h2>
-      <div class="list">
-        <p class="empty">No matched opportunities have been recorded yet.</p>
-      </div>
-    </section>
+    <div>
+      <section>
+        <h2>Matched Opportunities</h2>
+        <div class="list">
+          <p class="empty">No matched opportunities have been recorded yet.</p>
+        </div>
+      </section>
+      <section>
+        <h2>Fetched Opportunities</h2>
+        <p class="section-note">All opportunities fetched by the monitor, including items that were not selected as profile matches.</p>
+        <div class="list">
+          <p class="empty">No fetched opportunities have been recorded yet.</p>
+        </div>
+      </section>
+    </div>
   </main>
 </body>
 </html>

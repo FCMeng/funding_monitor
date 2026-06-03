@@ -7,7 +7,7 @@ from typing import Any
 from .models import Opportunity, utc_now_iso
 
 
-EMPTY_STATE = {"seen_ids": [], "opportunities": {}, "runs": []}
+EMPTY_STATE = {"seen_ids": [], "opportunities": {}, "fetched_opportunities": {}, "runs": []}
 
 
 def load_state(path: Path) -> dict[str, Any]:
@@ -17,6 +17,7 @@ def load_state(path: Path) -> dict[str, Any]:
         state = json.load(handle)
     state.setdefault("seen_ids", [])
     state.setdefault("opportunities", {})
+    state.setdefault("fetched_opportunities", {})
     state.setdefault("runs", [])
     return state
 
@@ -55,11 +56,13 @@ def record_run(
     seen = set(state.get("seen_ids", []))
     for opp in fetched:
         seen.add(opp.stable_id)
+        state["fetched_opportunities"][opp.stable_id] = opp.to_dict()
     for item in matched:
         opp = dict(item["opportunity"])
         opp["screening"] = item.get("screening", {})
         opp["guideline_subject"] = item.get("guideline", {}).get("subject", "")
         state["opportunities"][opp["stable_id"]] = opp
+        state["fetched_opportunities"][opp["stable_id"]] = opp
     state["seen_ids"] = sorted(seen)
     state["runs"].insert(
         0,

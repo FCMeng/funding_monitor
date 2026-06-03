@@ -5,10 +5,10 @@ from funding_monitor.state import record_run
 
 
 class StateTest(unittest.TestCase):
-    def test_record_run_archives_only_matched_opportunities(self):
+    def test_record_run_archives_matched_and_all_fetched_opportunities(self):
         matched = Opportunity(source="fixture", agency="NSF", title="Match", url="https://match.test")
         unmatched = Opportunity(source="fixture", agency="DOE", title="Other", url="https://other.test")
-        state = {"seen_ids": [], "opportunities": {}, "runs": []}
+        state = {"seen_ids": [], "opportunities": {}, "fetched_opportunities": {}, "runs": []}
         record_run(
             state,
             fetched=[matched, unmatched],
@@ -26,6 +26,8 @@ class StateTest(unittest.TestCase):
         self.assertIn(unmatched.stable_id, state["seen_ids"])
         self.assertIn(matched.stable_id, state["opportunities"])
         self.assertNotIn(unmatched.stable_id, state["opportunities"])
+        self.assertIn(matched.stable_id, state["fetched_opportunities"])
+        self.assertIn(unmatched.stable_id, state["fetched_opportunities"])
         self.assertEqual(state["opportunities"][matched.stable_id]["screening"]["fit_score"], 90)
 
 

@@ -31,9 +31,20 @@ class RenderEmailSchedulerTest(unittest.TestCase):
                         "url": "https://example.test",
                     }
                 },
+                "fetched_opportunities": {
+                    "def": {
+                        "stable_id": "def",
+                        "title": "Fetched DOE Grant",
+                        "agency": "DOE",
+                        "url": "https://doe.example.test",
+                    }
+                },
             }
             render_site(path, state)
-            self.assertIn("AI Materials Grant", path.read_text(encoding="utf-8"))
+            rendered = path.read_text(encoding="utf-8")
+            self.assertIn("AI Materials Grant", rendered)
+            self.assertIn("Fetched Opportunities", rendered)
+            self.assertIn("Fetched DOE Grant", rendered)
 
     def test_email_digest_contains_no_duplicate_count(self):
         with patch.dict("os.environ", {"EMAIL_FROM": "sender@example.test"}):

@@ -124,6 +124,7 @@ def preview_state(state: dict, matches: list[dict]) -> dict:
     preview = {
         "seen_ids": list(state.get("seen_ids", [])),
         "opportunities": dict(state.get("opportunities", {})),
+        "fetched_opportunities": dict(state.get("fetched_opportunities", {})),
         "runs": list(state.get("runs", [])),
     }
     for item in matches:
@@ -131,6 +132,7 @@ def preview_state(state: dict, matches: list[dict]) -> dict:
         opp["screening"] = item.get("screening", {})
         opp["guideline_subject"] = item.get("guideline", {}).get("subject", "")
         preview["opportunities"][opp["stable_id"]] = opp
+        preview["fetched_opportunities"][opp["stable_id"]] = opp
     if matches:
         preview["runs"].insert(
             0,
