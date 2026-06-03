@@ -1,0 +1,40 @@
+{
+  "profiles": [
+    {
+      "id": "materials_ai4science",
+      "label": "Computational materials science and AI4Science",
+      "scholar_url": "https://scholar.google.com/citations?user=G8Q4PMgAAAAJ&hl=en",
+      "summary": "Research in computational materials science, materials informatics, AI4Science, high-throughput simulation, density functional theory, molecular dynamics, machine learning for materials, scientific foundation models, autonomous discovery, and HPC-enabled materials design.",
+      "keywords": [
+        "computational materials science",
+        "materials informatics",
+        "AI4Science",
+        "machine learning",
+        "high-throughput screening",
+        "density functional theory",
+        "molecular dynamics",
+        "HPC",
+        "materials discovery",
+        "scientific AI"
+      ]
+    },
+    {
+      "id": "biophysics_protein",
+      "label": "Computational biophysics, protein folding, and interactions",
+      "scholar_url": "https://scholar.google.com/citations?hl=en&user=b2AS6_8AAAAJ&view_op=list_works&sortby=pubdate",
+      "summary": "Research in computational biophysics, protein folding, protein-protein and protein-ligand interactions, molecular simulation, structure prediction, biomolecular dynamics, statistical mechanics, AI-assisted protein modeling, and mechanistic modeling of biomolecular systems.",
+      "keywords": [
+        "computational biophysics",
+        "protein folding",
+        "protein interactions",
+        "protein-protein interaction",
+        "protein-ligand interaction",
+        "molecular simulation",
+        "molecular dynamics",
+        "structure prediction",
+        "biomolecular dynamics",
+        "AI protein modeling"
+      ]
+    }
+  ]
+}

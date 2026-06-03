@@ -1,0 +1,47 @@
+name: Funding Monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 11,12 * * 2"
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -p 'test*.py'
+
+      - name: Run funding monitor
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          GRANTS_GOV_API_KEY: ${{ secrets.GRANTS_GOV_API_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python -m funding_monitor.cli run --skip-schedule-gate
+          else
+            python -m funding_monitor.cli run
+          fi
+
+      - name: Commit generated updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update funding monitor results"
+          file_pattern: "data/state.json docs/index.html"

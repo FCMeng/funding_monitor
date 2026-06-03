@@ -1,0 +1,56 @@
+{
+  "grants_gov": {
+    "enabled": true,
+    "endpoint": "https://api.grants.gov/v1/api/search2",
+    "keywords": [
+      "computational materials",
+      "materials discovery",
+      "artificial intelligence science",
+      "machine learning materials",
+      "protein folding",
+      "computational biophysics",
+      "molecular dynamics",
+      "protein interactions"
+    ],
+    "agencies": ["NSF", "DOE", "HHS", "NIH", "FDA"]
+  },
+  "rss": [
+    {
+      "name": "NSF Funding",
+      "agency": "NSF",
+      "url": "https://www.nsf.gov/rss/rss_www_funding_pgm_annc_inf.xml"
+    },
+    {
+      "name": "NSF Upcoming Due Dates",
+      "agency": "NSF",
+      "url": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+    }
+  ],
+  "pages": [
+    {
+      "name": "DOE Office of Science Funding Opportunities",
+      "agency": "DOE",
+      "url": "https://science.osti.gov/Funding-Opportunities"
+    },
+    {
+      "name": "SCRA Research Funding",
+      "agency": "SCRA",
+      "url": "https://www.scra.org/get-support/get-research-funding/"
+    },
+    {
+      "name": "South Carolina EPSCoR Funding Opportunities",
+      "agency": "SC EPSCoR",
+      "url": "https://scepscor.org/funding-opportunities/"
+    },
+    {
+      "name": "South Carolina NASA EPSCoR",
+      "agency": "SC NASA EPSCoR",
+      "url": "https://scnasaepscor.charleston.edu/"
+    },
+    {
+      "name": "South Carolina Commerce Innovation Grants",
+      "agency": "SC Commerce",
+      "url": "https://www.sccommerce.com/taxonomy/term/199"
+    }
+  ]
+}

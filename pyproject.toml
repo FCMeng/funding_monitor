@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "funding-monitor"
+version = "0.1.0"
+description = "Weekly funding opportunity monitor for research profiles."
+requires-python = ">=3.11"
+authors = [{ name = "FCMeng" }]
+
+[tool.setuptools.packages.find]
+include = ["funding_monitor*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
