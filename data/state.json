@@ -1,5 +1,30 @@
 {
   "fetched_opportunities": {
+    "009ec05823de243f": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "009ec05823de243f",
+      "title": "Read more about Robotics and Automation Testbeds for Autonomous Scientific Discovery",
+      "url": "https://science.osti.gov/-/media/grants/pdf/lab-announcements/2026/LAB-26-3601.pdf"
+    },
     "00eb41bd1e6153db": {
       "agency": "SCRA",
       "amount": "",
@@ -22,6 +47,31 @@
       "stable_id": "00eb41bd1e6153db",
       "title": "Learn More",
       "url": "http://scra.org/get-support/get-startup-funding/"
+    },
+    "04295d25797fcee8": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "04295d25797fcee8",
+      "title": "Funding Opportunity Announcements (FOAs)",
+      "url": "https://science.osti.gov/grants/FOAs"
     },
     "06f1b9fc963d81e5": {
       "agency": "DOE",
@@ -142,6 +192,52 @@
       "title": "NASA EPSCoR Opportunities",
       "url": "https://scnasaepscor.charleston.edu/nasa-epscor-opportunities/"
     },
+    "1db244287e76a0bb": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "1db244287e76a0bb",
+      "title": "Academic Matching Grant Application",
+      "url": "http://scra.org/wp-content/uploads/2025/01/FY25-AMG-Application-PDF-v3.pdf"
+    },
+    "2049bb2279d6ef23": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "2049bb2279d6ef23",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2018/06/Acceleration-Grant_06.2022.pdf"
+    },
     "20a878801901ea08": {
       "agency": "DOE",
       "amount": "",
@@ -244,6 +340,29 @@
       "title": "Email: scsgrant@cofc.edu",
       "url": "https://scnasaepscor.charleston.edu/cdn-cgi/l/email-protection#032520353a386e25203a34386a6f2520363b3825203031387060252032323638252032333038716225203232333877252035373825203a3a386c6560252037353866252032333338252032323438"
     },
+    "291c3091d6a2393a": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "291c3091d6a2393a",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/08/Academic-Startup-Grant-Eligibility-and-Criteria_Aug25.pdf"
+    },
     "292ef929fd34980b": {
       "agency": "DOE",
       "amount": "",
@@ -268,6 +387,49 @@
       "stable_id": "292ef929fd34980b",
       "title": "A Phase II Letter of Intent Template is available here.",
       "url": "https://science.osti.gov/-/media/grants/excel/2026/Genesis-Mission-Phase-II-LOI-Template-v2.xlsx"
+    },
+    "29cfdbfc64b94174": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "DOE Office of Science FY2026 Continuation FOA: proposal strategy for AI/HPC materials, QIS, or biophysics",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "screening": {
+        "fit_score": 86,
+        "important_info": [
+          "The extracted record does not list a specific due date, but this is a continuation/open Office of Science solicitation for FY 2026; verify the PDF for exact submission windows, program-specific deadlines, or rolling/encouraged submission dates.",
+          "Applicants should identify the relevant DOE Office of Science program office, e.g., Basic Energy Sciences, Advanced Scientific Computing Research, Biological and Environmental Research, or QIS-related program contacts, before preparing an application.",
+          "This is a broad solicitation, so fit depends strongly on framing the project around DOE Office of Science mission priorities rather than general academic research.",
+          "Pre-application, program-manager discussion, or program-specific instructions may be required or strongly recommended."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science",
+          "quantum_qis",
+          "biophysics_protein"
+        ],
+        "opportunity_id": "29cfdbfc64b94174",
+        "rationale": "This DOE Office of Science annual/continuation financial assistance solicitation is a broad umbrella FOA for basic research across Office of Science programs. It plausibly supports university-led academic research in areas aligned with the profiles, especially computational materials science, scientific computing/HPC/AI for science, quantum information science, and potentially computational biophysics/biomolecular modeling where aligned with BER or relevant DOE mission areas. Universities and faculty investigators are generally compatible applicant types for DOE Office of Science financial assistance."
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "29cfdbfc64b94174",
+      "title": "Read more about FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "url": "https://science.osti.gov/grants/FOAs/-/media/grants/pdf/foas/2026/DE-FOA-0003600-000001.pdf"
     },
     "2b134a8f7e443352": {
       "agency": "DOE",
@@ -297,7 +459,7 @@
     "2b6a9ef782e82bfb": {
       "agency": "DOE",
       "amount": "",
-      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
       "documents": [
         "Technical volume/project narrative",
         "Budget and budget justification",
@@ -312,7 +474,7 @@
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
-        "page": "https://science.osti.gov/Funding-Opportunities"
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
       },
       "source": "DOE Office of Science Funding Opportunities",
       "stable_id": "2b6a9ef782e82bfb",
@@ -369,10 +531,35 @@
       "title": "Electronic, Photonic, Magnetic, and Quantum Devices (EPMQD)",
       "url": "https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices/pd26-1517"
     },
+    "333f3882aad25f6a": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "333f3882aad25f6a",
+      "title": "About",
+      "url": "https://science.osti.gov/grants/About"
+    },
     "33af4ee6adf82ff3": {
       "agency": "DOE",
       "amount": "",
-      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
       "documents": [
         "Technical volume/project narrative",
         "Budget and budget justification",
@@ -444,6 +631,56 @@
       "title": "Honors & Awards",
       "url": "https://science.osti.gov/About/Honors-and-Awards"
     },
+    "3e2e3760418f1dbe": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "3e2e3760418f1dbe",
+      "title": "Applicant and Awardee Resources",
+      "url": "https://science.osti.gov/grants/Applicant-and-Awardee-Resources"
+    },
+    "41a51b7b293fe675": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "41a51b7b293fe675",
+      "title": "Contract Information",
+      "url": "https://science.osti.gov/grants/Contract-Information"
+    },
     "43c238cbf5baa17c": {
       "agency": "DOE",
       "amount": "",
@@ -495,6 +732,102 @@
       "stable_id": "44e76bef3b5053d9",
       "title": "Professional Formation of Engineers (PFE)",
       "url": "https://www.nsf.gov/funding/opportunities/pfe-professional-formation-engineers/pd26-1341"
+    },
+    "46787294b00a5642": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "46787294b00a5642",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/03/Startup-Grant-Eligibility-and-Criteria-March25.pdf"
+    },
+    "4aa3f3812e087c68": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "4aa3f3812e087c68",
+      "title": "Final Grant Report",
+      "url": "http://scra.org/wp-content/uploads/2024/11/AMG-Final-Report-Form-2024-111124.pdf"
+    },
+    "4cfcd1f81cbcb14e": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "4cfcd1f81cbcb14e",
+      "title": "DOE National Laboratory Announcements",
+      "url": "https://science.osti.gov/grants/Lab-Announcements"
+    },
+    "4ecce4a212b874a1": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "4ecce4a212b874a1",
+      "title": "Grants Policy and Guidance",
+      "url": "https://science.osti.gov/grants/Policy-and-Guidance"
     },
     "5002380ca11a81c3": {
       "agency": "SC EPSCoR",
@@ -592,6 +925,29 @@
       "title": "Engineering Biological and Biomedical Systems",
       "url": "https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y"
     },
+    "62a6f40cdc0acf3f": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "62a6f40cdc0acf3f",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/08/Federal-Matching-Grant-Eligibility-and-Criteria_Aug25.pdf"
+    },
     "6b5d9cf940a60685": {
       "agency": "NSF",
       "amount": "",
@@ -622,7 +978,7 @@
     "6ca049433ccd1445": {
       "agency": "DOE",
       "amount": "",
-      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
       "documents": [
         "Technical volume/project narrative",
         "Budget and budget justification",
@@ -637,17 +993,42 @@
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
-        "page": "https://science.osti.gov/Funding-Opportunities"
+        "page": "https://science.osti.gov/grants/FOAs/Open"
       },
       "source": "DOE Office of Science Funding Opportunities",
       "stable_id": "6ca049433ccd1445",
       "title": "The Genesis Mission: Transforming Science and Energy with AI",
       "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003612-000003.pdf"
     },
+    "6dd45e5e8bad377d": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "6dd45e5e8bad377d",
+      "title": "Energy Frontier Research Centers (EFRCs)",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003614-0000001.pdf"
+    },
     "72772dbafff0f310": {
       "agency": "DOE",
       "amount": "",
-      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
       "documents": [
         "Technical volume/project narrative",
         "Budget and budget justification",
@@ -693,6 +1074,97 @@
       "stable_id": "73f12a64f5429cde",
       "title": "A Phase II Application Template is available here.",
       "url": "https://science.osti.gov/-/media/grants/excel/2026/Genesis-Mission-Phase-II-Application-Template.xlsx"
+    },
+    "75bb544212d2077e": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "75bb544212d2077e",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/08/Academic-Matching-Grant-Eligibility-and-Criteria_Aug25.pdf"
+    },
+    "7b01b48f077aa803": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "7b01b48f077aa803",
+      "title": "Read more about The Genesis Mission: Transforming Science and Energy with AI",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003612-000003.pdf"
+    },
+    "7cb1b76dd4f67850": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "DOE Office of Science FY2026 parent FOA: strong fit for AI/HPC computational materials or QIS proposal",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "screening": {
+        "fit_score": 90,
+        "important_info": [
+          "Broad parent/continuation FOA rather than a narrowly targeted call; applicants should identify the relevant DOE Office of Science program and contact the cognizant program manager before applying.",
+          "Academic institutions/universities are typically eligible applicants under DOE Office of Science financial assistance solicitations.",
+          "Due date was not provided in the extracted record, but this continuation solicitation is a recurring/open Office of Science mechanism, making the timing usable subject to the FOA's current closing date and any program-specific guidance.",
+          "Required materials commonly include technical narrative, budget and justification, biosketches, current and pending support, facilities/resources, data management plan, and letters of commitment if applicable."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science",
+          "biophysics_protein",
+          "quantum_qis"
+        ],
+        "opportunity_id": "7cb1b76dd4f67850",
+        "rationale": "This is DOE Office of Science's broad FY 2026 financial assistance solicitation, which is compatible with universities and academic researchers and can support investigator-led basic research across Office of Science programs. It is a strong fit for the computational materials/AI-HPC profile through Basic Energy Sciences and/or Advanced Scientific Computing Research, including computational materials science, electronic structure, scientific software, HPC, and AI for science. It is also plausibly relevant to the quantum profile through QIS, quantum materials, quantum simulation, algorithms, and scientific computing areas supported by DOE SC. The computational biophysics profile is a plausible but more program-dependent fit through Biological and Environmental Research or related computational/simulation-focused basic science topics."
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "7cb1b76dd4f67850",
+      "title": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "url": "https://science.osti.gov/grants/FOAs/-/media/grants/pdf/foas/2026/DE-FOA-0003600-000001.pdf"
     },
     "886aba58bd2e2593": {
       "agency": "NSF",
@@ -746,6 +1218,31 @@
       "title": "Funding",
       "url": "https://science.osti.gov/Funding-Opportunities"
     },
+    "8f04fd749ea751c3": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "8f04fd749ea751c3",
+      "title": "Closed Lab Announcements",
+      "url": "https://science.osti.gov/grants/Lab-Announcements/Closed"
+    },
     "91007bacb19aabed": {
       "agency": "SC NASA EPSCoR",
       "amount": "",
@@ -797,7 +1294,7 @@
     "9a3e09c8a46394d0": {
       "agency": "SCRA",
       "amount": "",
-      "description": "Funding-related listing discovered on SCRA Research Funding.",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
       "documents": [
         "Program application form",
         "Project narrative",
@@ -810,7 +1307,7 @@
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
-        "page": "https://www.scra.org/get-support/get-research-funding/"
+        "page": "http://scra.org/get-support/get-startup-funding/"
       },
       "source": "SCRA Research Funding",
       "stable_id": "9a3e09c8a46394d0",
@@ -947,7 +1444,7 @@
     "b834b8ef072e4634": {
       "agency": "SC NASA EPSCoR",
       "amount": "",
-      "description": "Funding-related listing discovered on South Carolina NASA EPSCoR.",
+      "description": "Funding opportunity detail discovered on South Carolina NASA EPSCoR.",
       "documents": [
         "Program application form",
         "Project narrative",
@@ -1169,6 +1666,29 @@
       "title": "Focused Research Hubs in Theoretical Physics (FRHTP)",
       "url": "https://www.nsf.gov/funding/opportunities/frhtp-focused-research-hubs-theoretical-physics/158913"
     },
+    "d1105ea9a037739c": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "d1105ea9a037739c",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/10/Demonstration-Grant-Eligibility-Criteria-OCT25.pdf"
+    },
     "d501b79990909567": {
       "agency": "DOE",
       "amount": "",
@@ -1193,6 +1713,29 @@
       "stable_id": "d501b79990909567",
       "title": "Digital Research Data Management",
       "url": "https://science.osti.gov/Funding-Opportunities/Digital-Data-Management"
+    },
+    "da13a70d1b6e80ef": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "da13a70d1b6e80ef",
+      "title": "Learn More",
+      "url": "http://scra.org/get-support/get-startup-funding/sact-grant/"
     },
     "db4deaa81ff5422b": {
       "agency": "DOE",
@@ -1245,6 +1788,31 @@
       "stable_id": "dea98db2d18cc64e",
       "title": "Advanced Physics Instrumentation (API)",
       "url": "https://www.nsf.gov/funding/opportunities/api-advanced-physics-instrumentation/158878"
+    },
+    "df710239c6d115b7": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "df710239c6d115b7",
+      "title": "Read more about Energy Frontier Research Centers (EFRCs)",
+      "url": "https://science.osti.gov/-/media/grants/pdf/foas/2026/DE-FOA-0003614-0000001.pdf"
     },
     "e1aa0633140365f0": {
       "agency": "DOE",
@@ -1348,6 +1916,29 @@
       "title": "Gravitational Physics (GP)",
       "url": "https://www.nsf.gov/funding/opportunities/gp-gravitational-physics/pd26-1243"
     },
+    "ef8d2a19fc485eb0": {
+      "agency": "SCRA",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on SCRA Research Funding.",
+      "documents": [
+        "Program application form",
+        "Project narrative",
+        "Budget",
+        "Institutional approval",
+        "Collaboration or industry letters if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "http://scra.org/get-support/get-startup-funding/"
+      },
+      "source": "SCRA Research Funding",
+      "stable_id": "ef8d2a19fc485eb0",
+      "title": "Grant Eligibility & Review Criteria",
+      "url": "http://scra.org/wp-content/uploads/2025/10/FINAL-Relocation-Grant-Eligibility-and-Criteria.pdf"
+    },
     "f5550dbc8768db12": {
       "agency": "DOE",
       "amount": "",
@@ -1403,7 +1994,7 @@
     "fc4cc621016d3627": {
       "agency": "DOE",
       "amount": "",
-      "description": "Funding-related listing discovered on DOE Office of Science Funding Opportunities.",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
       "documents": [
         "Technical volume/project narrative",
         "Budget and budget justification",
@@ -1418,7 +2009,7 @@
       "opportunity_number": "",
       "posted_date": "",
       "raw": {
-        "page": "https://science.osti.gov/Funding-Opportunities"
+        "page": "https://science.osti.gov/grants/Lab-Announcements/Open"
       },
       "source": "DOE Office of Science Funding Opportunities",
       "stable_id": "fc4cc621016d3627",
@@ -1451,9 +2042,77 @@
       "stable_id": "fd1fae3122ccf8a5",
       "title": "Engineering Environmental Resiliency",
       "url": "https://www.nsf.gov/funding/opportunities/engineering-environmental-resiliency/pd26-370y"
+    },
+    "fe79ede0266a6812": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "fe79ede0266a6812",
+      "title": "Closed FOAs",
+      "url": "https://science.osti.gov/grants/FOAs/Closed"
     }
   },
   "opportunities": {
+    "29cfdbfc64b94174": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "DOE Office of Science FY2026 Continuation FOA: proposal strategy for AI/HPC materials, QIS, or biophysics",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "screening": {
+        "fit_score": 86,
+        "important_info": [
+          "The extracted record does not list a specific due date, but this is a continuation/open Office of Science solicitation for FY 2026; verify the PDF for exact submission windows, program-specific deadlines, or rolling/encouraged submission dates.",
+          "Applicants should identify the relevant DOE Office of Science program office, e.g., Basic Energy Sciences, Advanced Scientific Computing Research, Biological and Environmental Research, or QIS-related program contacts, before preparing an application.",
+          "This is a broad solicitation, so fit depends strongly on framing the project around DOE Office of Science mission priorities rather than general academic research.",
+          "Pre-application, program-manager discussion, or program-specific instructions may be required or strongly recommended."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science",
+          "quantum_qis",
+          "biophysics_protein"
+        ],
+        "opportunity_id": "29cfdbfc64b94174",
+        "rationale": "This DOE Office of Science annual/continuation financial assistance solicitation is a broad umbrella FOA for basic research across Office of Science programs. It plausibly supports university-led academic research in areas aligned with the profiles, especially computational materials science, scientific computing/HPC/AI for science, quantum information science, and potentially computational biophysics/biomolecular modeling where aligned with BER or relevant DOE mission areas. Universities and faculty investigators are generally compatible applicant types for DOE Office of Science financial assistance."
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "29cfdbfc64b94174",
+      "title": "Read more about FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "url": "https://science.osti.gov/grants/FOAs/-/media/grants/pdf/foas/2026/DE-FOA-0003600-000001.pdf"
+    },
     "5e19b1dc140d72e6": {
       "agency": "NSF",
       "amount": "",
@@ -1497,9 +2156,116 @@
       "stable_id": "5e19b1dc140d72e6",
       "title": "Engineering Biological and Biomedical Systems",
       "url": "https://www.nsf.gov/funding/opportunities/engineering-biological-biomedical-systems/pd26-369y"
+    },
+    "7cb1b76dd4f67850": {
+      "agency": "DOE",
+      "amount": "",
+      "description": "Funding opportunity detail discovered on DOE Office of Science Funding Opportunities.",
+      "documents": [
+        "Technical volume/project narrative",
+        "Budget and budget justification",
+        "Biographical sketches",
+        "Current and pending support",
+        "Facilities and resources",
+        "Data management plan",
+        "Letters of commitment if required"
+      ],
+      "due_date": "",
+      "eligibility": "",
+      "guideline_subject": "DOE Office of Science FY2026 parent FOA: strong fit for AI/HPC computational materials or QIS proposal",
+      "opportunity_number": "",
+      "posted_date": "",
+      "raw": {
+        "page": "https://science.osti.gov/grants/FOAs/Open"
+      },
+      "screening": {
+        "fit_score": 90,
+        "important_info": [
+          "Broad parent/continuation FOA rather than a narrowly targeted call; applicants should identify the relevant DOE Office of Science program and contact the cognizant program manager before applying.",
+          "Academic institutions/universities are typically eligible applicants under DOE Office of Science financial assistance solicitations.",
+          "Due date was not provided in the extracted record, but this continuation solicitation is a recurring/open Office of Science mechanism, making the timing usable subject to the FOA's current closing date and any program-specific guidance.",
+          "Required materials commonly include technical narrative, budget and justification, biosketches, current and pending support, facilities/resources, data management plan, and letters of commitment if applicable."
+        ],
+        "is_fit": true,
+        "matched_profiles": [
+          "materials_ai4science",
+          "biophysics_protein",
+          "quantum_qis"
+        ],
+        "opportunity_id": "7cb1b76dd4f67850",
+        "rationale": "This is DOE Office of Science's broad FY 2026 financial assistance solicitation, which is compatible with universities and academic researchers and can support investigator-led basic research across Office of Science programs. It is a strong fit for the computational materials/AI-HPC profile through Basic Energy Sciences and/or Advanced Scientific Computing Research, including computational materials science, electronic structure, scientific software, HPC, and AI for science. It is also plausibly relevant to the quantum profile through QIS, quantum materials, quantum simulation, algorithms, and scientific computing areas supported by DOE SC. The computational biophysics profile is a plausible but more program-dependent fit through Biological and Environmental Research or related computational/simulation-focused basic science topics."
+      },
+      "source": "DOE Office of Science Funding Opportunities",
+      "stable_id": "7cb1b76dd4f67850",
+      "title": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "url": "https://science.osti.gov/grants/FOAs/-/media/grants/pdf/foas/2026/DE-FOA-0003600-000001.pdf"
     }
   },
   "runs": [
+    {
+      "fetched_at": "2026-06-03T13:55:53+00:00",
+      "fetched_count": 48,
+      "fetched_ids": [
+        "2427ffd6071f8bc2",
+        "6b5d9cf940a60685",
+        "cf21ae4dcc684e2f",
+        "dea98db2d18cc64e",
+        "ef32b0d98cf5621c",
+        "b256b28aae7959c3",
+        "5e19b1dc140d72e6",
+        "cd20e6d4fe6b78e2",
+        "fd1fae3122ccf8a5",
+        "262af3d4d6a0bf6e",
+        "44e76bef3b5053d9",
+        "e761c36b37e80dcd",
+        "886aba58bd2e2593",
+        "2e6726579c65a162",
+        "a41ff9a3abba7995",
+        "a52364206ba9e7d0",
+        "f8d0653539c654e8",
+        "fc4cc621016d3627",
+        "6ca049433ccd1445",
+        "72772dbafff0f310",
+        "2b6a9ef782e82bfb",
+        "33af4ee6adf82ff3",
+        "04295d25797fcee8",
+        "7b01b48f077aa803",
+        "6dd45e5e8bad377d",
+        "df710239c6d115b7",
+        "7cb1b76dd4f67850",
+        "29cfdbfc64b94174",
+        "333f3882aad25f6a",
+        "fe79ede0266a6812",
+        "4cfcd1f81cbcb14e",
+        "4ecce4a212b874a1",
+        "3e2e3760418f1dbe",
+        "41a51b7b293fe675",
+        "009ec05823de243f",
+        "8f04fd749ea751c3",
+        "9a3e09c8a46394d0",
+        "46787294b00a5642",
+        "291c3091d6a2393a",
+        "2049bb2279d6ef23",
+        "62a6f40cdc0acf3f",
+        "d1105ea9a037739c",
+        "ef8d2a19fc485eb0",
+        "75bb544212d2077e",
+        "1db244287e76a0bb",
+        "4aa3f3812e087c68",
+        "da13a70d1b6e80ef",
+        "b834b8ef072e4634"
+      ],
+      "matched_count": 2,
+      "matched_ids": [
+        "7cb1b76dd4f67850",
+        "29cfdbfc64b94174"
+      ],
+      "new_count": 2,
+      "new_ids": [
+        "7cb1b76dd4f67850",
+        "29cfdbfc64b94174"
+      ]
+    },
     {
       "fetched_at": "2026-06-03T05:07:43+00:00",
       "fetched_count": 57,
@@ -1585,36 +2351,55 @@
     }
   ],
   "seen_ids": [
+    "009ec05823de243f",
     "00eb41bd1e6153db",
+    "04295d25797fcee8",
     "06f1b9fc963d81e5",
     "0caa55a48c8de746",
     "1224d94e3abdadf7",
     "13314662d6513ba6",
     "14833b90b22f96ec",
+    "1db244287e76a0bb",
+    "2049bb2279d6ef23",
     "20a878801901ea08",
     "2427ffd6071f8bc2",
     "262af3d4d6a0bf6e",
     "26cf03f7d55af7e9",
+    "291c3091d6a2393a",
     "292ef929fd34980b",
+    "29cfdbfc64b94174",
     "2b134a8f7e443352",
     "2b6a9ef782e82bfb",
     "2d5206f9daff0a3c",
     "2e6726579c65a162",
+    "333f3882aad25f6a",
     "33af4ee6adf82ff3",
     "3950916f7c5271af",
     "3e05393661260745",
+    "3e2e3760418f1dbe",
+    "41a51b7b293fe675",
     "43c238cbf5baa17c",
     "44e76bef3b5053d9",
+    "46787294b00a5642",
+    "4aa3f3812e087c68",
+    "4cfcd1f81cbcb14e",
+    "4ecce4a212b874a1",
     "5002380ca11a81c3",
     "55de12a2e586ff33",
     "582aea5966733aee",
     "5e19b1dc140d72e6",
+    "62a6f40cdc0acf3f",
     "6b5d9cf940a60685",
     "6ca049433ccd1445",
+    "6dd45e5e8bad377d",
     "72772dbafff0f310",
     "73f12a64f5429cde",
+    "75bb544212d2077e",
+    "7b01b48f077aa803",
+    "7cb1b76dd4f67850",
     "886aba58bd2e2593",
     "8a5cc3308a8734b6",
+    "8f04fd749ea751c3",
     "91007bacb19aabed",
     "91f050d62397d2ae",
     "9982a1d5425f4f80",
@@ -1633,16 +2418,21 @@
     "c311ef1a761f9694",
     "cd20e6d4fe6b78e2",
     "cf21ae4dcc684e2f",
+    "d1105ea9a037739c",
     "d501b79990909567",
+    "da13a70d1b6e80ef",
     "db4deaa81ff5422b",
     "dea98db2d18cc64e",
+    "df710239c6d115b7",
     "e1aa0633140365f0",
     "e63ebd6c95b65539",
     "e761c36b37e80dcd",
     "ef32b0d98cf5621c",
+    "ef8d2a19fc485eb0",
     "f5550dbc8768db12",
     "f8d0653539c654e8",
     "fc4cc621016d3627",
-    "fd1fae3122ccf8a5"
+    "fd1fae3122ccf8a5",
+    "fe79ede0266a6812"
   ]
 }
